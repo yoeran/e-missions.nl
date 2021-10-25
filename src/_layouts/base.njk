@@ -1,0 +1,32 @@
+{% set translate = lang | translateFn %}
+
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ meta.title }} | E-Missions</title>
+
+    <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}">
+    {% include "meta.njk" %}
+</head>
+<body>
+    {% iconsprite %}
+    <a href="#main" class="sr-skip-link">{{ translate('skip_content') }}</a>
+
+    <div class="layout" role="document">
+        {% include "header.njk" %}
+        <main id="main" class="main" tabindex="-1">
+            {{ content | safe }}
+        </main>
+        {% include "footer.njk" %}
+    </div>
+
+    <script type="text/javascript" src="{{ '/assets/scripts/main.js' | url }}"></script>
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/serviceworker.js')
+        }
+    </script>
+</body>
+</html>

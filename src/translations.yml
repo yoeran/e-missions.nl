@@ -1,0 +1,19 @@
+root_path:
+  nl: /nl/
+  en: /
+
+switch_language_path:
+  nl: /
+  en: /nl/
+
+switch_language:
+  nl: English
+  en: Nederlands
+
+skip_content:
+  nl: spring naar hoofd content
+  en: skip to main content
+
+toggle_menu:
+  nl: menu openen sluiten
+  en: toggle menu

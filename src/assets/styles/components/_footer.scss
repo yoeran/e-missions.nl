@@ -1,0 +1,15 @@
+.footer {
+  padding: 3rem 0;
+  background: #111;
+
+  &__inner {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    p {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+  }
+}

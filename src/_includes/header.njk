@@ -1,0 +1,15 @@
+<header class="header" role="banner">
+    <div class="header__inner container">
+        <div class="header__left">
+            <a
+                href="{{ translate('root_path') }}"
+                {% if page.url == '/' %}aria-current="page"{% endif %}
+            >
+                E-Missions
+            </a>
+        </div>
+        <div class="header__right">
+            {% include "navigation.njk" %}
+        </div>
+    </div>
+</header>
