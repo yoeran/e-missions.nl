@@ -50,6 +50,8 @@ module.exports = function (config) {
   config.addLayoutAlias("base", "base.njk");
 
   // Pass-through files
+  config.addPassthroughCopy("admin");
+  config.addPassthroughCopy("static/img");
   config.addPassthroughCopy("src/robots.txt");
   config.addPassthroughCopy("src/site.webmanifest");
   config.addPassthroughCopy("src/assets/images");
