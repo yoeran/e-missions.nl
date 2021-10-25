@@ -7,7 +7,3 @@ eleventyNavigation:
   key: Tips & Tricks
   order: 1
 ---
-
-<div class="container">
-    <h1>Tips &amp; Tricks</h1>
-</div>

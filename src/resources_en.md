@@ -1,6 +1,8 @@
 ---
 layout: resources.njk
-permalink: /nl/resources/
+permalink: /en/resources/
+lang: en
+locale: en_US
 meta:
   title: Resources
 eleventyNavigation:

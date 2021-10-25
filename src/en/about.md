@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page.njk
 permalink: /en/about-e-missions/
 meta:
   title: About the project
@@ -7,7 +7,3 @@ eleventyNavigation:
   key: About E-Missions
   order: 5
 ---
-
-<div class="container">
-    <h1>About E-Missions</h1>
-</div>

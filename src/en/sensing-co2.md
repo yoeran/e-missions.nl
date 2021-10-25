@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page.njk
 permalink: /en/sensing-co2/
 meta:
   title: Sensing CO2
@@ -7,7 +7,3 @@ eleventyNavigation:
   key: Sensing CO2
   order: 3
 ---
-
-<div class="container">
-    <h1>Sensing CO2</h1>
-</div>

@@ -17,3 +17,19 @@ skip_content:
 toggle_menu:
   nl: menu openen sluiten
   en: toggle menu
+
+pages:
+  nl: Paginas
+  en: Pages
+
+about_emissions:
+  nl: Over E-Missions
+  en: About E-Missions
+
+about_emissions_text:
+  nl: Korte paragraaf over E-Missions in een notendop. Korte paragraaf over E-Missions in een notendop. Korte paragraaf over E-Missions in een notendop.
+  en: Brief paragraph of E-Missions in a nutshell. Brief paragraph of E-Missions in a nutshell. Brief paragraph of E-Missions in a nutshell.
+
+project_supported_by:
+  nl: Mede mogelijk gemaakt door
+  en: Project supported by

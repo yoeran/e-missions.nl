@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page.njk
 permalink: /nl/digitale-etiquette/
 meta:
   title: Digitale Etiquette
@@ -7,7 +7,3 @@ eleventyNavigation:
   key: Digitale Etiquette
   order: 4
 ---
-
-<div class="container">
-    <h1>Digitale Etiquette</h1>
-</div>

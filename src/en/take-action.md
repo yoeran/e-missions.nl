@@ -1,13 +1,9 @@
 ---
 layout: base
-permalink: /nl/take-action/
+permalink: /en/take-action/
 meta:
   title: Take Action
 eleventyNavigation:
   key: Take Action
   order: 2
 ---
-
-<div class="container">
-    <h1>Take Action</h1>
-</div>

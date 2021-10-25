@@ -7,17 +7,34 @@
         </div>
 
         <div class="footer__column">
-            <h4>Paginas</h4>
+            <h4>{{ translate('pages') }}</h4>
+
+            <ul>
+            {%- for item in collections["pages_" + lang] | eleventyNavigation -%}
+                {%- if item.url -%}
+                    {%- set isCurrent = (item.url == page.url) -%}
+                    {%- set isParent = item.url != '/' and item.url in page.url -%}
+                    <li>
+                        <a
+                            href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}"
+                            {% if isCurrent %}aria-current="page"{% endif %}
+                        >
+                            {{ item.title }}
+                        </a>
+                    </li>
+                {%- endif -%}
+            {%- endfor -%}
+            </ul>
 
         </div>
 
         <div class="footer__column">
-            <h4>About E-Missions</h4>
-            <p>Brief paragraph of E-Missions in a nutshell. Brief paragraph of E-Missions in a nutshell. Brief paragraph of E-Missions in a nutshell.</p>
+            <h4>{{ translate('about_emissions') }}</h4>
+            <p>{{ translate('about_emissions_text') }}</p>
             <p>Copyright &copy; 2021</p>
 
             <p>
-                Project supported by:<br />
+                {{ translate('project_supported_by') }}:<br />
                 <a href="https://www.sidn.nl" target="_blank">SIDN</a><br />
                 <a href="https://stimuleringsfonds.nl/" target="_blank">Stimuleringsfonds</a>
             </p>

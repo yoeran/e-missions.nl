@@ -4,4 +4,21 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: #fff;
+    }
+  }
 }

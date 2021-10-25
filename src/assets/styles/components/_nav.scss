@@ -6,10 +6,12 @@
     right: 0;
     background-color: #fff;
   }
+
   &__link {
-    display: block;
-    padding: 0.5em 1em;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
+
   &__toggle {
     @include button-reset;
   }
