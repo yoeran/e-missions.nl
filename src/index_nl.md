@@ -1,8 +1,7 @@
 ---
-layout: base
+layout: page.njk
 permalink: /nl/
 lang: nl
 locale: nl_NL
-meta:
-  title: Nederlandse landingpagina
+title: Nederlandse landingpagina
 ---

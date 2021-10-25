@@ -1,8 +1,7 @@
 ---
-layout: base
+layout: page.njk
 permalink: /
 lang: en
 locale: en_US
-meta:
-  title: English landingpage
+title: English landingpage
 ---

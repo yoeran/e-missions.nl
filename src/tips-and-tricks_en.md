@@ -1,8 +1,9 @@
 ---
-layout: base
+layout: page.njk
 permalink: /en/tips-and-tricks/
-meta:
-  title: Tips & Tricks
+lang: en
+locale: en_US
+title: Tips & Tricks
 eleventyNavigation:
   key: Tips & Tricks
   order: 1
