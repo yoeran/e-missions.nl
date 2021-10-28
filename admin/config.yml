@@ -11,14 +11,14 @@ i18n:
   default_locale: en
 
 collections:
-  # Our blog posts
-  - name: "resources" # Used in routes, e.g., /admin/collections/blog
-    label: "Resources" # Used in the UI
-    folder: "src/resources" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  - name: "resources"
+    label: "Resources"
+    folder: "src/resources"
+    create: true
+    delete: true
+    slug: "{{slug}}"
     structure: single_file
-    fields: # The fields for each document, usually in front matter
+    fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "URL", name: "url", widget: "string", required: false }
@@ -30,37 +30,21 @@ collections:
     label: "Pages"
     folder: "src/pages"
     i18n: true
-    create: true # Change to true to allow editors to create new pages
     delete: false
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Image", name: "image", widget: "string", allow_multiple: false, required: false }
+      - { label: "Image", name: "image", widget: "image", allow_multiple: false, required: false }
       - { label: "Permalink", name: "permalink", widget: "string", i18n: true }
-      - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+      - { label: "Landingpage text", name: "landingpage_text", widget: "markdown", i18n: true }
+      - { label: "Intro text", name: "body_intro_text", widget: "markdown", i18n: true, required: false }
+      - { label: "Main content", name: "body_main_text", widget: "markdown", i18n: true, required: false }
+      - { label: "Addendum text", name: "body_addendum_text", widget: "markdown", i18n: true, required: false }
+      - label: "Navigation"
         name: "eleventyNavigation"
         widget: "object"
         i18n: true
+        default: { key: '', order: 0 }
         fields:
-          - { label: "Key", name: "key", widget: "string",  }
-          - { label: "Order", name: "order", widget: "number", default: 0 }
-      - { label: "Intro", name: "body_intro", widget: "markdown", i18n: true, required: false }
-      - { label: "Main content", name: "body_main", widget: "markdown", i18n: true, required: false }
-      - { label: "Addendum", name: "body_addendum", widget: "markdown", i18n: true, required: false }
-
-  # - name: "pages-nl"
-  #   label: "Page (NL)"
-  #   folder: "src/nl/pages"
-  #   create: false # Change to true to allow editors to create new pages
-  #   delete: false
-  #   slug: "{{slug}}"
-  #   fields:
-  #     - { label: "Title", name: "title", widget: "string" }
-  #     - { label: "Permalink", name: "permalink", widget: "string" }
-  #     - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
-  #       name: "eleventyNavigation"
-  #       widget: "object"
-  #       fields:
-  #         - { label: "Key", name: "key", widget: "string" }
-  #         - { label: "Order", name: "order", widget: "number", default: 0 }
-  #     - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Key", name: "key", widget: "string", i18n: true  }
+          - { label: "Order", name: "order", widget: "number", default: 0, i18n: true }
