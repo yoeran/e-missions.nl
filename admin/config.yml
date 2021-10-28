@@ -23,6 +23,7 @@ collections:
     fields:
       - { label: "Topic title", name: "title", widget: "string", i18n: true }
       - { label: "Topic Key", name: "key", widget: "string", hint: 'This is used to find a relevant calculator' }
+      - { label: "Permalink", name: "permalink", widget: "string", i18n: true }
       - { label: "Icon", name: "icon", widget: "string" }
       - { label: "Intro text", name: "body_intro_text", widget: "markdown", i18n: true }
       - label: "Tips"
@@ -88,10 +89,10 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "URL", name: "url", widget: "string", required: false, hint: 'Always include the https://' }
 
-  - name: "team-members"
-    label: "Team Members"
+  - name: "members"
+    label: "Members"
     label_singular: "Member"
-    folder: "src/custom-data/team-members"
+    folder: "src/custom-data/members"
     create: true
     delete: true
     slug: "{{slug}}"

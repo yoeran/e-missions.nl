@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: about.njk
 title: Over het project
 permalink: /nl/over-e-missions/
 eleventyNavigation:

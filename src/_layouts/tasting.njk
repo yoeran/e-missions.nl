@@ -1,0 +1,53 @@
+---
+layout: base
+---
+<article class="container simple-page">
+
+    {% if body_intro_text %}
+    <section>
+        {{ body_intro_text | markdown | safe }}
+    </section>
+    {% else %}
+     <h1>{{ title }}</h1>
+    {% endif %}
+
+    {% if image %}
+        <img src="{{ image }}" alt="" />
+    {% endif %}
+
+    {% if body_main_text %}
+    <section>
+        {{ body_main_text | markdown | safe }}
+    </section>
+    {% endif %}
+
+
+    <h3>Upcoming tastings</h3>
+    <ul class="tastings">
+    {%- for item in collections.events -%}
+        <li class="tastings__event" data-datetime="{{ item.data.date | dateToFormat('x') }}">
+            <strong>
+                {% if item.data.url %}
+                    <a href="{{ item.data.url | url }}">{{ item.data.title }}</a>
+                {% else %}
+                    {{ item.data.title }}
+                {% endif %}
+            </strong>
+
+            <div>
+                {{ item.data.location }} -
+                {{ item.data.date | dateToFormat('dd.LL.y', locale) }}
+            </div>
+        </li>
+    {%- endfor -%}
+    </ul>
+
+    <h3>Past tastings</h3>
+    <div class="todo">Tastings are not automatically placed into upcoming/past yet</a>
+
+    {% if body_addendum_text %}
+    <section>
+        {{ body_addendum_text | markdown | safe }}
+    </section>
+    {% endif %}
+</article>

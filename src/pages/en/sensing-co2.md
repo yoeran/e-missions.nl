@@ -3,7 +3,7 @@ landingpage_text: Landingpage text for "Sensing CO2". Maxime quia et
   possimus itaque debitis consequuntur veniam architecto. Porro commodi porro
   est consequatur architecto. Voluptas blanditiis adipisci in iusto qui. Sed
   eligendi eum quaerat. Labore est atque illo voluptas eos consequatur.
-layout: page.njk
+layout: tasting.njk
 permalink: /en/sensing-co2/
 body_main_text: >-
   ### Background

@@ -1,10 +1,14 @@
 .resources-index {
   display: grid;
   gap: 2rem;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 15rem 1fr;
 }
 
 .resource {
-  border: 1px solid #eee;
+  border: 1px solid #777;
   padding: 2rem;
+
+  & + & {
+    margin-top: 1rem;
+  }
 }

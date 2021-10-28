@@ -1,4 +1,4 @@
 {
-  "tags": "events",
-  "excludeFromSitemap": true
+  "tags": "topics",
+  "layout": "topic.njk"
 }

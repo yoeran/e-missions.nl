@@ -1,0 +1,12 @@
+{% set translate = lang | translateFn %}
+<div class="topic-index">
+    {%- for item in collections["topics_" + lang] -%}
+    <a
+        class="topic-index__link"
+        href="{{ item.url | url }}"
+    >
+        <span>{{ item.data.icon }}</span>
+        {{ item.data.title }}
+    </a>
+    {%- endfor -%}
+</div>

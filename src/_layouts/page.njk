@@ -2,8 +2,6 @@
 layout: base
 ---
 <article class="container simple-page">
-
-
     {% if image %}
         <img src="{{ image }}" alt="" />
     {% endif %}
@@ -28,4 +26,6 @@ layout: base
         {{ body_addendum_text | markdown | safe }}
     </section>
     {% endif %}
+
+    {{ content | safe }}
 </article>

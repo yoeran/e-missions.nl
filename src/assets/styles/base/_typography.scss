@@ -24,11 +24,11 @@ p {
 }
 
 a {
-  color: #0f0;
+  color: $brand-color-primary;
   text-decoration: none;
 
   &:hover {
-    color: #0f0;
+    color: $brand-color-primary;
     text-decoration: underline;
   }
 }

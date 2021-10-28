@@ -2,8 +2,23 @@
     <div class="footer__inner container">
 
         <div class="footer__column">
-            <h4>Tips &amp; Tricks</h4>
-
+            <h4>{{ translate('topics') }}</h4>
+            <ul>
+            {%- for item in collections["topics_" + lang] -%}
+                {%- if item.url -%}
+                    {%- set isCurrent = (item.url == page.url) -%}
+                    {%- set isParent = item.url != '/' and item.url in page.url -%}
+                    <li>
+                        <a
+                            href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}"
+                            {% if isCurrent %}aria-current="page"{% endif %}
+                        >
+                            {{ item.data.title }}
+                        </a>
+                    </li>
+                {%- endif -%}
+            {%- endfor -%}
+            </ul>
         </div>
 
         <div class="footer__column">
@@ -25,7 +40,6 @@
                 {%- endif -%}
             {%- endfor -%}
             </ul>
-
         </div>
 
         <div class="footer__column">

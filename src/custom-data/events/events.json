@@ -1,4 +1,5 @@
 {
-  "tags": "topics",
-  "excludeFromSitemap": true
+  "tags": "events",
+  "excludeFromSitemap": true,
+  "permalink": false
 }

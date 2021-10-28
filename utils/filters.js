@@ -1,10 +1,8 @@
-const { format } = require("date-fns");
+const { DateTime } = require("luxon");
 const yaml = require("js-yaml");
 const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
-
-const { nl, enUS } = require("date-fns/locale");
 
 const md = markdownIt({
   html: true,
@@ -17,15 +15,16 @@ const translations = yaml.load(
   fs.readFileSync(path.resolve(path.join(__dirname, "../src/translations.yml")))
 );
 
-const LOCALE_MAP = {
-  en_US: enUS,
-  nl_NL: nl,
-};
-
 module.exports = {
-  dateToFormat: function (date, formatStr, locale) {
-    const options = { locale: LOCALE_MAP[locale] || LOCALE_MAP.en_US };
-    return format(date, formatStr | "PPP", options);
+  dateToFormat: function (date, format) {
+    return DateTime.fromJSDate(date, { zone: "utc" }).toFormat(String(format));
+  },
+
+  dateToISO: function (date) {
+    return DateTime.fromJSDate(date, { zone: "utc" }).toISO({
+      includeOffset: false,
+      suppressMilliseconds: true,
+    });
   },
 
   obfuscate: function (str) {
