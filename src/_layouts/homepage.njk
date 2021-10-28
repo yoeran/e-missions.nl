@@ -1,0 +1,69 @@
+---
+layout: base
+---
+{% set takeAction = collections.all | getPage('take-action', lang) %}
+{% set tasting = collections.all | getPage('sensing-co2', lang) %}
+{% set about = collections.all | getPage('about', lang) %}
+
+<article class="container">
+
+    <div>
+    Hero with title + slogan
+    {{ title }}
+    </div>
+
+    <div>
+        E-mail impact calculator
+    </div>
+
+    <div>
+        Tips &amp; Tricks - Categories + short text
+    </div>
+
+    <section class="actionbar">
+        <h3>Take action!</h3>
+        <p>
+            Each Tips &amp; tricks page has several actionable todo's you could try out!
+            Visit the <a href="{{ takeAction.url }}">Take Action</a> page to generate an overview of your battleplan!
+        </p>
+
+        <a href="{{ takeAction.url }}">
+            Take action
+        </a>
+    </section>
+
+    {% if tasting %}
+    <section class="flipflop flipflop--reverse">
+        <div class="flipflop__image">
+            {% if tasting.data.image %}
+            <img src="{{ tasting.data.image }}" alt="" />
+            {% endif %}
+        </div>
+        <div class="flipflop__content">
+            <h3>{{ tasting.data.title }}</h3>
+            {% if tasting.data.landingpage_text %}
+                {{ tasting.data.landingpage_text | markdown | safe}}
+            {% endif %}
+            <a href="{{ tasting.url }}">Read more</a>
+        </div>
+    </section>
+    {% endif %}
+
+    {% if about %}
+    <section class="flipflop">
+        <div class="flipflop__image">
+            {% if about.data.image %}
+            <img src="{{ about.data.image }}" alt="" />
+            {% endif %}
+        </div>
+        <div class="flipflop__content">
+            <h3>{{ about.data.title }}</h3>
+            {% if about.data.landingpage_text %}
+                {{ about.data.landingpage_text | markdown | safe}}
+            {% endif %}
+            <a href="{{ about.url }}">Read more</a>
+        </div>
+    </section>
+    {% endif %}
+
+</article>

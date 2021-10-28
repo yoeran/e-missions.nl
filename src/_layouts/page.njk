@@ -1,7 +1,31 @@
 ---
 layout: base
 ---
-<article class="container">
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
+<article class="container simple-page">
+
+
+    {% if image %}
+        <img src="{{ image }}" alt="" />
+    {% endif %}
+
+
+    {% if body_intro_text %}
+    <section>
+        {{ body_intro_text | markdown | safe }}
+    </section>
+    {% else %}
+     <h1>{{ title }}</h1>
+    {% endif %}
+
+    {% if body_main_text %}
+    <section>
+        {{ body_main_text | markdown | safe }}
+    </section>
+    {% endif %}
+
+    {% if body_addendum_text %}
+    <section>
+        {{ body_addendum_text | markdown | safe }}
+    </section>
+    {% endif %}
 </article>

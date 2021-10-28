@@ -22,3 +22,13 @@ h2 {
 p {
   margin: 0;
 }
+
+a {
+  color: #0f0;
+  text-decoration: none;
+
+  &:hover {
+    color: #0f0;
+    text-decoration: underline;
+  }
+}

@@ -11,9 +11,34 @@ i18n:
   default_locale: en
 
 collections:
+  - name: "topics"
+    label: "Topics"
+    label_singular: "Topic"
+    folder: "src/custom-data/topics"
+    create: true
+    delete: true
+    i18n: true
+    slug: "{{slug}}"
+    structure: single_file
+    fields:
+      - { label: "Topic title", name: "title", widget: "string", i18n: true }
+      - { label: "Topic Key", name: "key", widget: "string", hint: 'This is used to find a relevant calculator' }
+      - { label: "Icon", name: "icon", widget: "string" }
+      - { label: "Intro text", name: "body_intro_text", widget: "markdown", i18n: true }
+      - label: "Tips"
+        name: "tips"
+        widget: "list"
+        i18n: true
+        fields:
+          - { label: "Tip", name: "tip", widget: "string", i18n: true }
+          - { label: "Explanation", name: "explanation", widget: "markdown", i18n: true }
+          - { label: "Todo", name: "todo", widget: "string", required: false, i18n: true }
+      - { label: "Addendum text (wow-facts)", name: "body_addendum_text", widget: "markdown", i18n: true }
+
   - name: "resources"
     label: "Resources"
-    folder: "src/resources"
+    label_singular: "Resource"
+    folder: "src/custom-data/resources"
     create: true
     delete: true
     slug: "{{slug}}"
@@ -25,9 +50,9 @@ collections:
       - { label: "Description", name: "description_en", widget: "text", i18n: true }
       - { label: "Category", name: "category", widget: "select", multiple: true, options: ['calculator','art','best-practice','scientific'] }
 
-  # Our pages e.g. About
   - name: "pages"
     label: "Pages"
+    label_singular: "Page"
     folder: "src/pages"
     i18n: true
     delete: false
@@ -48,3 +73,32 @@ collections:
         fields:
           - { label: "Key", name: "key", widget: "string", i18n: true  }
           - { label: "Order", name: "order", widget: "number", default: 0, i18n: true }
+
+  - name: "events"
+    label: "Events"
+    label_singular: "Event"
+    folder: "src/custom-data/events"
+    create: true
+    delete: true
+    slug: "{{year}}_{{month}}_{{day}}_{{slug}}"
+    structure: single_file
+    fields:
+      - { label: "Organisation", name: "title", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "URL", name: "url", widget: "string", required: false, hint: 'Always include the https://' }
+
+  - name: "team-members"
+    label: "Team Members"
+    label_singular: "Member"
+    folder: "src/custom-data/team-members"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Project Role", name: "role", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", allow_multiple: false, required: false }
+      - { label: "LinkedIn", name: "linkedin", widget: "string", required: false, hint: 'Always include the https://' }
+      - { label: "Website", name: "website", widget: "string", required: false, hint: 'Always include the https://' }
+      - { label: "Text about project", name: "content", widget: "markdown" }

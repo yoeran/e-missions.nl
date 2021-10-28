@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: homepage.njk
 permalink: /nl/
 lang: nl
 locale: nl_NL

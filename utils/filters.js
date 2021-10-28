@@ -2,7 +2,16 @@ const { format } = require("date-fns");
 const yaml = require("js-yaml");
 const fs = require("fs");
 const path = require("path");
+const markdownIt = require("markdown-it");
+
 const { nl, enUS } = require("date-fns/locale");
+
+const md = markdownIt({
+  html: true,
+  breaks: true,
+  linkify: true,
+  typographer: true,
+});
 
 const translations = yaml.load(
   fs.readFileSync(path.resolve(path.join(__dirname, "../src/translations.yml")))
@@ -29,5 +38,15 @@ module.exports = {
 
   translateFn: function (lang) {
     return (key) => translations[key][lang];
+  },
+
+  getPage: function (collection, slug, lang) {
+    return collection.find(
+      (item) => item.fileSlug === slug && item.inputPath.includes(`/${lang}/`)
+    );
+  },
+
+  markdown: function (mdText) {
+    return md.render(mdText);
   },
 };

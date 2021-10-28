@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: homepage.njk
 permalink: /
 lang: en
 locale: en_US

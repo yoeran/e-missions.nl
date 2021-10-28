@@ -6,7 +6,7 @@
     "defaults"
   ],
   "scripts": {
-    "start": "npm run dev",
+    "start": "DEBUG=Eleventy* npm run dev",
     "dev": "run-s clean eleventy:dev --print-label",
     "build": "run-s clean eleventy:prod --print-label",
     "eleventy:dev": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve",

@@ -4,12 +4,12 @@
     position: absolute;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #000;
   }
 
   &__link {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   &__toggle {
@@ -23,9 +23,15 @@
   }
 
   @include mq(lg) {
+    &__link {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+
     &__toggle {
       display: none;
     }
+
     &__menu {
       display: flex;
       position: static;
