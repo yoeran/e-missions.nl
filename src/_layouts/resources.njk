@@ -1,12 +1,14 @@
 ---
 layout: base
 ---
+{% set translate = lang | translateFn %}
+
 <article class="container">
-    <h1>{{ title }}</h1>
+    <h1 class="heading heading--large">{{ title }}</h1>
 
     <div class="resources-index">
         <aside>
-        Filters
+            <div class="todo">Dynamic filters will come here</div>
         </aside>
 
         <div>
@@ -24,7 +26,7 @@ layout: base
 
                 <p>{{ item.date | dateToFormat('y') }}</p>
                 <p>{{ item.data['description_' + lang] }}</p>
-                <p><small>{{ item.data.category }}</small></p>
+                <p><small>{{ translate(item.data.category) }}</small></p>
             </div>
             {%- endfor -%}
         </div>

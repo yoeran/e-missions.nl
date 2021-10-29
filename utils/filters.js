@@ -53,7 +53,7 @@ module.exports = {
   spannify: function (text) {
     return text
       .split(" ")
-      .map((word) => `<span>${word}&nbsp;</span>`)
-      .join("");
+      .map((word) => `<span>${word}</span>`)
+      .join(" ");
   },
 };

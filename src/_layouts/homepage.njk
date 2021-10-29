@@ -13,7 +13,7 @@ layout: base
     <img class="landing-hero__img" src="/static/img/co2bubbles.jpg" alt="CO2 bubbles in water" />
     <div class="landing-hero__content">
         <div>
-            <h1>{{ general.data['homepage_intro_title_' + lang] | spannify | safe }}</h1>
+            <h1 class="heading heading--large">{{ general.data['homepage_intro_title_' + lang] | spannify | safe }}</h1>
             <p>{{ general.data['homepage_intro_text_' + lang] | spannify | safe }}</p>
         </div>
     </div>
@@ -21,46 +21,46 @@ layout: base
 
 <article class="container">
     {% if email %}
-    <div class="email-calculator-cta">
-        <h3>{{ general.data['homepage_calculator_title_' + lang] }}</h3>
+    <div class="email-calculator-cta section">
+        <h3 class="heading">{{ general.data['homepage_calculator_title_' + lang] }}</h3>
         {{ general.data['homepage_calculator_text_' + lang] | markdown | safe }}
         <a href="{{ email.url }}">Calculate your impact</a>
     </div>
     {% endif %}
 
 
-    <section class="topic-section">
+    <section class="topic-section section">
             {% include "topic-index.njk" %}
 
         <div class="topic-section__content">
-            <h3>{{ general.data['homepage_topic_title_' + lang] }}</h3>
+            <h3 class="heading">{{ general.data['homepage_topic_title_' + lang] }}</h3>
             {{ general.data['homepage_topic_text_' + lang] | markdown | safe }}
         </div>
     </section>
 
     {% if takeAction %}
-    <section class="actionbar">
-        <h3>Take action!</h3>
+    <section class="actionbar section">
+        <h3 class="heading">Take action!</h3>
         <p>
             Each Tips &amp; tricks page has several actionable todo's you could try out!
             Visit the <a href="{{ takeAction.url }}">Take Action</a> page to generate an overview of your battleplan!
         </p>
 
-        <a href="{{ takeAction.url }}">
+        <a class="button" href="{{ takeAction.url }}">
             Take action
         </a>
     </section>
     {% endif %}
 
     {% if tasting %}
-    <section class="flipflop flipflop--reverse">
+    <section class="flipflop flipflop--reverse section">
         <div class="flipflop__image">
             {% if tasting.data.image %}
             <img src="{{ tasting.data.image }}" alt="" />
             {% endif %}
         </div>
         <div class="flipflop__content">
-            <h3>{{ tasting.data.title }}</h3>
+            <h3 class="heading">{{ tasting.data.title }}</h3>
             {% if tasting.data.landingpage_text %}
                 {{ tasting.data.landingpage_text | markdown | safe}}
             {% endif %}
@@ -70,14 +70,14 @@ layout: base
     {% endif %}
 
     {% if about %}
-    <section class="flipflop">
+    <section class="flipflop section">
         <div class="flipflop__image">
             {% if about.data.image %}
             <img src="{{ about.data.image }}" alt="" />
             {% endif %}
         </div>
         <div class="flipflop__content">
-            <h3>{{ about.data.title }}</h3>
+            <h3 class="heading">{{ about.data.title }}</h3>
             {% if about.data.landingpage_text %}
                 {{ about.data.landingpage_text | markdown | safe}}
             {% endif %}

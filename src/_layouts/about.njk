@@ -4,7 +4,7 @@ layout: base
 <article class="container simple-page">
 
     {% if body_intro_text %}
-    <section>
+    <section class="section">
         {{ body_intro_text | markdown | safe }}
     </section>
     {% else %}
@@ -16,35 +16,37 @@ layout: base
     {% endif %}
 
     {% if body_main_text %}
-    <section>
+    <section class="section">
         {{ body_main_text | markdown | safe }}
     </section>
     {% endif %}
 
-    <h3>Meet the team</h3>
-    <ul class="member-stories">
-    {%- for item in collections.members -%}
-        <li class="member-stories__item">
-            {% if item.data.image %}
-                <img class="member-stories__img" src="{{ item.data.image }}" alt="" />
-            {% else %}
-                <div class="member-stories__img"></div>
-            {% endif %}
+    <section class="section">
+        <h3>Meet the team</h3>
+        <ul class="member-stories">
+        {%- for item in collections.members -%}
+            <li class="member-stories__item">
+                {% if item.data.image %}
+                    <img class="member-stories__img" src="{{ item.data.image }}" alt="" />
+                {% else %}
+                    <div class="member-stories__img"></div>
+                {% endif %}
 
-            <div class="member-stories__author">
-                <strong>{{ item.data.title }}</strong> - {{ item.data.role }}<br />
-                {% if item.data.linkedin %}<a href="{{ item.data.linkedin | url }}" target="_blank">LinkedIn</a>{% endif %}
-                {% if item.data.website %}<a href="{{ item.data.website | url }}" target="_blank">Website</a>{% endif %}
+                <div class="member-stories__author">
+                    <strong>{{ item.data.title }}</strong> - {{ item.data.role }}<br />
+                    {% if item.data.linkedin %}<a href="{{ item.data.linkedin | url }}" target="_blank">LinkedIn</a>{% endif %}
+                    {% if item.data.website %}<a href="{{ item.data.website | url }}" target="_blank">Website</a>{% endif %}
 
-                {{ item.data.content | markdown | safe }}
-            </div>
+                    {{ item.data.content | markdown | safe }}
+                </div>
 
-        </li>
-    {%- endfor -%}
-    </ul>
+            </li>
+        {%- endfor -%}
+        </ul>
+    </section>
 
     {% if body_addendum_text %}
-    <section>
+    <section class="section">
         {{ body_addendum_text | markdown | safe }}
     </section>
     {% endif %}

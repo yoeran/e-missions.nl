@@ -8,7 +8,7 @@ layout: base
 
 
     {% if body_intro_text %}
-    <section>
+    <section class="section">
         {{ body_intro_text | markdown | safe }}
     </section>
     {% else %}
@@ -16,13 +16,13 @@ layout: base
     {% endif %}
 
     {% if body_main_text %}
-    <section>
+    <section class="section">
         {{ body_main_text | markdown | safe }}
     </section>
     {% endif %}
 
     {% if body_addendum_text %}
-    <section>
+    <section class="section">
         {{ body_addendum_text | markdown | safe }}
     </section>
     {% endif %}

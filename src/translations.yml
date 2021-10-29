@@ -7,8 +7,8 @@ switch_language_path:
   en: /nl/
 
 switch_language:
-  nl: English
-  en: Nederlands
+  nl: EN
+  en: NL
 
 skip_content:
   nl: spring naar hoofd content
@@ -33,3 +33,19 @@ project_supported_by:
 topics:
   nl: Onderwerpen
   en: Topics
+
+calculator:
+  nl: Calculator
+  en: Calculator
+
+art:
+  nl: Kunst
+  en: Art
+
+'best-practice':
+  nl: Best Practice
+  en: Best Practice
+
+scientific:
+  nl: Wetenschappelijk
+  en: Scientific
