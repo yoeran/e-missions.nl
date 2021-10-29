@@ -22,7 +22,7 @@ homepage_topic_text_nl: >-
 
     Select your ‘resolutions’ and contribute to an eco-friendly digital lifestyle
 footer_about_en: >-
-    Brief paragraph of E-Missions in a nutshell. Brief paragraph of E-Missions in a nutshell. Brief paragraph of E-Missions in a nutshell.
+    Brief paragraph of E-Missions in a nutshell.
 
 
     Copyright &copy; 2021
@@ -34,7 +34,7 @@ footer_about_en: >-
 
     [Stimuleringsfonds](https://stimuleringsfonds.nl/)
 footer_about_nl: >-
-    Brief paragraph of E-Missions in a nutshell. Brief paragraph of E-Missions in a nutshell. Brief paragraph of E-Missions in a nutshell.
+    Korte zin over E-Missions in een notendop.
 
 
     Copyright &copy; 2021
