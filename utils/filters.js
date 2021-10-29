@@ -40,12 +40,20 @@ module.exports = {
   },
 
   getPage: function (collection, slug, lang) {
+    const pathFilter = lang ? `/${lang}/` : "/";
     return collection.find(
-      (item) => item.fileSlug === slug && item.inputPath.includes(`/${lang}/`)
+      (item) => item.fileSlug === slug && item.inputPath.includes(pathFilter)
     );
   },
 
   markdown: function (mdText) {
     return md.render(mdText);
+  },
+
+  spannify: function (text) {
+    return text
+      .split(" ")
+      .map((word) => `<span>${word}&nbsp;</span>`)
+      .join("");
   },
 };

@@ -103,3 +103,20 @@ collections:
       - { label: "LinkedIn", name: "linkedin", widget: "string", required: false, hint: 'Always include the https://' }
       - { label: "Website", name: "website", widget: "string", required: false, hint: 'Always include the https://' }
       - { label: "Text about project", name: "content", widget: "markdown" }
+
+  - name: "snippets"
+    label: "Text Snippets"
+    label_singular: "Text Snippet"
+    folder: "src/custom-data/text-snippets"
+    create: true
+    delete: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", hidden: true }
+      - { label: "Homepage: Title", name: "homepage_intro_title", widget: "string", i18n: true }
+      - { label: "Homepage: Intro", name: "homepage_intro_text", widget: "text", i18n: true }
+      - { label: "Homepage: Calculator title", name: "homepage_calculator_title", widget: "string", i18n: true }
+      - { label: "Homepage: Calculator description", name: "homepage_calculator_text", widget: "markdown", i18n: true }
+      - { label: "Homepage: Topic title", name: "homepage_topic_title", widget: "string", i18n: true }
+      - { label: "Homepage: Topic text", name: "homepage_topic_text", widget: "markdown", i18n: true }
+      - { label: "Footer: About text", name: "footer_about", widget: "string", i18n: true }

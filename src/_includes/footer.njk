@@ -1,3 +1,5 @@
+{% set general = collections.all | getPage('general') %}
+
 <footer class="footer" role="contentinfo">
     <div class="footer__inner container">
 
@@ -44,14 +46,7 @@
 
         <div class="footer__column">
             <h4>{{ translate('about_emissions') }}</h4>
-            <p>{{ translate('about_emissions_text') }}</p>
-            <p>Copyright &copy; 2021</p>
-
-            <p>
-                {{ translate('project_supported_by') }}:<br />
-                <a href="https://www.sidn.nl" target="_blank">SIDN</a><br />
-                <a href="https://stimuleringsfonds.nl/" target="_blank">Stimuleringsfonds</a>
-            </p>
+            {{ general.data['footer_about_' + lang] | markdown | safe }}
         </div>
     </div>
 </footer>
