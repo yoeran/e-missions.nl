@@ -9,30 +9,33 @@ layout: base
 {% set tasting = collections.all | getPage('sensing-co2', lang) %}
 {% set about = collections.all | getPage('about', lang) %}
 
-<section class="landing-hero">
-    <img class="landing-hero__img" src="/static/img/co2bubbles.jpg" alt="CO2 bubbles in water" />
-    <div class="landing-hero__content">
-        <div>
+<article class="container landingpage">
+    <section class="landing-hero">
+        <div class="landing-hero__content">
             <h1 class="heading heading--large">{{ general.data['homepage_intro_title_' + lang] | spannify | safe }}</h1>
-            <p>{{ general.data['homepage_intro_text_' + lang] | spannify | safe }}</p>
+            <p>{{ general.data['homepage_intro_text_' + lang] | safe }}</p>
         </div>
-    </div>
-</section>
+    </section>
 
-<article class="container">
     {% if email %}
-    <div class="email-calculator-cta section">
-        <h3 class="heading">{{ general.data['homepage_calculator_title_' + lang] }}</h3>
-        {{ general.data['homepage_calculator_text_' + lang] | markdown | safe }}
-        <a href="{{ email.url }}">Calculate your impact</a>
+    <div class="landing-calculator-cta section">
+        <div class="landing-calculator-cta__content">
+            <h3 class="heading">{{ general.data['homepage_calculator_title_' + lang] }}</h3>
+
+            {{ general.data['homepage_calculator_text_' + lang] | markdown | safe }}
+
+            <a class="button" href="{{ email.url }}">
+                Calculate your impact
+            </a>
+        </div>
     </div>
     {% endif %}
 
 
-    <section class="topic-section section">
+    <section class="landingpage__topics section">
             {% include "topic-index.njk" %}
 
-        <div class="topic-section__content">
+        <div class="landingpage__topics-content">
             <h3 class="heading">{{ general.data['homepage_topic_title_' + lang] }}</h3>
             {{ general.data['homepage_topic_text_' + lang] | markdown | safe }}
         </div>
@@ -40,11 +43,12 @@ layout: base
 
     {% if takeAction %}
     <section class="actionbar section">
-        <h3 class="heading">Take action!</h3>
+        <h3 class="heading heading--heavy">Take action!</h3>
         <p>
             Each Tips &amp; tricks page has several actionable todo's you could try out!
             Visit the <a href="{{ takeAction.url }}">Take Action</a> page to generate an overview of your battleplan!
         </p>
+
 
         <a class="button" href="{{ takeAction.url }}">
             Take action
@@ -56,7 +60,12 @@ layout: base
     <section class="flipflop flipflop--reverse section">
         <div class="flipflop__image">
             {% if tasting.data.image %}
-            <img src="{{ tasting.data.image }}" alt="" />
+            <figure class="decorated-img">
+                <img src="{{ tasting.data.image }}" alt="" />
+                <figcaption>
+                    20 &#xB5;g CO<sub>2</sub>
+                </figcaption>
+            </figure>
             {% endif %}
         </div>
         <div class="flipflop__content">
@@ -73,7 +82,12 @@ layout: base
     <section class="flipflop section">
         <div class="flipflop__image">
             {% if about.data.image %}
-            <img src="{{ about.data.image }}" alt="" />
+            <figure class="decorated-img">
+                <img src="{{ about.data.image }}" alt="" />
+                <figcaption>
+                    20 &#xB5;g CO<sub>2</sub>
+                </figcaption>
+            </figure>
             {% endif %}
         </div>
         <div class="flipflop__content">

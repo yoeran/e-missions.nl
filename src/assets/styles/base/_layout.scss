@@ -8,16 +8,9 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
-  // display: flex;
-  // flex-direction: column;
   min-height: 100%;
   min-height: 100vh;
   position: relative;
-
-  // .header,
-  // .footer {
-  //   flex: none;
-  // }
 
   .main {
     display: flex;
@@ -38,4 +31,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: $container-max-width;
+}
+
+.section {
+  margin: 12rem 0;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
 }

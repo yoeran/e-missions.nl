@@ -1,0 +1,14 @@
+.actionbar {
+  padding: 1.5rem 3rem;
+  border: 1px solid #333;
+  background: #000;
+  display: grid;
+  grid-template-columns: 1fr 4fr auto;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 2px;
+
+  h3 {
+    margin: 0;
+  }
+}

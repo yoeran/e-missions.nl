@@ -1,0 +1,14 @@
+.landingpage {
+  &__topics {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+
+    &-content {
+      p {
+        margin: 1rem 0;
+      }
+    }
+  }
+}

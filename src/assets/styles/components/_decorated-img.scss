@@ -1,0 +1,42 @@
+.decorated-img {
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 1rem solid rgba(#000, 0.1);
+    z-index: 1;
+  }
+
+  &:hover {
+    figcaption {
+      background: #000;
+    }
+    img {
+      filter: none;
+    }
+  }
+
+  img {
+    display: block;
+    filter: sepia() hue-rotate(150deg);
+    transition: filter 0.3s ease-in-out;
+  }
+
+  figcaption {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: rgba(#000, 0.62);
+
+    font-size: 0.6rem;
+    padding: 0.1em 0.6em;
+    transition: background 0.1s ease-in-out;
+  }
+}

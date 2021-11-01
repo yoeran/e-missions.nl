@@ -1,0 +1,26 @@
+.landing-hero {
+  position: relative;
+  margin-top: -2rem;
+  margin-bottom: 6rem;
+  min-height: 50vh;
+
+  display: flex;
+  align-items: center;
+
+  background: url("/static/img/co2bubbles.jpg") center right no-repeat;
+  background-size: contain;
+
+  &__content {
+    position: relative;
+    max-width: 45%;
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}

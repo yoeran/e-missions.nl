@@ -1,11 +1,18 @@
 .header {
   padding: 0.5rem 0;
   margin-bottom: 4rem;
+  font-family: $font-family-monospace;
 
   &__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  &__logo {
+    display: inline-block;
+    height: 1rem;
+    margin-right: 0.5rem;
   }
 
   &__link {

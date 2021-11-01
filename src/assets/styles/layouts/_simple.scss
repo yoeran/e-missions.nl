@@ -1,0 +1,26 @@
+.simple-page {
+  > section {
+    h1,
+    h2,
+    h3 {
+      @extend .heading;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+    }
+
+    h4,
+    h5 {
+      font-size: 1rem;
+    }
+
+    p {
+      max-width: 50rem;
+    }
+  }
+}

@@ -2,18 +2,22 @@
 layout: base
 ---
 <article class="container simple-page">
-    {% if image %}
-        <img src="{{ image }}" alt="" />
-    {% endif %}
+    <section class="flipflop flipflop--reverse section">
+        <div class="flipflop__image">
+            {% if image %}
+                <img src="{{ image }}" alt="" />
+            {% endif %}
+        </div>
 
-
-    {% if body_intro_text %}
-    <section class="section">
-        {{ body_intro_text | markdown | safe }}
+        <div class="flipflop__content">
+            <h1 class="heading heading--large">{{ title }}</h1>
+            {% if body_intro_text %}
+                {{ body_intro_text | markdown | safe }}
+            {% endif %}
+        </div>
     </section>
-    {% else %}
-     <h1>{{ title }}</h1>
-    {% endif %}
+
+    {% block after_intro %}{% endblock %}
 
     {% if body_main_text %}
     <section class="section">
@@ -21,11 +25,15 @@ layout: base
     </section>
     {% endif %}
 
+    {% block after_main %}{% endblock %}
+
+    {{ content | safe }}
+
     {% if body_addendum_text %}
     <section class="section">
         {{ body_addendum_text | markdown | safe }}
     </section>
     {% endif %}
 
-    {{ content | safe }}
+    {% block after_addendum %}{% endblock %}
 </article>

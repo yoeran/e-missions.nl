@@ -4,7 +4,7 @@
     <div class="footer__inner container">
 
         <div class="footer__column">
-            <h4>{{ translate('topics') }}</h4>
+            <h4 class="heading heading--small">{{ translate('topics') }}</h4>
             <ul>
             {%- for item in collections["topics_" + lang] -%}
                 {%- if item.url -%}
@@ -24,7 +24,7 @@
         </div>
 
         <div class="footer__column">
-            <h4>{{ translate('pages') }}</h4>
+            <h4 class="heading heading--small">{{ translate('pages') }}</h4>
 
             <ul>
             {%- for item in collections["pages_" + lang] | eleventyNavigation -%}
@@ -45,7 +45,7 @@
         </div>
 
         <div class="footer__column">
-            <h4>{{ translate('about_emissions') }}</h4>
+            <h4 class="heading heading--small">{{ translate('about_emissions') }}</h4>
             {{ general.data['footer_about_' + lang] | markdown | safe }}
         </div>
     </div>

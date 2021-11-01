@@ -1,0 +1,26 @@
+.member-stories {
+  margin: 1rem 0;
+
+  &__item {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    grid-template-columns: auto 1fr;
+  }
+
+  &__img {
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    background: #000;
+  }
+
+  &__content {
+    max-width: 50rem;
+
+    p {
+      margin: 1rem 0;
+    }
+  }
+}
