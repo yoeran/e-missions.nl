@@ -1,7 +1,7 @@
 ---
 layout: take-action.njk
-permalink: /nl/take-action/
 title: Take Action
+permalink: /nl/take-action/
 eleventyNavigation:
   key: Take Action
   order: 2
