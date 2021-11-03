@@ -7,7 +7,7 @@ landingpage_text: E-missions is a digital platform to get insights and act on
   at a time.
 layout: about.njk
 title: About the project
-image: /static/img/schermafbeelding-2021-10-28-om-11.27.46.png
+image: /static/img/co2bubbles.jpg
 permalink: /en/about-e-missions/
 body_intro_text: >-
   # About the project
