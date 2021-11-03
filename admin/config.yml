@@ -111,6 +111,7 @@ collections:
     create: true
     delete: false
     slug: "{{slug}}"
+    structure: single_file
     fields:
       - { label: "Title", name: "title", widget: "string", hidden: true }
       - { label: "Homepage: Title", name: "homepage_intro_title", widget: "string", i18n: true }
