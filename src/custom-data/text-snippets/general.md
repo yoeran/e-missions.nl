@@ -7,13 +7,13 @@ homepage_calculator_text_nl: Short introduction text about the impact
 homepage_topic_title_nl: Topics
 homepage_intro_title_nl: Do you know how much CO2 your internet behaviour produces?
 footer_about_en: |-
-  Developed by yeast.computer and In4Art to explore the invisible impacts of our digital lifestyle.
+  Developed by [yeast.computer](https://yeast.computer/) and [In4Art](https://www.in4art.eu/) to explore the invisible impacts of our digital lifestyle.
 
   Copyright &copy; 2021
 
   Project supported by:
-  [SIDN](https://www.sidn.nl/)
-  [Stimuleringsfonds](https://stimuleringsfonds.nl/)
+  [SIDNfonds](https://www.sidn.nl/)
+  [Stimuleringsfonds Creatieve Industrie](https://stimuleringsfonds.nl/)
 permalink: false
 homepage_intro_text_nl: Find out with our calculator. Taste your CO2 impact with
   a Sensing CO2 Tasting and read our collection of tips &amp; tricks so you can
