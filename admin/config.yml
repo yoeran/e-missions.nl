@@ -17,8 +17,8 @@ collections:
     folder: "src/custom-data/topics"
     create: true
     delete: true
-    i18n: true
     slug: "{{slug}}"
+    i18n: true
     structure: single_file
     fields:
       - { label: "Topic title", name: "title", widget: "string", i18n: true }
@@ -43,6 +43,7 @@ collections:
     create: true
     delete: true
     slug: "{{slug}}"
+    i18n: true
     structure: single_file
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
@@ -111,6 +112,7 @@ collections:
     create: true
     delete: false
     slug: "{{slug}}"
+    i18n: true
     structure: single_file
     fields:
       - { label: "Title", name: "title", widget: "string", hidden: true }
