@@ -1,0 +1,6 @@
+---
+title: Company X
+location: Rotterdam
+date: 2021-08-04T13:35:12.373Z
+url: https://www.yoeran.nl/
+---

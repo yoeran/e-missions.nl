@@ -1,0 +1,14 @@
+<li class="tastings__event" data-datetime="{{ item.date | dateToFormat('x') }}">
+    <strong>
+        {% if item.data.url %}
+            <a href="{{ item.data.url | url }}">{{ item.data.title }}</a>
+        {% else %}
+            {{ item.data.title }}
+        {% endif %}
+    </strong>
+
+    <address>{{ item.data.location }}</address>
+    <time datetime="{{ item.data | dateToFormat('y-LL-dd') }}">
+        {{ item.date | dateToFormat('dd.LL.y', locale) }}
+    </time>
+</li>

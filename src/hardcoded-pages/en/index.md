@@ -1,5 +1,5 @@
 ---
 layout: homepage.njk
 permalink: /
-title: English landingpage
+title: How sustainable is your digital lifestyle?
 ---

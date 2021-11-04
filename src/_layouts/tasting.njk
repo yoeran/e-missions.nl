@@ -2,28 +2,23 @@
 layout: page
 ---
 {% block after_main %}
-<section class="section">
-    <h3>Upcoming tastings</h3>
-    <ul class="tastings">
-    {%- for item in collections.events -%}
-        <li class="tastings__event" data-datetime="{{ item.data.date | dateToFormat('x') }}">
-            <strong>
-                {% if item.data.url %}
-                    <a href="{{ item.data.url | url }}">{{ item.data.title }}</a>
-                {% else %}
-                    {{ item.data.title }}
-                {% endif %}
-            </strong>
+<section class="section tasting-index">
+    <div class="tasting-box">
+        <h3>Upcoming tastings</h3>
+        <ul class="tastings" data-tasting="future">
+        {%- for item in collections.events | onlyFutureItems | sortBy('date') -%}
+            {% include "tasting-item.njk" %}
+        {%- endfor -%}
+        </ul>
+    </div>
 
-            <div>
-                {{ item.data.location }} -
-                {{ item.data.date | dateToFormat('dd.LL.y', locale) }}
-            </div>
-        </li>
-    {%- endfor -%}
-    </ul>
-
-    <h3>Past tastings</h3>
-    <div class="todo">Tastings are not automatically placed into upcoming/past yet</a>
+    <div class="tasting-box">
+        <h3>Past tastings</h3>
+        <ul class="tastings" data-tasting="past">
+        {%- for item in collections.events | onlyPastItems | sortBy('date') | reverse -%}
+            {% include "tasting-item.njk" %}
+        {%- endfor -%}
+        </ul>
+    </div>
 </section>
 {% endblock %}

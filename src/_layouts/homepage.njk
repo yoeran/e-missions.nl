@@ -12,8 +12,8 @@ layout: base
 <article class="container landingpage">
     <section class="landing-hero">
         <div class="landing-hero__content">
-            <h1 class="heading heading--large">{{ general.data.homepage_intro_title | spannify | safe }}</h1>
-            <p>{{ general.data.homepage_intro_text | safe }}</p>
+            <h1 class="heading heading--large">{{ general.data.homepage_intro_title | safe }}</h1>
+            <p>{{ general.data.homepage_intro_text | formatCo2 | safe }}</p>
         </div>
     </section>
 

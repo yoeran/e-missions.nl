@@ -26,9 +26,9 @@ about_emissions:
   nl: Over E-Missions
   en: About E-Missions
 
-project_supported_by:
-  nl: Mede mogelijk gemaakt door
-  en: Project supported by
+book_tasting:
+  nl: Boek een proeverij
+  en: Book a tasting
 
 topics:
   nl: Onderwerpen
@@ -49,3 +49,4 @@ art:
 scientific:
   nl: Wetenschappelijk
   en: Scientific
+

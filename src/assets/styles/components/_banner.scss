@@ -1,0 +1,26 @@
+.banner {
+  background: center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-bottom: 4rem;
+
+  &__content {
+    background: rgba(#000, 0.62);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+
+    h3,
+    p {
+      max-width: 30rem;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 2rem;
+    }
+  }
+}

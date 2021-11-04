@@ -1,0 +1,30 @@
+.tasting-index {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tastings {
+  max-height: 30vh;
+  overflow: auto;
+
+  &__event {
+    margin-bottom: 1.5rem;
+
+    strong {
+      display: block;
+    }
+
+    address,
+    time {
+      display: inline-block;
+      font-style: normal;
+      opacity: 0.8;
+    }
+
+    address:after {
+      content: " | ";
+      opacity: 0.5;
+    }
+  }
+}

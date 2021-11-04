@@ -1,36 +1,34 @@
 .simple-page {
-  > section {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-      @extend .heading;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @extend .heading;
+  }
 
-    p + h2,
-    p + h3,
-    p + h4,
-    p + h5 {
-      margin-top: 3rem;
-    }
+  p + h2,
+  p + h3,
+  p + h4,
+  p + h5 {
+    margin-top: 3rem;
+  }
 
-    h2 {
-      font-size: 1.2rem;
-    }
+  h2 {
+    font-size: 1.2rem;
+  }
 
-    h3 {
-      font-size: 1.1rem;
-    }
+  h3 {
+    font-size: 1.1rem;
+  }
 
-    h4,
-    h5 {
-      font-size: 1rem;
-    }
+  h4,
+  h5 {
+    font-size: 1rem;
+  }
 
-    p {
-      max-width: 50rem;
-      margin: 1rem 0;
-    }
+  p {
+    max-width: 50rem;
+    margin: 1rem 0;
   }
 }

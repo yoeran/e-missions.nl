@@ -8,7 +8,7 @@ layout: base
         </div>
 
         <div class="flipflop__content">
-            <h1 class="heading heading--large">{{ title }}</h1>
+            <h1 class="heading heading--large">{{ title | formatCo2 | safe }}</h1>
             {% if body_intro_text %}
                 {{ body_intro_text | markdown | safe }}
             {% endif %}

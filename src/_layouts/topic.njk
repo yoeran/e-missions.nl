@@ -1,10 +1,53 @@
 ---
 layout: base
 ---
+
+{% set translate = lang | translateFn %}
+{% set tasting = collections.all | getPage('sensing-co2', lang) %}
+
 <article class="container">
-    <h1 class="heading heading--large">{{ title }}</h1>
+    <h1 class="heading heading--large">{{ title | formatCo2 | safe }}</h1>
 
-    <p>Topic page</p>
+    {% if body_intro_text %}
+    <section class="section simple-page">
+        {{ body_intro_text | markdown | safe }}
+    </section>
+    {% endif %}
 
-    <div class="todo">This page is not implemented yet</div>
+    <div class="todo">Embed calculator here (when available)</div>
+
+    <section class="section">
+        <h3 class="heading">Tips</h3>
+        {%- for item in tips -%}
+        <div>
+            <h4>{{ item.tip | formatCo2 | safe }}</h4>
+            {{ item.explanation | markdown | safe }}
+
+            <label>
+                <input type="checkbox" />
+                {{ item.todo }}
+            </label>
+            <hr />
+        </div>
+        {%- endfor -%}
+    </section>
+
+    {% if body_addendum_text %}
+    <section class="section simple-page">
+        {{ body_addendum_text | markdown | safe }}
+    </section>
+    {% endif %}
+
+    <div class="banner" style="background-image: url('{{ tasting.data.image }}');" data-click-href="{{ tasting.url }}">
+        <div class="banner__content">
+            <h3 class="heading">{{ tasting.data.title }}</h3>
+            {% if tasting.data.landingpage_text %}
+                {{ tasting.data.landingpage_text | markdown | safe}}
+            {% endif %}
+
+            <a class="button button--small" href="{{ tasting.url }}">
+                {{ translate('book_tasting') }}
+            </a>
+        </div>
+    </div>
 </article>

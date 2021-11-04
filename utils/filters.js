@@ -72,4 +72,14 @@ module.exports = {
       return 0;
     });
   },
+
+  onlyFutureItems: function (collection) {
+    const now = Date.now();
+    return collection.filter((item) => item.date.getTime() >= now);
+  },
+
+  onlyPastItems: function (collection) {
+    const now = Date.now();
+    return collection.filter((item) => item.date.getTime() < now);
+  },
 };

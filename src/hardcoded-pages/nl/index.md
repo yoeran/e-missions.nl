@@ -1,5 +1,5 @@
 ---
 layout: homepage.njk
 permalink: /nl/
-title: Nederlandse landingpagina
+title: Hoe duurzaam is jouw digitale lifestyle?
 ---
