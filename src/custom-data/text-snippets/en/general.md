@@ -9,10 +9,11 @@ footer_about: |-
   [Stimuleringsfonds Creatieve Industrie](https://stimuleringsfonds.nl/)
 permalink: false
 homepage_calculator_title: Impact calculators
-homepage_topic_text: The eco-cost of internet activity can lead to a drastic
-  increase in CO2 emissions over the next 10 years. An increase, while we so
-  desperately need a decrease. Wondering what affects the CO2 of your internet
-  behaviour and what you can do about it? Read our topic pages, calculate your
+homepage_topic_text: >
+  The eco-cost of internet activity can lead to a drastic increase in CO2 emissions over the next 10 years. An increase, while we so desperately need a decrease.
+
+
+  Wondering what affects the CO2 of your internet behaviour and what you can do about it? Read our topic pages, calculate your
   Co2 output with our calculators and select your ‘resolutions’ to surf on the
   green side.
 homepage_intro_text: >

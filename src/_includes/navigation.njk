@@ -24,8 +24,7 @@
                         href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}"
                         {% if isCurrent %}aria-current="page"{% endif %}
                     >
-                        {{ item.title }}
-
+                        {{ item.title | formatCo2 | safe }}
                     </a>
                 </li>
             {%- endif -%}

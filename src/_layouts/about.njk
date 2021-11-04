@@ -3,20 +3,20 @@ layout: page
 ---
 {% block after_main %}
 <section class="section">
-    <h3>Meet the team</h3>
+    <h2>Meet the team</h2>
     <ul class="member-stories">
-    {%- for item in collections.members -%}
+    {%- for item in collections.members | sortBy('fileSlug')  -%}
         <li class="member-stories__item">
             {% if item.data.image %}
-                <img class="member-stories__img" src="{{ item.data.image }}" alt="" />
+                {% co2image item.data.image, "member-stories__img" %}
             {% else %}
                 <div class="member-stories__img"></div>
             {% endif %}
 
             <div class="member-stories__author">
                 <strong>{{ item.data.title }}</strong> - {{ item.data.role }}<br />
-                {% if item.data.linkedin %}<a href="{{ item.data.linkedin | url }}" target="_blank">LinkedIn</a>{% endif %}
-                {% if item.data.website %}<a href="{{ item.data.website | url }}" target="_blank">Website</a>{% endif %}
+                {% if item.data.linkedin %}<a class="member-stories__link" href="{{ item.data.linkedin | url }}" target="_blank">Linkedin</a>{% endif %}
+                {% if item.data.website %}<a class="member-stories__link" href="{{ item.data.website | url }}" target="_blank">Website</a>{% endif %}
 
                 {{ item.data.content | markdown | safe }}
             </div>

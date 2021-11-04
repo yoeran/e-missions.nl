@@ -15,6 +15,8 @@ const translations = yaml.load(
   fs.readFileSync(path.resolve(path.join(__dirname, "../src/translations.yml")))
 );
 
+const formatCo2 = (str) => str.replace(/co2/gi, "CO<sub>2</sub>");
+
 module.exports = {
   dateToFormat: function (date, format) {
     return DateTime.fromJSDate(date, { zone: "utc" }).toFormat(String(format));
@@ -46,8 +48,10 @@ module.exports = {
     );
   },
 
+  formatCo2,
+
   markdown: function (mdText) {
-    return md.render(mdText);
+    return formatCo2(md.render(mdText));
   },
 
   spannify: function (text) {
@@ -55,5 +59,17 @@ module.exports = {
       .split(" ")
       .map((word) => `<span>${word}</span>`)
       .join(" ");
+  },
+
+  sortBy: function (collection, prop) {
+    return collection.sort(function (a, b) {
+      if (a[prop] > b[prop]) {
+        return 1;
+      }
+      if (a[prop] < b[prop]) {
+        return -1;
+      }
+      return 0;
+    });
   },
 };

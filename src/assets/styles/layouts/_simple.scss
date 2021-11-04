@@ -2,8 +2,17 @@
   > section {
     h1,
     h2,
-    h3 {
+    h3,
+    h4,
+    h5 {
       @extend .heading;
+    }
+
+    p + h2,
+    p + h3,
+    p + h4,
+    p + h5 {
+      margin-top: 3rem;
     }
 
     h2 {
@@ -21,6 +30,7 @@
 
     p {
       max-width: 50rem;
+      margin: 1rem 0;
     }
   }
 }
