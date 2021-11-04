@@ -10,9 +10,6 @@ title: About the project
 image: /static/img/co2bubbles.jpg
 permalink: /en/about-e-missions/
 body_intro_text: >-
-  # About the project
-
-
   Intropage text for "About the project". Maxime quia et possimus itaque debitis consequuntur veniam architecto. Porro commodi porro est consequatur architecto. Voluptas blanditiis adipisci in iusto qui. Sed eligendi eum quaerat. Labore est atque illo voluptas eos consequatur.
 body_main_text: >-
   ### Background of the project

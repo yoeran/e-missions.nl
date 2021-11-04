@@ -12,7 +12,7 @@ layout: base
         </aside>
 
         <div>
-            {%- for item in collections.resources -%}
+            {%- for item in collections['resources_' + lang] -%}
             <div class="resource" data-category="{{ item.data.category }}">
                 <h4>
                     {% if item.data.url %}

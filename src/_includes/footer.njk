@@ -1,4 +1,4 @@
-{% set general = collections.all | getPage('general') %}
+{% set general = collections.all | getPage('general', lang) %}
 
 <footer class="footer" role="contentinfo">
     <div class="footer__inner container">
@@ -46,7 +46,7 @@
 
         <div class="footer__column">
             <h4 class="heading heading--small">{{ translate('about_emissions') }}</h4>
-            {{ general.data['footer_about_' + lang] | markdown | safe }}
+            {{ general.data.footer_about | markdown | safe }}
         </div>
     </div>
 </footer>

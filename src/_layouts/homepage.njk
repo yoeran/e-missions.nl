@@ -3,7 +3,7 @@ layout: base
 ---
 {% set translate = lang | translateFn %}
 
-{% set general = collections.all | getPage('general') %}
+{% set general = collections.all | getPage('general', lang) %}
 {% set email = collections.all | getPage('email', lang) %}
 {% set takeAction = collections.all | getPage('take-action', lang) %}
 {% set tasting = collections.all | getPage('sensing-co2', lang) %}
@@ -12,17 +12,17 @@ layout: base
 <article class="container landingpage">
     <section class="landing-hero">
         <div class="landing-hero__content">
-            <h1 class="heading heading--large">{{ general.data['homepage_intro_title_' + lang] | spannify | safe }}</h1>
-            <p>{{ general.data['homepage_intro_text_' + lang] | safe }}</p>
+            <h1 class="heading heading--large">{{ general.data.homepage_intro_title | spannify | safe }}</h1>
+            <p>{{ general.data.homepage_intro_text | safe }}</p>
         </div>
     </section>
 
     {% if email %}
     <div class="landing-calculator-cta section">
         <div class="landing-calculator-cta__content">
-            <h3 class="heading">{{ general.data['homepage_calculator_title_' + lang] }}</h3>
+            <h3 class="heading">{{ general.data.homepage_calculator_title }}</h3>
 
-            {{ general.data['homepage_calculator_text_' + lang] | markdown | safe }}
+            {{ general.data.homepage_calculator_text | markdown | safe }}
 
             <a class="button" href="{{ email.url }}">
                 Calculate your impact
@@ -36,22 +36,18 @@ layout: base
             {% include "topic-index.njk" %}
 
         <div class="landingpage__topics-content">
-            <h3 class="heading">{{ general.data['homepage_topic_title_' + lang] }}</h3>
-            {{ general.data['homepage_topic_text_' + lang] | markdown | safe }}
+            <h3 class="heading">{{ general.data.homepage_topic_title }}</h3>
+            {{ general.data.homepage_topic_text | markdown | safe }}
         </div>
     </section>
 
     {% if takeAction %}
     <section class="actionbar section">
-        <h3 class="heading heading--heavy">Take action!</h3>
-        <p>
-            Each Tips &amp; tricks page has several actionable todo's you could try out!
-            Visit the <a href="{{ takeAction.url }}">Take Action</a> page to generate an overview of your battleplan!
-        </p>
-
+        <h3 class="heading heading--heavy">{{ general.data.homepage_take_action_title }}</h3>
+        {{ general.data.homepage_take_action_text | markdown | safe }}
 
         <a class="button" href="{{ takeAction.url }}">
-            Take action
+            {{ general.data.homepage_take_action_button }}
         </a>
     </section>
     {% endif %}
@@ -59,14 +55,7 @@ layout: base
     {% if tasting %}
     <section class="flipflop flipflop--reverse section">
         <div class="flipflop__image">
-            {% if tasting.data.image %}
-            <figure class="decorated-img">
-                <img src="{{ tasting.data.image }}" alt="" />
-                <figcaption>
-                    20 &#xB5;g CO<sub>2</sub>
-                </figcaption>
-            </figure>
-            {% endif %}
+            {% co2image tasting.data.image %}
         </div>
         <div class="flipflop__content">
             <h3 class="heading">{{ tasting.data.title }}</h3>
@@ -81,14 +70,7 @@ layout: base
     {% if about %}
     <section class="flipflop section">
         <div class="flipflop__image">
-            {% if about.data.image %}
-            <figure class="decorated-img">
-                <img src="{{ about.data.image }}" alt="" />
-                <figcaption>
-                    20 &#xB5;g CO<sub>2</sub>
-                </figcaption>
-            </figure>
-            {% endif %}
+            {% co2image about.data.image %}
         </div>
         <div class="flipflop__content">
             <h3 class="heading">{{ about.data.title }}</h3>

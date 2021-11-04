@@ -19,7 +19,6 @@ collections:
     delete: true
     slug: "{{slug}}"
     i18n: true
-    structure: single_file
     fields:
       - { label: "Topic title", name: "title", widget: "string", i18n: true }
       - { label: "Topic Key", name: "key", widget: "string", hint: 'This is used to find a relevant calculator' }
@@ -42,9 +41,8 @@ collections:
     folder: "src/custom-data/resources"
     create: true
     delete: true
-    slug: "{{slug}}"
+    slug: "{{year}}_{{month}}_{{day}}_{{slug}}"
     i18n: true
-    structure: single_file
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -83,7 +81,6 @@ collections:
     create: true
     delete: true
     slug: "{{year}}_{{month}}_{{day}}_{{slug}}"
-    structure: single_file
     fields:
       - { label: "Organisation", name: "title", widget: "string" }
       - { label: "Location", name: "location", widget: "string" }
@@ -113,13 +110,15 @@ collections:
     delete: false
     slug: "{{slug}}"
     i18n: true
-    structure: single_file
     fields:
       - { label: "Title", name: "title", widget: "string", hidden: true }
       - { label: "Homepage: Title", name: "homepage_intro_title", widget: "string", i18n: true }
       - { label: "Homepage: Intro", name: "homepage_intro_text", widget: "text", i18n: true }
       - { label: "Homepage: Calculator title", name: "homepage_calculator_title", widget: "string", i18n: true }
       - { label: "Homepage: Calculator description", name: "homepage_calculator_text", widget: "markdown", i18n: true }
+      - { label: "Homepage: Take Action title", name: "homepage_take_action_title", widget: "string", i18n: true }
+      - { label: "Homepage: Take Action description", name: "homepage_take_action_text", widget: "markdown", i18n: true }
+      - { label: "Homepage: Take Action button", name: "homepage_take_action_button", widget: "string", i18n: true }
       - { label: "Homepage: Topic title", name: "homepage_topic_title", widget: "string", i18n: true }
       - { label: "Homepage: Topic text", name: "homepage_topic_text", widget: "markdown", i18n: true }
       - { label: "Footer: About text", name: "footer_about", widget: "string", i18n: true }
