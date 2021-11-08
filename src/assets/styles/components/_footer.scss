@@ -2,10 +2,21 @@
   padding: 3rem 0;
   background: linear-gradient(rgba(#000, 0) 0%, #111 100%);
 
+  border-top: 2px solid #222;
+
+  @include mq(md) {
+    border-top: none;
+  }
+
   &__inner {
     display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr 2fr 1fr;
+    gap: 3rem;
+    grid-template-columns: 1fr;
+
+    @include mq(md) {
+      gap: 2rem;
+      grid-template-columns: 1fr 2fr 1fr;
+    }
 
     p {
       margin-bottom: 1rem;

@@ -4,8 +4,12 @@
   justify-content: center;
 
   &__content {
-    padding: 3rem;
+    padding: 1rem;
     max-width: 30rem;
+
+    @include mq(md) {
+      padding: 3rem;
+    }
   }
 
   p {

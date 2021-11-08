@@ -1,12 +1,18 @@
 .tasting-index {
   display: grid;
   gap: 2rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+
+  @include mq(md) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .tastings {
-  max-height: 30vh;
-  overflow: auto;
+  @include mq(md) {
+    max-height: 30vh;
+    overflow: auto;
+  }
 
   &__event {
     margin-bottom: 1.5rem;

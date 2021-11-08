@@ -1,7 +1,7 @@
 {
   "title": "E-Missions",
   "description": "E-Missions information website",
-  "url": "https://emissions.netlify.app",
-  "lang": "nl",
-  "locale": "nl_NL"
+  "url": "https://www.e-missions.nl",
+  "lang": "en",
+  "locale": "en_US"
 }

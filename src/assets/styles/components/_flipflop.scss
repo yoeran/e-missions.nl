@@ -1,16 +1,23 @@
 .flipflop {
   display: grid;
-  gap: 4rem;
-  grid-template-columns: 3fr 2fr;
-  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 
-  &--reverse {
-    grid-template-columns: 2fr 3fr;
+  @include mq(md) {
+    grid-template-columns: 3fr 2fr;
+    gap: 4rem;
+    align-items: center;
+
+    &--reverse {
+      grid-template-columns: 2fr 3fr;
+    }
   }
 
   &__image {
-    .flipflop--reverse & {
-      order: 2;
+    @include mq(md) {
+      .flipflop--reverse & {
+        order: 2;
+      }
     }
 
     img {

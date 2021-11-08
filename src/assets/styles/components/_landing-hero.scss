@@ -2,17 +2,25 @@
   position: relative;
   margin-top: -2rem;
   margin-bottom: 6rem;
-  min-height: 50rem;
 
   display: flex;
-  align-items: center;
+  flex-direction: column;
 
-  background: url("/static/img/co2bubbles.jpg") center right no-repeat;
-  background-size: contain;
+  @include mq(md) {
+    min-height: 50rem;
+    flex-direction: row;
+    align-items: center;
+
+    background: url("/static/img/co2bubbles.jpg") center right no-repeat;
+    background-size: contain;
+  }
 
   &__content {
     position: relative;
-    max-width: 45%;
+
+    @include mq(md) {
+      max-width: 45%;
+    }
 
     h1 {
       font-size: 3rem;

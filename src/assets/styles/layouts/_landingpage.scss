@@ -2,12 +2,26 @@
   &__topics {
     display: grid;
     gap: 3rem;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
+    grid-template-columns: 1fr;
+
+    @include mq(md) {
+      grid-template-columns: 2fr 1fr;
+      align-items: center;
+    }
 
     &-content {
+      order: 1;
+
       p {
         margin: 1rem 0;
+      }
+    }
+
+    .topic-index {
+      order: 2;
+
+      @include mq(md) {
+        order: 1;
       }
     }
   }

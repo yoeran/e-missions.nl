@@ -1,0 +1,30 @@
+---
+layout: temp-base
+---
+{% set translate = lang | translateFn %}
+
+{% set general = collections.all | getPage('general', lang) %}
+{% set about = collections.all | getPage('about', lang) %}
+
+<article class="container landingpage">
+    <section class="landing-hero">
+        <div class="landing-hero__content">
+            <h1 class="heading heading--large">{{ general.data.homepage_intro_title | safe }}</h1>
+            <p>{{ general.data.homepage_intro_text | formatCo2 | safe }}</p>
+            <br />
+            <p>Project under development. Expected in 2022!</p>
+        </div>
+    </section>
+
+    {% if about %}
+    <section class="flipflop section">
+        <div class="flipflop__content">
+            <h3 class="heading">{{ about.data.title }}</h3>
+            {% if about.data.landingpage_text %}
+                {{ about.data.landingpage_text | markdown | safe}}
+            {% endif %}
+            <a href="https://www.in4art.eu/project/sensingco2/" target="_blank">Read more</a>
+        </div>
+    </section>
+    {% endif %}
+</article>
