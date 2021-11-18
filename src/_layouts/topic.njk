@@ -14,7 +14,9 @@ layout: base
     </section>
     {% endif %}
 
-    <div class="todo">Embed calculator here (when available)</div>
+    {% if key %}
+    <div class="calculator" data-calculator="{{ key }}"></div>
+    {% endif %}
 
     <section class="section">
         <h3 class="heading">Tips</h3>

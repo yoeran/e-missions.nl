@@ -19,9 +19,9 @@ module.exports = {
       const filepath = path.resolve(path.join(__dirname, "../", src));
       const { size } = fs.statSync(filepath);
       const kb = size / 1024;
-      const co2Conversion = 0.001;
+      const co2Conversion = 0.000000936;
 
-      co2 = kb * co2Conversion;
+      co2 = Math.round(kb * co2Conversion * 1000 * 1000);
     } catch (err) {
       /* */
     }
