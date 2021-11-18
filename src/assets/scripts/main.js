@@ -8,3 +8,18 @@ document.querySelectorAll("[data-click-href]").forEach((el) => {
     location.assign(el.getAttribute("data-click-href"));
   });
 });
+
+document.querySelectorAll("[data-calculator]").forEach((el) => {
+  const { Type } = require("./modules/calculators");
+  const key = el.getAttribute("data-calculator");
+
+  if (Object.values(Type).includes(key)) {
+    const Calculator = require("./modules/Calculator.svelte").default;
+    new Calculator({
+      target: el,
+      props: { key },
+    });
+  } else {
+    el.remove();
+  }
+});

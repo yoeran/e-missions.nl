@@ -17,13 +17,13 @@
       justify-content: center;
       align-items: center;
       font-size: 1.75rem;
+      fill: $brand-color-primary-offset;
       margin-right: 1rem;
       width: 3rem;
       height: 3rem;
       border-radius: 4px;
 
       background: #111;
-      filter: sepia(100%) hue-rotate(180deg);
       transition: filter 0.3s;
     }
 
@@ -32,7 +32,7 @@
       text-decoration: none;
 
       span {
-        filter: sepia(100%) hue-rotate(220deg) invert(100%);
+        fill: $brand-color-primary;
       }
     }
   }

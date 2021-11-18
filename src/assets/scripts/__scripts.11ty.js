@@ -20,6 +20,17 @@ module.exports = class {
     // Transform .js files, run through Babel
     const rules = [
       {
+        test: /\.(html|svelte)$/,
+        use: "svelte-loader",
+      },
+      {
+        // required to prevent errors from Svelte on Webpack 5+, omit on Webpack 4
+        test: /node_modules\/svelte\/.*\.mjs$/,
+        resolve: {
+          fullySpecified: false,
+        },
+      },
+      {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
@@ -42,6 +53,14 @@ module.exports = class {
       mode: isProd ? "production" : "development",
       entry: entryPath,
       output: { path: outputPath },
+      resolve: {
+        // see below for an explanation
+        alias: {
+          svelte: path.resolve("node_modules", "svelte"),
+        },
+        extensions: [".mjs", ".js", ".svelte"],
+        mainFields: ["svelte", "browser", "module", "main"],
+      },
       module: { rules },
       plugins: [envPlugin],
     };

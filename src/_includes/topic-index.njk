@@ -5,7 +5,7 @@
         class="topic-index__link"
         href="{{ item.url | url }}"
     >
-        <span>{{ item.data.icon }}</span>
+        <span>{% icon item.fileSlug %}</span>
         {{ item.data.title }}
     </a>
     {%- endfor -%}
