@@ -23,7 +23,6 @@ collections:
       - { label: "Topic title", name: "title", widget: "string", i18n: true }
       - { label: "Topic Key", name: "key", widget: "string", hint: 'This is used to find a relevant calculator' }
       - { label: "Permalink", name: "permalink", widget: "string", i18n: true }
-      - { label: "Icon", name: "icon", widget: "string" }
       - { label: "Intro text", name: "body_intro_text", widget: "markdown", i18n: true }
       - label: "Tips"
         name: "tips"

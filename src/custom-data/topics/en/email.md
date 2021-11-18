@@ -1,7 +1,6 @@
 ---
 title: Email
 key: email
-icon: ✉️
 permalink: /en/topic/email/
 body_intro_text: Intro text for "Social media" topic. Maxime quia et possimus
   itaque debitis consequuntur veniam architecto. Porro commodi porro est

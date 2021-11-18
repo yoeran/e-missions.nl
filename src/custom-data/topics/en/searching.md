@@ -1,7 +1,6 @@
 ---
 title: Searching
 key: searching
-icon: 🔍
 permalink: /en/topic/searching/
 body_intro_text: Intro text for "Social media" topic. Maxime quia et possimus
   itaque debitis consequuntur veniam architecto. Porro commodi porro est

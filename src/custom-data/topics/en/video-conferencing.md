@@ -1,7 +1,6 @@
 ---
 title: Video Conferencing
 key: video-conferencing
-icon: 👨🏻‍💻
 permalink: /en/topic/video-conferencing/
 body_intro_text: Intro text for "Social media" topic. Maxime quia et possimus
   itaque debitis consequuntur veniam architecto. Porro commodi porro est

@@ -1,7 +1,6 @@
 ---
 title: Cryptocurrency
 key: cryptocurrency
-icon: 🪙
 permalink: /en/topic/cryptocurrency/
 body_intro_text: Intro text for "Social media" topic. Maxime quia et possimus
   itaque debitis consequuntur veniam architecto. Porro commodi porro est

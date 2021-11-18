@@ -1,7 +1,6 @@
 ---
 title: Social media
 key: socialmedia
-icon: 👥
 permalink: /nl/topic/social-media/
 body_intro_text: Intro text for "Social media" topic. Maxime quia et possimus
   itaque debitis consequuntur veniam architecto. Porro commodi porro est
