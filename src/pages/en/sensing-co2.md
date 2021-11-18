@@ -99,7 +99,7 @@ body_main_text: >-
 
   ingredients: Apples or Yellow Lime
 
-  emssions: 4g
+  emissions: 4g
 
 
   Lime is a fragrant and delicious fruit, shiny and green. Three for a euro? Often it happens that only one is eaten while the others stay untouched and dry up and turn yellow. Their fate is similar to many cc: e-mail's, received, unread and slowly loosing relevance. On the contrary, yellow limes are still full of flavour and have been used to make this zesty lemonade.
