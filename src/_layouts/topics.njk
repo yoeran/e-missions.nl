@@ -1,8 +1,12 @@
 ---
 layout: base
 ---
-<article class="container">
-    <h1 class="heading heading--large">{{ title }}</h1>
+{% set general = collections.all | getPage('general', lang) %}
+<article class="container simple-page">
+    <section class="section">
+        <h1 class="heading heading--large">{{ title }}</h1>
+        {{ general.data.homepage_topic_text | markdown | safe }}
+    </section>
 
     {% include "topic-index.njk" %}
 </article>

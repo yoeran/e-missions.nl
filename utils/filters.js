@@ -73,6 +73,15 @@ module.exports = {
     });
   },
 
+  join: function (props, sep) {
+    return props.join(sep);
+  },
+
+  getFilterCount: function (collection, category) {
+    return collection.filter((item) => item.data.category.includes(category))
+      .length;
+  },
+
   onlyFutureItems: function (collection) {
     const now = Date.now();
     return collection.filter((item) => item.date.getTime() >= now);

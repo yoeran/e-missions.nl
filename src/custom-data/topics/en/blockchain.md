@@ -1,7 +1,7 @@
 ---
-title: Cryptocurrency
-key: cryptocurrency
-permalink: /en/topic/cryptocurrency/
+title: Blockchain
+key: blockchain
+permalink: /en/topic/blockchain/
 body_intro_text: Intro text for "Social media" topic. Maxime quia et possimus
   itaque debitis consequuntur veniam architecto. Porro commodi porro est
   consequatur architecto. Voluptas blanditiis adipisci in iusto qui. Sed

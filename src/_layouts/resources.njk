@@ -2,18 +2,40 @@
 layout: base
 ---
 {% set translate = lang | translateFn %}
+{% set items = collections['resources_' + lang] %}
+
+{% set filters = ['calculator', 'art', 'best-practice', 'scientific', 'smart-devices', 'audio-streaming', 'blockchain', 'cloud-storage', 'email', 'online-gaming', 'searching', 'social-media', 'video-conferencing', 'video-streaming'] %}
 
 <article class="container">
     <h1 class="heading heading--large">{{ title }}</h1>
 
-    <div class="resources-index">
-        <aside>
-            <div class="todo">Dynamic filters will come here</div>
+    <div class="resources">
+        <aside class="resources__filter">
+            <button type="button" data-filter-active data-clear-filter>
+                {{ translate('showall') }}
+                <small>({{ items.length }})</small>
+            </button>
+
+            <hr />
+
+            {% for item in filters %}
+            {% set count = items | getFilterCount(item) %}
+            <button
+                type="button"
+                data-filter="{{ item }}"
+                {% if count === 0 %}
+                disabled
+                {% endif %}
+            >
+                {{ translate(item) }}
+                <small>({{ count }})</small>
+            </button>
+            {% endfor %}
         </aside>
 
         <div>
-            {%- for item in collections['resources_' + lang] -%}
-            <div class="resource" data-category="{{ item.data.category }}">
+            {%- for item in items | sortBy('date') -%}
+            <div class="resource" data-category="{{ item.data.category | join }}">
                 <h4>
                     {% if item.data.url %}
                         <a href="{{ item.data.url }}" target="_blank" rel="nofollow">
@@ -22,11 +44,16 @@ layout: base
                     {% else %}
                         {{ item.data.title  }}
                     {% endif %}
+
+                    <small>{{ item.date | dateToFormat('y') }}</small>
                 </h4>
 
-                <p>{{ item.date | dateToFormat('y') }}</p>
                 <p>{{ item.data['description_' + lang] }}</p>
-                <p><small>{{ translate(item.data.category) }}</small></p>
+                <p><small>
+                    {% for c in item.data.category %}
+                    <span>{{ translate(c) }}</span>
+                    {% endfor %}
+                </small></p>
             </div>
             {%- endfor -%}
         </div>

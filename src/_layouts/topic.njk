@@ -3,9 +3,10 @@ layout: base
 ---
 
 {% set translate = lang | translateFn %}
+{% set general = collections.all | getPage('general', lang) %}
 {% set tasting = collections.all | getPage('sensing-co2', lang) %}
 
-<article class="container">
+<article class="container" data-takeaction>
     <h1 class="heading heading--large">{{ title | formatCo2 | safe }}</h1>
 
     {% if body_intro_text %}
@@ -15,23 +16,33 @@ layout: base
     {% endif %}
 
     {% if key %}
-    <div data-calculator="{{ key }}"></div>
+    <div class="calculator" data-calculator="{{ key }}"></div>
     {% endif %}
 
     <section class="section">
         <h3 class="heading">Tips</h3>
-        {%- for item in tips -%}
-        <div>
-            <h4>{{ item.tip | formatCo2 | safe }}</h4>
-            {{ item.explanation | markdown | safe }}
-
-            <label>
-                <input type="checkbox" />
-                {{ item.todo }}
-            </label>
-            <hr />
+        <div class="simple-page">
+            {{ general.data.tips_text | markdown | safe }}
         </div>
-        {%- endfor -%}
+
+        <ul class="tips-list">
+            {%- for item in tips -%}
+            <li class="tip">
+                <h4 class="tip__title">{{ item.tip | formatCo2 | safe }}</h4>
+
+                <div class="tip__content">
+                    {{ item.explanation | markdown | safe }}
+                </div>
+
+                <p class="tip__label">Add to your battleplan:</p>
+                <label class="tip__todo">
+                    {{ item.todo }}
+                    <input type="checkbox" data-ta-todo="{{ key }}::{{ item.todo }}" />
+                    <div class="tip__indicator"></div>
+                </label>
+            </li>
+            {%- endfor -%}
+        </ul>
     </section>
 
     {% if body_addendum_text %}

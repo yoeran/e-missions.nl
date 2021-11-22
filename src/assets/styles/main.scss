@@ -43,6 +43,7 @@
 @import "components/topic-index";
 @import "components/tasting";
 @import "components/banner";
+@import "components/tips";
 
 //--------------------
 // LAYOUTS
@@ -53,6 +54,9 @@
 @import "layouts/simple";
 
 // QUICK AND DIRTY TEMP STYLES
+.calculator {
+  margin: -4rem 0;
+}
 
 .todo {
   display: inline-block;
