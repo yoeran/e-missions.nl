@@ -38,7 +38,7 @@ layout: base
             <div class="resource" data-category="{{ item.data.category | join }}">
                 <h4>
                     {% if item.data.url %}
-                        <a href="{{ item.data.url }}" target="_blank" rel="nofollow">
+                        <a href="{{ item.data.url | url }}" target="_blank" rel="nofollow">
                             {{ item.data.title }}
                         </a>
                     {% else %}

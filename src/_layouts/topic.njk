@@ -51,14 +51,14 @@ layout: base
     </section>
     {% endif %}
 
-    <div class="banner" style="background-image: url('{{ tasting.data.image }}');" data-click-href="{{ tasting.url }}">
+    <div class="banner" style="background-image: url('{{ tasting.data.image | url }}');" data-click-href="{{ tasting.url }}">
         <div class="banner__content">
             <h3 class="heading">{{ tasting.data.title }}</h3>
             {% if tasting.data.landingpage_text %}
                 {{ tasting.data.landingpage_text | markdown | safe}}
             {% endif %}
 
-            <a class="button button--small" href="{{ tasting.url }}">
+            <a class="button button--small" href="{{ tasting.url | url }}">
                 {{ translate('book_tasting') }}
             </a>
         </div>
