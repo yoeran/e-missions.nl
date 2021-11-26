@@ -74,7 +74,11 @@ module.exports = {
   },
 
   join: function (props, sep) {
-    return props.join(sep);
+    if (props.hasOwnProperty("join")) {
+      return props.join(sep);
+    }
+
+    return props;
   },
 
   getFilterCount: function (collection, category) {
