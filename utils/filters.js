@@ -38,7 +38,11 @@ module.exports = {
   },
 
   translateFn: function (lang) {
-    return (key) => translations[key][lang];
+    try {
+      return (key) => translations[key][lang];
+    } catch (error) {
+      return (key) => `[[${lang}_${key}]]`;
+    }
   },
 
   getPage: function (collection, slug, lang) {
