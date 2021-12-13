@@ -31,6 +31,8 @@ homepage_calculator_text: There is no doubt about it; how we use the internet
 homepage_take_action_title: Take Action
 homepage_take_action_text: Each topic page has several actionable to-do’s you could try out! Visit the [Take Action](/en/take-action) page to generate your battleplan!
 homepage_take_action_button: Take Action
+resources_intro_title: 'TODO Resources intro title'
+resources_intro_text: 'TODO Resources intro text'
 tips_text: |-
   Short explanation of this section, that your todolist is stored locally. Which is better for both co2 emissions as it is for your privacy. You can add tips to your toto list and visit [Take Action](/en/take-action/) to get a complete overview of your batteplan.
 ---

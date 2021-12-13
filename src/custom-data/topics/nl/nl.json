@@ -1,4 +1,5 @@
 {
   "lang": "nl",
-  "locale": "nl_NL"
+  "locale": "nl_NL",
+  "excludeFromSitemap": true
 }

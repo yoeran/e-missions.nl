@@ -1,11 +1,11 @@
 ---
-layout: base
+layout: page
 ---
-<article class="container" data-takeaction>
-    <h1 class="heading heading--large">{{ title }}</h1>
+{% capture "after_intro" %}
+    <section class="section" data-takeaction data-ta-list></section>
+{% endcapture %}
 
-    <section class="section" data-ta-list></section>
-
-    <h3 class="heading">Looking for more ways to lower your digital CO2 emissions?</h3>
+{% capture "after_main" %}
+    <h3 class="heading heading--normal">Looking for more ways to lower your digital CO2 emissions?</h3>
     {% include "topic-index.njk" %}
-</article>
+{% endcapture %}

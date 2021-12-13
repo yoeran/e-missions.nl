@@ -1,10 +1,10 @@
 ---
 layout: page
 ---
-{% block after_main %}
+{% capture "after_main" %}
 <section class="section tasting-index">
     <div class="tasting-box">
-        <h3>Upcoming tastings</h3>
+        <h3 class="heading heading--normal">Upcoming tastings</h3>
         <ul class="tastings" data-tasting="future">
         {%- for item in collections.events | onlyFutureItems | sortBy('date') -%}
             {% include "tasting-item.njk" %}
@@ -13,7 +13,7 @@ layout: page
     </div>
 
     <div class="tasting-box">
-        <h3>Past tastings</h3>
+        <h3 class="heading heading--normal">Past tastings</h3>
         <ul class="tastings" data-tasting="past">
         {%- for item in collections.events | onlyPastItems | sortBy('date') | reverse -%}
             {% include "tasting-item.njk" %}
@@ -21,4 +21,4 @@ layout: page
         </ul>
     </div>
 </section>
-{% endblock %}
+{% endcapture %}

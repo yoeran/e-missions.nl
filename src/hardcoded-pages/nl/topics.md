@@ -1,8 +1,8 @@
 ---
 layout: topics.njk
-permalink: /nl/onderwerpen/
-title: Onderwerpen
+permalink: /nl/topics/
+title: Topics
 eleventyNavigation:
-  key: Onderwerpen
+  key: Topics
   order: 1
 ---

@@ -22,6 +22,10 @@
     {#if key === Type.AudioStreaming}
       <AudioStreaming on:value={setCo2} />
     {/if}
+
+    <a class="disclaimer-link" href="/en/about-e-missions/#disclaimer"
+      >Disclaimer</a
+    >
   </div>
 
   <div class="output">
@@ -59,5 +63,16 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .disclaimer-link {
+    display: block;
+    margin-top: 1rem;
+    opacity: 0.75;
+    font-size: 0.8rem;
+  }
+
+  .disclaimer-link:hover {
+    opacity: 1;
   }
 </style>

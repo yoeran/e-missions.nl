@@ -50,6 +50,34 @@ module.exports = function (config) {
     })
   );
 
+  // Captures
+  let _CAPTURES;
+  config.on("beforeBuild", () => {
+    //I need this to wipe _CAPTURES when editing pages, wouldn't be an issue in prod
+    _CAPTURES = {};
+  });
+
+  config.addPairedShortcode("capture", function (content, name) {
+    if (!_CAPTURES[this.page.inputPath]) {
+      _CAPTURES[this.page.inputPath] = {};
+    }
+    if (!_CAPTURES[this.page.inputPath][name]) {
+      _CAPTURES[this.page.inputPath][name] = "";
+    }
+    _CAPTURES[this.page.inputPath][name] += content;
+    return "";
+  });
+
+  config.addShortcode("displaycapture", function (name) {
+    if (
+      _CAPTURES[this.page.inputPath] &&
+      _CAPTURES[this.page.inputPath][name]
+    ) {
+      return _CAPTURES[this.page.inputPath][name];
+    }
+    return "";
+  });
+
   // Layouts
   config.addLayoutAlias("base", "base.njk");
 

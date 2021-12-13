@@ -3,6 +3,7 @@ layout: base
 ---
 {% set translate = lang | translateFn %}
 {% set items = collections['resources_' + lang] %}
+{% set general = collections.all | getPage('general', lang) %}
 
 {% set filters = ['calculator', 'art', 'best-practice', 'scientific', 'smart-devices', 'audio-streaming', 'blockchain', 'cloud-storage', 'email', 'online-gaming', 'searching', 'social-media', 'video-conferencing', 'video-streaming'] %}
 
@@ -34,6 +35,15 @@ layout: base
         </aside>
 
         <div>
+            <div class="resource" data-category="none">
+                <h4 class="heading heading--small">
+                    {{ general.data.resources_intro_title }}
+                </h4>
+                {% if general.data.resources_intro_text %}
+                    {{ general.data.resources_intro_text | markdown | safe }}
+                {% endif %}
+            </div>
+
             {%- for item in items | sortBy('date') -%}
             <div class="resource" data-category="{{ item.data.category | join }}">
                 <h4>

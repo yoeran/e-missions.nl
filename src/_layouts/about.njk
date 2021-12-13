@@ -1,9 +1,9 @@
 ---
 layout: page
 ---
-{% block after_main %}
-<section class="section">
-    <h2>Meet the team</h2>
+{% capture "after_main" %}
+<section class="section simple-page">
+    <h3>Meet the team</h3>
     <ul class="member-stories">
     {%- for item in collections.members | sortBy('fileSlug')  -%}
         <li class="member-stories__item">
@@ -25,4 +25,12 @@ layout: page
     {%- endfor -%}
     </ul>
 </section>
-{% endblock %}
+{% endcapture %}
+
+
+{% capture "after_addendum" %}
+<div class="section section--content">
+    <h5 id="disclaimer">Disclaimer</h5>
+    <p>TODO: Disclaimer text (not editable via CMS)</p>
+</div>
+{% endcapture %}

@@ -14,6 +14,8 @@
     height: 8rem;
     object-fit: cover;
     background: #333;
+
+    filter: sepia() hue-rotate(150deg);
   }
 
   &__content {

@@ -7,7 +7,7 @@ landingpage_text: E-missions is a digital platform to get insights and act on
   at a time.
 layout: about.njk
 title: About the project
-image: /static/img/co2bubbles.jpg
+image: /static/img/sensing_co2_bubbles.jpg
 permalink: /en/about-e-missions/
 body_intro_text: >-
   E-missions investigates a currently overlooked topic in our increasing internet-driven society: the ecological footprint of digital behaviour

@@ -2,9 +2,7 @@ export class TakeAction {
   constructor() {
     document.querySelectorAll("[data-ta-todo]").forEach((el) => {
       el.addEventListener("change", () => this.toggleTodo(el));
-    });
 
-    document.querySelectorAll("[data-ta-todo]").forEach((el) => {
       const todo = el.getAttribute("data-ta-todo");
       if (localStorage.getItem(todo)) {
         el.setAttribute("checked", true);

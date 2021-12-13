@@ -52,8 +52,6 @@ collections:
         widget: "select"
         multiple: true
         options:
-          - 'calculator'
-          - 'art'
           - 'best-practice'
           - 'scientific'
           - 'smart-devices'
@@ -138,5 +136,7 @@ collections:
       - { label: "Homepage: Take Action button", name: "homepage_take_action_button", widget: "string", i18n: true }
       - { label: "Homepage: Topic title", name: "homepage_topic_title", widget: "string", i18n: true }
       - { label: "Homepage: Topic text", name: "homepage_topic_text", widget: "markdown", i18n: true }
+      - { label: "Resources: Intro title", name: "resources_intro_title", widget: "string", i18n: true }
+      - { label: "Resources: Intro text", name: "resources_intro_text", widget: "markdown", i18n: true }
       - { label: "Tips text", name: "tips_text", widget: "markdown", i18n: true }
       - { label: "Footer: About text", name: "footer_about", widget: "string", i18n: true }

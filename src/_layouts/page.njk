@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<article class="container simple-page">
+<article class="container">
     <section class="flipflop flipflop--reverse section">
         <div class="flipflop__image">
             {% co2image image %}
@@ -15,23 +15,23 @@ layout: base
         </div>
     </section>
 
-    {% block after_intro %}{% endblock %}
+    {% displaycapture "after_intro" %}
 
     {% if body_main_text %}
-    <section class="section">
+    <section class="section section--content">
         {{ body_main_text | markdown | safe }}
     </section>
     {% endif %}
 
-    {% block after_main %}{% endblock %}
+    {% displaycapture "after_main" %}
 
     {{ content | safe }}
 
     {% if body_addendum_text %}
-    <section class="section">
+    <section class="section section--content">
         {{ body_addendum_text | markdown | safe }}
     </section>
     {% endif %}
 
-    {% block after_addendum %}{% endblock %}
+    {% displaycapture "after_addendum" %}
 </article>

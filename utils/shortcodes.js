@@ -8,7 +8,7 @@ module.exports = {
     </svg>`;
   },
 
-  co2image: function (src, className = "") {
+  co2image: function (src, className = "", alt = "") {
     if (!src) {
       return "";
     }
@@ -27,11 +27,12 @@ module.exports = {
     }
 
     return `<figure class="decorated-img ${className}">
-    <img src="${src}" alt="" />
+    <img src="${src}" alt="${alt}" />
     ${
       co2 &&
       `<figcaption>
         ${co2} &#xB5;g CO<sub>2</sub>
+        <span>This image costed approximately ${co2} micrograms of CO<sub>2</sub> to transfer.</span>
     </figcaption>`
     }
 </figure>`;

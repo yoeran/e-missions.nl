@@ -59,6 +59,10 @@ body {
     }
   }
 
+  &--normal {
+    font-size: 1.25rem;
+  }
+
   &--large {
     font-size: 2.5rem;
   }
@@ -86,4 +90,8 @@ body {
   100% {
     opacity: 0;
   }
+}
+
+sub {
+  color: $brand-color-primary;
 }
