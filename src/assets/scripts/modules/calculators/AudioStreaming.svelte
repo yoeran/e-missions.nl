@@ -1,45 +1,31 @@
 <script>
-  // {prodName: "Musik Streaming", icon: "music_video", type: "service", amount: "", bgcolor: "#7E415F", useHours: "", useYears: "", usePower: "0.5", sbPower: "", co2manuf: "", serviceUsed: "5", serviceUnit: "Stunden pro Tag", energyIntensity: "0.62", energyIntUnit: "Wh/h", formulaEnUse:  "(serviceUsed*energyIntensity)*0.365"},
-
-  import { createEventDispatcher, onMount } from "svelte";
+  import RangeInput from "../components/RangeInput.svelte";
+  import Wrap from "../components/Wrap.svelte";
+  import MapView from "../views/MapView.svelte";
+  import { kwhToInfo } from "./index";
 
   let serviceUsed = 5;
   const energyIntensity = 0.62;
+  const multiplier = 488000000;
 
-  const dispatch = createEventDispatcher();
-
-  export function setAmount() {
-    dispatch("value", serviceUsed * energyIntensity * 0.365);
-  }
-
-  onMount(() => {
-    setAmount();
-  });
+  $: data = kwhToInfo(serviceUsed * energyIntensity * 0.365);
 </script>
 
-<div>
-  <label for="num">How many hours do you stream audio per day?</label>
-  <input
-    id="num"
-    type="number"
-    bind:value={serviceUsed}
-    on:change={setAmount}
-    min="0"
-    max="24"
-  />
-</div>
+<Wrap {...data} {multiplier} multiplierLabel="Spotify globally">
+  <div slot="input">
+    <RangeInput
+      question="How many hours do you stream audio per day?"
+      unit={["hour", "hours"]}
+      min={1}
+      max={24}
+      bind:value={serviceUsed}
+    />
 
-<style>
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-  }
+    <p class="todo">
+      I now added a multiplier of 488.000.000, found in the Excel. Please let me
+      know if this should be adjusted.
+    </p>
+  </div>
 
-  input {
-    border: 1px solid #000;
-    background: #222;
-    padding: 0.5rem 1rem;
-    min-width: 10rem;
-  }
-</style>
+  <MapView slot="output" trees={data.trees} {multiplier} />
+</Wrap>
