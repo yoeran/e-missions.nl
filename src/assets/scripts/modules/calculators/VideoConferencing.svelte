@@ -33,5 +33,5 @@
     />
   </div>
 
-  <ParkView slot="output" trees={data.trees} />
+  <ParkView slot="output" trees={data.trees * employees} />
 </Wrap>

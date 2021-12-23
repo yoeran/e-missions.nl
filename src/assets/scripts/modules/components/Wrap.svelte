@@ -6,8 +6,7 @@
   export let multiplier;
   export let multiplierLabel;
 
-  const format = (n, d = 1) =>
-    n.toLocaleString(undefined, { maximumFractionDigits: d });
+  import { format } from "./utils";
 </script>
 
 <div class="calculator__wrap">

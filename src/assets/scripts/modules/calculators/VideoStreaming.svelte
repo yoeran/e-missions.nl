@@ -18,6 +18,8 @@
       max={24}
       bind:value={serviceUsed}
     />
+
+    <p class="todo">This calculator needs a multiplier</p>
   </div>
 
   <MapView slot="output" trees={data.trees} multiplier={1} />
