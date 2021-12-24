@@ -1,79 +1,81 @@
 .calculator {
   &__wrap {
-    background: #222;
+    background: #111;
     border-radius: 5px;
+    border: 0.5rem solid #222;
 
     display: grid;
-    gap: 2rem;
     grid-template-columns: 1fr;
 
     @include mq(lg) {
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: auto 1fr;
     }
   }
 
-  &__input {
+  &__aside {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+  }
+
+  &__input {
+    padding: 2rem;
+    flex: 1;
+  }
+
+  &__stats {
     padding: 2rem;
   }
 
   &__output {
-    background: #111;
+    background: #000;
     border-radius: 0 5px 5px 0;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+  }
+}
 
-    &__content {
-      width: 100%;
-    }
+.calculator-disclaimer {
+  display: block;
+  margin: 0.75rem 2rem;
+  opacity: 0.75;
+  font-size: 0.8rem;
 
-    &__list {
-      margin: 2rem;
-      dt {
-        opacity: 0.62;
-      }
+  &:hover {
+    opacity: 1;
+  }
+}
 
-      dd {
-        margin: 0 0 1rem 0;
-        font-size: 1.25rem;
-        display: block;
-        white-space: nowrap;
+.stats-list {
+  margin: 2rem;
+  dt {
+    opacity: 0.62;
+  }
 
-        small {
-          opacity: 0.9;
-        }
-      }
+  dd {
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+    display: block;
+    white-space: nowrap;
 
-      @include mq(md) {
-        display: grid;
-        gap: 0 1rem;
-        grid-template-columns: 1fr 1fr 1fr;
-        text-align: center;
-
-        dt {
-          order: 1;
-        }
-
-        dd {
-          margin: 0;
-          order: 2;
-        }
-      }
+    small {
+      opacity: 0.9;
     }
   }
 
-  &__disclaimer-link {
-    display: block;
-    margin-top: 1rem;
-    opacity: 0.75;
-    font-size: 0.8rem;
+  @include mq(md) {
+    display: grid;
+    gap: 0 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 
-    &:hover {
-      opacity: 1;
+    dt {
+      order: 1;
+    }
+
+    dd {
+      margin: 0;
+      order: 2;
     }
   }
 }
@@ -85,16 +87,17 @@
 }
 
 .calculator-input {
-  border: 1px solid #000;
-  background: #222;
+  border: 1px solid #444;
+  background: #111;
   padding: 0.5rem 1rem;
   min-width: 10rem;
+  width: 100%;
 }
 
 .calculator-range {
   display: grid;
   gap: 1rem;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 10rem;
   align-items: center;
 
   @include mq-down(md) {
@@ -128,31 +131,29 @@
   }
 }
 
-.calculator-output-set {
-  $iconSize: 5rem;
-  display: grid;
-  grid-auto-flow: dense;
-  gap: 0.5rem 1rem;
-  grid-template-columns: $iconSize 1fr;
-  align-items: center;
-  margin: 0 2rem 2rem 2rem;
+.stat-block {
+  & + & {
+    margin-top: 2rem;
+  }
 
   .heading {
     margin: 0;
-    grid-column: span 2;
+    display: flex;
+    align-items: center;
   }
 
   &__icon {
-    width: $iconSize;
-    height: $iconSize;
+    width: 3rem;
+    height: 3rem;
     color: $brand-color-primary;
-    justify-self: center;
+    margin-right: 1rem;
   }
 
   &__list {
     display: grid;
-    gap: 0 1rem;
-    grid-template-columns: 1fr 1fr;
+    gap: 0.1rem 1rem;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 
     dt {
       opacity: 0.62;
@@ -163,4 +164,39 @@
       font-size: 1.25rem;
     }
   }
+}
+
+.tree-stat {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+
+  svg {
+    width: 1.5rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+
+  h6 {
+    font-weight: normal;
+    opacity: 0.62;
+    margin: 0;
+  }
+}
+
+.result-text {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  padding: 2rem 4rem;
+
+  &__stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+}
+
+.radio-label {
+  display: block;
 }

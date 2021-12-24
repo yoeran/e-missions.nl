@@ -2,13 +2,13 @@
   import { format } from "../components/utils";
 
   export let trees;
-  export let multiplier;
 
   const amsterdamKm2 = 240;
-  const treesPerCity = 10;
+  const treesPerKm2 = 100000;
+  const treesPer100p = 10;
 
-  function toAmsterdams(t, m) {
-    return (t * m) / 100000 / amsterdamKm2;
+  function toAmsterdams(t) {
+    return t / treesPerKm2 / amsterdamKm2;
   }
 
   function toRows(a) {
@@ -17,10 +17,10 @@
     const arr = [];
     while (c > 0) {
       if (c > 1) {
-        arr.push(Array(treesPerCity));
+        arr.push(Array(treesPer100p));
         c -= 1;
       } else {
-        const t = Math.round(treesPerCity * c);
+        const t = Math.round(treesPer100p * c);
         if (t > 0) {
           arr.push(Array(t));
         }
@@ -31,7 +31,7 @@
     return arr;
   }
 
-  $: amsterdams = toAmsterdams(trees, multiplier);
+  $: amsterdams = toAmsterdams(trees);
   $: rows = toRows(amsterdams);
   $: size = 1.2 - Math.floor(amsterdams) * 0.1;
 </script>

@@ -1,29 +1,32 @@
 <script>
-  export let co2kg;
-  export let kwh;
-  export let trees;
+  // export let co2kg;
+  // export let kwh;
+  // export let trees;
 
-  export let multiplier;
-  export let multiplierLabel;
-
-  import { format } from "./utils";
+  // export let multiplier;
+  // export let multiplierLabel;
 </script>
 
 <div class="calculator__wrap">
-  <div class="calculator__input">
-    <slot name="input" />
+  <div class="calculator__aside">
+    <div class="calculator__input">
+      <slot name="input" />
+    </div>
 
-    <a
-      class="calculator__disclaimer-link"
-      href="/en/about-e-missions/#disclaimer">Disclaimer</a
-    >
+    <div class="calculator__stats">
+      <slot name="stats" />
+    </div>
+
+    <div class="calculator-disclaimer">
+      <a href="/en/about-e-missions/#disclaimer">Disclaimer</a>
+    </div>
   </div>
 
   <div class="calculator__output">
-    <div class="calculator__output__content">
-      <slot name="output" />
+    <slot name="visual" />
+    <slot name="visual-text" />
 
-      {#if multiplier !== undefined}
+    <!-- {#if multiplier !== undefined}
         <div class="calculator-output-set">
           <h6 class="heading heading--small">Your results:</h6>
           <svg
@@ -77,7 +80,6 @@
           <dt>Trees needed p/y:</dt>
           <dd>{format(trees, 0)}</dd>
         </dl>
-      {/if}
-    </div>
+      {/if} -->
   </div>
 </div>

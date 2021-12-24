@@ -2,12 +2,14 @@
   export let trees;
 
   $: arr = Array(Math.round(trees || 0));
+
+  $: size = Math.max(2 - trees / 35, 0.6);
 </script>
 
 <div class="calculator-visual">
   <div
     class="parkview"
-    style="--gcount: 3; --animspeed: 400ms; font-size: 1.75rem;"
+    style="--gcount: 3; --animspeed: 400ms; font-size: {size}rem;"
   >
     <div class="parkview__grid">
       {#if arr.length === 0}

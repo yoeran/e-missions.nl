@@ -39,7 +39,7 @@
       left: -1px;
       right: 0;
       bottom: 0;
-      border: 1px solid #ddd;
+      border: 1px solid #888;
       will-change: opacity;
       animation: fadein both var(--animspeed) ease-in-out;
     }
@@ -57,12 +57,7 @@
     svg {
       height: 100%;
       width: 100%;
-      filter: drop-shadow(0 0 2px #000);
-
-      path {
-        stroke: #000;
-        stroke-width: 1px;
-      }
+      filter: drop-shadow(0 0 1px #000);
     }
   }
 }

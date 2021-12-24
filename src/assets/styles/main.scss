@@ -65,13 +65,16 @@
 .todo {
   display: inline-block;
   border: 1px solid orange;
-  padding: 1rem;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
   color: #fff;
-  font-weight: bold;
   background: rgba(#f60, 0.8);
+  max-width: 30rem;
 
   &:before {
     content: "TODO: ";
+    font-weight: bold;
     opacity: 0.5;
   }
 }

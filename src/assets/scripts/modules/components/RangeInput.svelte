@@ -4,12 +4,13 @@
   export let min;
   export let max;
   export let value;
+  export let name;
 
   import { format } from "./utils";
 </script>
 
-<label class="calculator-label" for="num">{question}</label>
+<label class="calculator-label" for={name}>{question}</label>
 <div class="calculator-range">
-  <input id="num" type="range" bind:value {min} {max} />
+  <input id={name} type="range" bind:value {min} {max} />
   <span>{format(value)} {value === 1 ? unit[0] : unit[1]}</span>
 </div>

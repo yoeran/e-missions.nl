@@ -1,11 +1,11 @@
 <script>
   export let trees;
 
-  $: arr = Array(Math.round(trees || 0));
+  $: count = Math.min(Math.round(trees || 0), 2000);
 
-  $: gcount = Math.ceil(Math.sqrt(trees));
+  $: gcount = Math.ceil(Math.sqrt(count));
   $: size = Math.max(1.5 - gcount / 15, 0.4);
-  $: animspeed = trees > 100 ? 0 : 400;
+  $: animspeed = count > 100 ? 0 : 400;
 </script>
 
 <div class="calculator-visual">
@@ -14,13 +14,13 @@
     style="--gcount: {gcount}; --animspeed: {animspeed}ms; font-size: {size}rem;"
   >
     <div class="parkview__grid">
-      {#if arr.length === 0}
+      {#if count === 0}
         <div class="parkview__box">
           <div class="parkview__placeholder">&nbsp;</div>
         </div>
       {/if}
 
-      {#each arr as t, i}
+      {#each Array(count) as t, i}
         <div class="parkview__box">
           <div class="parkview__cell">&nbsp;</div>
           <div class="parkview__tree">

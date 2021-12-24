@@ -1,8 +1,6 @@
 <script>
   export let key;
 
-  // TODO: Add translations
-
   import { Type } from "./calculators";
   import AudioStreaming from "./calculators/AudioStreaming.svelte";
   import Blockchain from "./calculators/Blockchain.svelte";
@@ -29,4 +27,5 @@
   };
 </script>
 
+<h2 class="heading">CO<sub>2</sub> Impact Calculator</h2>
 <svelte:component this={COMPONENT_MAP[key]} />
