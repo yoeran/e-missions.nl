@@ -106,7 +106,7 @@ body_main_text: >-
 body_addendum_text: >-
   Book a tasting:
 
-  If you are interested in Sensing CO2 and would like to enthuse an conversation by and create an unique experience for your organization or event, you can contact us here. 
+  If you are interested in Sensing CO2 and would like to enthuse an conversation by and create an unique experience for your organization or event, you can contact Leanne. 
 
   If you want to exhibit Sensing CO2, here you can find our technical rider.
 eleventyNavigation:
