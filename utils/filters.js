@@ -48,7 +48,7 @@ module.exports = {
   getPage: function (collection, slug, lang) {
     const pathFilter = lang ? `/${lang}/` : "/";
     return collection.find(
-      (item) => item.fileSlug === slug && item.inputPath.includes(pathFilter)
+      (item) => item.fileSlug === slug && item.inputPath?.includes(pathFilter)
     );
   },
 
@@ -78,7 +78,7 @@ module.exports = {
   },
 
   join: function (props, sep) {
-    if (props.hasOwnProperty("join")) {
+    if (props?.hasOwnProperty("join")) {
       return props.join(sep);
     }
 
@@ -86,7 +86,7 @@ module.exports = {
   },
 
   getFilterCount: function (collection, category) {
-    return collection.filter((item) => item.data.category.includes(category))
+    return collection.filter((item) => item.data.category?.includes(category))
       .length;
   },
 
