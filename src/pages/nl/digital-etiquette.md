@@ -1,7 +1,7 @@
 ---
 layout: page.njk
-permalink: /nl/digitale-etiquette/
 title: Digitale Etiquette
+permalink: /nl/digitale-etiquette/
 eleventyNavigation:
   key: Digitale Etiquette
   order: 4
