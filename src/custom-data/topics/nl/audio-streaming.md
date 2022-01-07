@@ -2,14 +2,19 @@
 title: Audio streaming
 key: audio-streaming
 permalink: /nl/topic/audio-streaming/
-body_intro_text: |-
-  The modern environmental cost of music can be divided into four eras’: the Vinyl era in the seventies, the Cassette era in the eighties, the CD era in the nineties, and the online music era in which we find ourselves today. Although the amount of time per day we listen to audio has not really changed, the impacts on the planet have. Massively.
+body_intro_text: "The modern environmental cost of music can be divided into
+  four eras’: the Vinyl era in the seventies, the Cassette era in the eighties,
+  the CD era in the nineties, and the online music era in which we find
+  ourselves today. Although the amount of time per day we listen to audio has
+  not really changed, the impacts on the planet have. Massively."
 tips:
   - tip: Go offline
-    explanation: Download your favorite songs / albums / podcasts onto your phone and play from there
+    explanation: Download your favorite songs / albums / podcasts onto your phone
+      and play from there
     todo: Download your songs offline
   - tip: Lower audio streaming quality
-    explanation: Streaming on medium quality cuts data use by 40% and you probably won't even notice the difference.
+    explanation: Streaming on medium quality cuts data use by 40% and you probably
+      won't even notice the difference.
     todo: Change streaming quality
   - tip: Don't use YouTube Video for music
     explanation: Streaming music without video cuts the emissions by 25%
