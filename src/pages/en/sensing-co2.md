@@ -106,9 +106,7 @@ body_main_text: >-
 body_addendum_text: >-
   Book a tasting:
 
-  If you are interested in Sensing CO2 and would like to enthuse an conversation by and create an unique experience for your organization or event, you can contact Leanne. 
-
-  If you want to exhibit Sensing CO2, here you can find our technical rider.
+  If you are interested in Sensing CO2 and would like to enthuse an conversation on the digital lifestyle and create an unique experience for your organization or event, you can contact [Leanne](https://yeast.computer/).
 eleventyNavigation:
   key: Sensing CO2
   order: 3
