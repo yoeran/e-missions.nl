@@ -45,7 +45,7 @@
 
   <div slot="stats">
     <StatBlock
-      label="Netflix (?) {region}"
+      label="Netflix {region}"
       kwh={data.kwh * multiplier}
       co2kg={data.co2kg * multiplier}
       icon="multiplier"
@@ -56,7 +56,7 @@
 
   <div class="result-text" slot="visual-text">
     <div class="result-text__stats">
-      <TreeStat label="Netflix (?) {region}" trees={data.trees * multiplier} />
+      <TreeStat label="Netflix {region}" trees={data.trees * multiplier} />
     </div>
 
     <p class="todo">

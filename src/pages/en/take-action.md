@@ -10,8 +10,6 @@ body_intro_text: Ready to take action? On this page, you can find the bucketlist
   out. On this pag,e you find an overview of actionable to-do’s. Your own
   battleplan. Once implemented, click the box and you have contributed to a more
   eco-friendly digital lifestyle.
-body_main_text: TODO - Main text
-body_addendum_text: TODO - Addendum text
 eleventyNavigation:
   key: Take Action
   order: 2

@@ -49,16 +49,5 @@
       Het aantal bomen laat zien, we hebben dit zo en zo berekend. Wist je
       dat...
     </p>
-
-    <p class="todo">
-      I added a multiplier of 15 (random number for now) to show the impact of
-      having autocomplete on.
-      <br />
-      <br />
-      For the multiplier: When autocomplete is on, each keystroke could result in
-      an API call that costs energy. The ideal multiplier would be the average keystrokes
-      per search query. Maybe keep in mind that autocomplete requests are often paused
-      until the user stops typing for 400ms.
-    </p>
   </div>
 </Wrap>

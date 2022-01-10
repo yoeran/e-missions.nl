@@ -2,7 +2,7 @@
 footer_about: |-
   Developed by [yeast.computer](https://yeast.computer/) and [In4Art](https://www.in4art.eu/) to explore the invisible impacts of our digital lifestyle.
 
-  Copyright &copy; 2021
+  Copyright &copy; 2022
 
   Project supported by:
   [SIDNfonds](https://www.sidn.nl/)

@@ -43,8 +43,8 @@
 
   <div class="result-text" slot="visual-text">
     <div class="result-text__stats">
-      <TreeStat label="You" trees={data.trees} />
-      <TreeStat label="You in 3 years?" trees={data.trees * growth} />
+      <TreeStat label="Your impact now" trees={data.trees} />
+      <TreeStat label="Your impact in 3 years?" trees={data.trees * growth} />
     </div>
 
     <p class="todo">

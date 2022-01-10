@@ -37,7 +37,7 @@
       name="tposts"
       question="How many text-only posts do you post per day?"
       unit={["post", "posts"]}
-      min={1}
+      min={0}
       max={100}
       bind:value={textPosts}
     />
@@ -45,7 +45,7 @@
       name="iposts"
       question="How many image posts do you post per day?"
       unit={["image", "images"]}
-      min={1}
+      min={0}
       max={100}
       bind:value={imagePosts}
     />
@@ -53,7 +53,7 @@
       name="vposts"
       question="How many minutes of video do you post per day?"
       unit={["minute", "minutes"]}
-      min={1}
+      min={0}
       max={100}
       bind:value={videoMinutes}
     />
@@ -83,7 +83,6 @@
 
   <div class="result-text" slot="visual-text">
     <div class="result-text__stats">
-      <TreeStat label="You" trees={data.trees} />
       <TreeStat
         label="To {format(followers)} followers"
         trees={data.trees * followers}
