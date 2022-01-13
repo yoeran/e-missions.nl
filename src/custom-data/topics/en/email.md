@@ -49,10 +49,10 @@ tips:
     todo: Avoid sending versions of collaborative documents back and forth. Work in
       shared documents instead.
   - tip: Reduce Attachment Size
-    explanation: You can already reduce, convert and down­sample the size of your
-      attachement while saving.  For most cases, it still fits the purpose of
-      reading, collaborating or improving. Only if you want to have a file
-      (large-scale) printed, you should take into account the required
+    explanation: You can  reduce, convert and down­sample the size of your
+      attachement in the saving settings.  For most cases, it still fits the
+      purpose of reading, collaborating or improving. Only if you want to have a
+      file (large-scale) printed, you should take into account the required
       resolutions. Compressing would also makes it more easily to share via
       e-mail and is not too large on the web sites.
     todo: Minimize the size of your attachments by sending image compressed PDFs or
