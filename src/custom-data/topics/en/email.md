@@ -32,23 +32,7 @@ tips:
       all is considered irrelevant and unnecessary by the receiver.
     todo: Define a strategy for emailing and focus on limiting the use of reply all
       and CC.
-  - tip: Reduce Attachment Size
-    explanation: On average 24% of our mails contain attachments. They are the real
-      influencers of email impact. Off course, sending attachments is an
-      efficient and easy way to share documents, images or presentations. But
-      there are a few things you might want to do to be a smarter sender and
-      receiver of attachments.
-    todo: Minimize the size of your attachments by sending image compressed PDFs or
-      ZIP files
-  - tip: Reduce Attachment Sharing
-    explanation: On average 24% of our mails contain attachments. They are the real
-      influencers of email impact. Off course, sending attachments is an
-      efficient and easy way to share documents, images or presentations. But
-      there are a few things you might want to do to be a smarter sender and
-      receiver of attachments.
-    todo: Avoid sending versions of collaborative documents back and forth. Work in
-      shared documents instead.
-  - tip: Delete Attachments in Mailbox
+  - tip: Delete attachments in mailbox
     explanation: On average 24% of our mails contain attachments. They are the real
       influencers of email impact. Off course, sending attachments is an
       efficient and easy way to share documents, images or presentations. But
@@ -56,9 +40,28 @@ tips:
       receiver of attachments.
     todo: Download the attachments with or without the email after receipt and
       delete the emails with attachment from your mailbox.
+  - tip: "Reduce attachment sharing: work in shared environments"
+    explanation: Do you have to share a lot of documents, images or presentations
+      because you need others to collaborate or reflect on it?  An easy way, is
+      to share work is the digital workplace. To remind the other on where it is
+      stored, you could use a hyperlink reference to the shared folder or
+      specific document, image or presentations.
+    todo: Avoid sending versions of collaborative documents back and forth. Work in
+      shared documents instead.
+  - tip: Reduce Attachment Size
+    explanation: You can already reduce, convert and down­sample the size of your
+      attachement while saving.  For most cases, it still fits the purpose of
+      reading, collaborating or improving. Only if you want to have a file
+      (large-scale) printed, you should take into account the required
+      resolutions. Compressing would also makes it more easily to share via
+      e-mail and is not too large on the web sites.
+    todo: Minimize the size of your attachments by sending image compressed PDFs or
+      ZIP files
 body_addendum_text: >-
-  .Did you know reading your email on your mobile is a lot greener than reading
-  your email on a desktop?
+  ### Did you know?
+
+
+  *Did you know reading your email on your mobile is a lot greener than reading your email on a desktop?*
 
 
   Just over half of all emails (54%) get read on a desktop, 46% get read on a mobile device. This can be a laptop, a tablet or a phone. In fact, using your phone to read email is, by far, the greenest way because it uses a lot less electricity to complete the task. 
