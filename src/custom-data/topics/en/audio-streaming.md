@@ -22,8 +22,10 @@ tips:
       will cut your emissions by 25%.
     todo: Turn off auto-play of video and background clips in your streaming settings
 body_addendum_text: >-
-  **Did you know the environmental cost of music is now greater than at any time
-  during recorded music’s history?**
+  ### **Did you know?**
+
+
+  ***Did you know the environmental cost of music is now greater than at any time during recorded music’s history?***
 
 
   The environmental costs of audio can be divided into plastics used and CO2 emissions emitted. In terms of plastics, the transition to streaming and downloading around and after 2013 was a good thing compared to the era’s of vinyl and CDs. Actually, the total amount of plastics used to produce music carriers came down from 61 million kg per year in 2013 to 8 million kg per year.

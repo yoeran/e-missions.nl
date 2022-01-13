@@ -26,7 +26,10 @@ tips:
     todo: Schakel automatisch afspelen van video- en achtergrondclips uit in je
       streaminginstellingen
 body_addendum_text: >-
-  **Wist je dat de milieukosten van muziek nu hoger zijn dan ooit ?**
+  ### **Wist je dat?**
+
+
+  ***Wist je dat de milieukosten van muziek nu hoger zijn dan ooit ?***
 
 
   De milieukosten van audio zijn onder te verdelen in gebruikte kunststoffen en uitgestoten CO2-uitstoot. Op het gebied van plastics was de overgang naar streamen en downloaden rond en na 2013 een goede zaak in vergelijking met de vinyl- en cd-tijdperken. Eigenlijk is de totale hoeveelheid plastic die gebruikt wordt om muziekdragers te maken gedaald van 61 miljoen kg per jaar in 2013 naar 8 miljoen kg per jaar in 2021.
