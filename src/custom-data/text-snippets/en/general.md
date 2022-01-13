@@ -44,10 +44,11 @@ resources_intro_text: In this section, you can find the resources we have used
   to provide data and information in our calculators, tips and topic sections.
   Each resource is linked to a certain topic. We have used a diverse set of
   resources, varying from scientific studies to practice based research.
-tips_text: Short explanation of this section, that your todolist is stored
-  locally. Which is better for both co2 emissions as it is for your privacy. You
-  can add tips to your toto list and visit [Take Action](/en/take-action/) to
-  get a complete overview of your batteplan.
+tips_text: Do you want to embrace a greener digital lifestyle? Below we provide
+  some tips. If you select one or multiple, it is stored locally. This is better
+  for both CO2 emissions as it is for your privacy. By selecting a tip, it is
+  added to your own battleplan, where you can always return to in the [Take
+  Action](/en/take-action/) section.
 disclaimer: The sources of the data and information used for the separate topic
   section, can be found in the resource section.  We do not store your
   calculator results, but you can always return to the take action page to see
