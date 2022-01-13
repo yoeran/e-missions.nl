@@ -26,7 +26,7 @@ body_addendum_text: >-
   during recorded music’s history?**
 
 
-  The environmental costs of audio can be divided into plastics used and CO2 emissions emitted. In terms of plastics, the transition to streaming and downloading around and after 2013 was a good thing compared to the era’s of vinyl and CDs. Actually, the total amount of plastics used to produce music carriers came down from 61 million kg per year in 2013 to 8 million kg per year last year.
+  The environmental costs of audio can be divided into plastics used and CO2 emissions emitted. In terms of plastics, the transition to streaming and downloading around and after 2013 was a good thing compared to the era’s of vinyl and CDs. Actually, the total amount of plastics used to produce music carriers came down from 61 million kg per year in 2013 to 8 million kg per year.
 
 
   However, in terms of CO2 emissions, the trend is the opposite, and stronger, as the CO2 emission impact per year having risen from 157 million kg in the CD era to nearing 500 million kg in the streaming age today and still rising fast. 

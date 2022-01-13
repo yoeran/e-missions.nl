@@ -2,49 +2,41 @@
 title: Audio streaming
 key: audio-streaming
 permalink: /nl/topic/audio-streaming/
-body_intro_text: "The modern environmental cost of music can be divided into
-  four eras’: the Vinyl era in the seventies, the Cassette era in the eighties,
-  the CD era in the nineties, and the online music era in which we find
-  ourselves today. Although the amount of time per day we listen to audio has
-  not really changed, the impacts on the planet have. Massively."
+body_intro_text: "De milieukosten van muziek kunnen worden onderverdeeld in vier
+  tijdperken: het vinyltijdperk in de jaren zeventig, het cassettetijdperk in de
+  jaren tachtig, het cd-tijdperk in de jaren negentig en het online
+  muziektijdperk waarin we ons nu in bevinden. Hoewel de hoeveelheid tijd per
+  dag dat we naar audio luisteren niet echt is veranderd, is de impact op de
+  planeet dat wel. Aanzienlijk."
 tips:
-  - tip: Go offline
-    explanation: Download your favorite songs / albums / podcasts onto your phone
-      and play from there
-    todo: Download your songs offline
-  - tip: Lower audio streaming quality
-    explanation: Streaming on medium quality cuts data use by 40% and you probably
-      won't even notice the difference.
-    todo: Change streaming quality
-  - tip: Don't use YouTube Video for music
-    explanation: Streaming music without video cuts the emissions by 25%
-    todo: Dont use youtube video
+  - tip: Ga offline
+    explanation: Download je favoriete nummers / albums / podcasts naar je telefoon
+      en speel vanaf daar af.
+    todo: Download nummers en podcasts naar je telefoon voordat je op reis gaat
+  - tip: Kies lagere audiostreamingkwaliteit
+    explanation: Streaming op een gemiddelde kwaliteit vermindert het
+      gegevensgebruik met 40% en je zult waarschijnlijk het verschil niet eens
+      merken.
+    todo: Afspelen op lagere audiostreamingkwaliteit instellen bij
+      streaminginstellingen
+  - tip: Gebruik geen video terwijl u naar muziek luistert
+    explanation: Of het nu een achtergrondclip is op Spotify of een YouTube-clip,
+      als je geïnteresseerd bent in de muziek of het gesprek, streamen zonder
+      video zal je uitstoot met 25% verminderen.
+    todo: Schakel automatisch afspelen van video- en achtergrondclips uit in je
+      streaminginstellingen
 body_addendum_text: >-
-  ## Did you know Audio Streaming accounts for X emissions of the world?
-
-  Did you know that the most played music clips on YouTube have emitted more CO2 just by having been streamed so much than entire nations over the course of a year? In 2021, the first ever music clip reached 9 billion views. Baby Shark Dance is therefor single handedly responsible for CO2 emissions higher than the total annual emissions of countries such as Estonia, Croatia or Slovakia.
+  **Wist je dat de milieukosten van muziek nu hoger zijn dan ooit ?**
 
 
-  We spend on average per day 1 hour and 31 minutes listening to music streams. The environmental cost of music is now greater than at any time during recorded music’s previous eras2
+  De milieukosten van audio zijn onder te verdelen in gebruikte kunststoffen en uitgestoten CO2-uitstoot. Op het gebied van plastics was de overgang naar streamen en downloaden rond en na 2013 een goede zaak in vergelijking met de vinyl- en cd-tijdperken. Eigenlijk is de totale hoeveelheid plastic die gebruikt wordt om muziekdragers te maken gedaald van 61 miljoen kg per jaar in 2013 naar 8 miljoen kg per jaar in 2021.
 
 
-  When we listen to music, we may ask ourselves: Under what conditions was a particular recording made? How equitable is the process by which it has reached us? Who is being paid? How are they being treated? And—most pressing—how much music do we really need? Perhaps, if we have less of it, it may matter to us more.3
+  In termen van CO2-emissies is de trend echter het tegenovergestelde:  de CO2-emissie-impact is gestegen van 157 miljoen kg in het CD-tijdperk tot bijna 500 miljoen kg in het huidige streamingtijdperk. En het stijgt steeds verder.
 
 
-  Streaming may reduce the upfront production of carbon, but it makes increased energy demands and emissions every time a song is played.
+  Laten we eens naar een voorbeeld kijken om te beseffen hoeveel dit is. In 2021 bereikte de muziekclip Baby Shark Dance 9 miljard streams, het eerste enkele nummer dat meer dan 9 miljard keer werd gestreamd. Dit maakt het niet alleen een erg populair nummer, het betekent ook dat dit nummer in zijn eentje verantwoordelijk is voor de uitstoot van meer CO2 dan de jaarlijkse uitstoot van een heel land als Kroatië of Slowakije.
 
 
-  If we would stop listening to music and podcasts online when we travel, we could save enormous amounts of CO2 emissions as a result. Some 500.000 tons per year, for which we would need around 2 million trees to capture.
-
-
-  To make a living as a musician, you need to claw desperately for attention at every waking hour
-
-
-  Environmental costs of audio can be divided into plastics used and CO2 emissions emitted. In terms of plastics, the transition to streaming and downloading around and after 2013 was a good thing – coming from 61 million kg in the CD era to 8 million kg.
-
-
-  In terms of CO2 emissions, the trend is the opposite, having risen from 157 million kg in the CD era to over 350 million kg in the streaming age in 2016 already and rising fast.4
-
-
-  Streaming music is bad news for water as our 1.5 hour daily average equals 5 bathtubs of water requirement to power and cool the infrastructure required each month.5
+  Wereldwijd besteden we gemiddeld per dag 1 uur en 31 minuten aan het luisteren naar muziekstreams.
 ---
