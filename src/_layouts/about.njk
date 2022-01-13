@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+{% set general = collections.all | getPage('general', lang) %}
+
 {% capture "after_main" %}
 <section class="section simple-page">
     <h3>Meet the team</h3>
@@ -14,7 +16,7 @@ layout: page
             {% endif %}
 
             <div class="member-stories__author">
-                <strong>{{ item.data.title }}</strong> - {{ item.data.role }}<br />
+                <strong>{{ item.data.title }}</strong><br />{{ item.data.role }}<br />
                 {% if item.data.linkedin %}<a class="member-stories__link" href="{{ item.data.linkedin | url }}" target="_blank">Linkedin</a>{% endif %}
                 {% if item.data.website %}<a class="member-stories__link" href="{{ item.data.website | url }}" target="_blank">Website</a>{% endif %}
 
@@ -32,7 +34,7 @@ layout: page
 
 {% capture "after_addendum" %}
 <div class="section section--content">
-    <h5 id="disclaimer">Disclaimer</h5>
-    <p>TODO: Disclaimer text (not editable via CMS)</p>
+    <h3 id="disclaimer">Disclaimer</h3>
+    {{ general.data.disclaimer | markdown | safe }}
 </div>
 {% endcapture %}

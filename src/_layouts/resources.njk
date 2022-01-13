@@ -58,7 +58,7 @@ layout: base
                     <small>{{ item.date | dateToFormat('y') }}</small>
                 </h4>
 
-                <p>{{ item.data['description_' + lang] }}</p>
+                <p>{{ item.data.description }}</p>
                 <p><small>
                     {% for c in item.data.category %}
                     <span>{{ translate(c) }}</span>

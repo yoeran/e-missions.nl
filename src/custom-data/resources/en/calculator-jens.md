@@ -4,7 +4,6 @@ date: 2021-10-25
 url: https://www.digitalcarbonfootprint.eu/
 category:
   - calculator
-description: This is Jens' calculator
-description_en: Digital Carbon footprint calculator developed by Jens Gröger,
+description: Digital Carbon footprint calculator developed by Jens Gröger,
   researcher at the Oeko Institut
 ---

@@ -2,6 +2,14 @@
 layout: page
 ---
 {% capture "after_main" %}
+
+{% set recipes = collections['recipes_' + lang] %}
+
+{%- for item in recipes -%}
+<div class="todo">Recipes go here</div>
+{%- endfor -%}
+
+
 <section class="section tasting-index">
     <div class="tasting-box">
         <h3 class="heading heading--normal">Upcoming tastings</h3>

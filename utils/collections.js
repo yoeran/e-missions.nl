@@ -40,4 +40,16 @@ module.exports = {
       .getAll()
       .filter((item) => item.inputPath?.includes("resources/en"));
   },
+
+  reecipes_nl: function (collection) {
+    return collection
+      .getAll()
+      .filter((item) => item.inputPath?.includes("reecipes/nl"));
+  },
+
+  reecipes_en: function (collection) {
+    return collection
+      .getAll()
+      .filter((item) => item.inputPath?.includes("reecipes/en"));
+  },
 };

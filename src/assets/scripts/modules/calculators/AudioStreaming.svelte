@@ -47,7 +47,7 @@
 
   <div slot="stats">
     <StatBlock
-      label="Spotify {region}"
+      label="Subscribers {region}"
       kwh={data.kwh * multiplier}
       co2kg={data.co2kg * multiplier}
       icon="multiplier"
@@ -58,12 +58,14 @@
 
   <div class="result-text" slot="visual-text">
     <div class="result-text__stats">
-      <TreeStat label="Spotify {region}" trees={data.trees * multiplier} />
+      <TreeStat label="Subscribers {region}" trees={data.trees * multiplier} />
     </div>
 
-    <p class="todo">
+    <p>Every 20 people streaming music or listening podcasts for on average 4 hours per day need to plant a tree per year to compensate for their streaming behavior. This might sound like little, but if you imagine how many millions of people stream music and podcasts every single day, the numbers add up very quickly. In the Netherlands, over 6 million people have an audio streaming subscription. In Europe, this is over 70 million people. Globally, nearly 500 million people stream audio through their service subscriptions. For this calculator, we only use information from subscribed users of audio streaming. You can imagine the actual total impact is even higher if also the non-subscribed users would be included. </p>
+
+    <!-- <p class="todo">
       Het aantal bomen laat zien, we hebben dit zo en zo berekend. Wist je
       dat... {region} heeft {format(multiplier, 0)} gebruikers
-    </p>
+    </p> -->
   </div>
 </Wrap>

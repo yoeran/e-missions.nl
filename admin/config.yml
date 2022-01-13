@@ -46,7 +46,7 @@ collections:
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "URL", name: "url", widget: "string", required: false }
-      - { label: "Description", name: "description_en", widget: "text", i18n: true }
+      - { label: "Description", name: "description", widget: "text", i18n: true }
       - label: "Category"
         name: "category"
         widget: "select"
@@ -117,6 +117,21 @@ collections:
       - { label: "Website", name: "website", widget: "string", required: false, hint: 'Always include the https://' }
       - { label: "Text about project", name: "content", required: false, widget: "markdown" }
 
+  - name: "recipes"
+    label: "Recipes"
+    label_singular: "Recipe"
+    folder: "src/custom-data/recipes"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "Image", name: "image", widget: "image", allow_multiple: false, required: false }
+      - { label: "Ingredients", name: "ingredients", widget: "string", i18n: true }
+      - { label: "Emissions", name: "emissions", widget: "string", i18n: true }
+      - { label: "Description", name: "description", widget: "markdown", i18n: true }
+
   - name: "snippets"
     label: "Text Snippets"
     label_singular: "Text Snippet"
@@ -140,3 +155,4 @@ collections:
       - { label: "Resources: Intro text", name: "resources_intro_text", widget: "markdown", i18n: true }
       - { label: "Tips text", name: "tips_text", widget: "markdown", i18n: true }
       - { label: "Footer: About text", name: "footer_about", widget: "markdown", i18n: true }
+      - { label: "Disclaimer", name: "disclaimer", widget: "markdown", i18n: true }

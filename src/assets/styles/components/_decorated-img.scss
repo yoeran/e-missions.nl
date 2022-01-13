@@ -22,6 +22,7 @@
         opacity: 1;
       }
     }
+
     img {
       filter: none;
     }
@@ -30,10 +31,12 @@
   img {
     display: block;
     width: 100%;
+    position: relative;
+    z-index: 1;
   }
 
   figcaption {
-    z-index: 2;
+    z-index: 20;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -53,6 +56,7 @@
       left: 50%;
       margin-top: 0.5rem;
       display: block;
+      z-index: 999;
 
       transform: translate(-50%, -10%);
       opacity: 0;

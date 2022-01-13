@@ -55,6 +55,10 @@ module.exports = {
   formatCo2,
 
   markdown: function (mdText) {
+    if (!mdText) {
+      return '';
+    }
+
     return formatCo2(md.render(mdText));
   },
 
