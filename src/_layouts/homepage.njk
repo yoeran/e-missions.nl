@@ -26,7 +26,8 @@ layout: base
             {{ general.data.homepage_calculator_text | markdown | safe }}
 
             <a class="button" href="{{ email.url }}">
-                Calculate your impact
+
+                {{ translate('calculateImpact') }}
             </a>
         </div>
         <div class="landing-calculator-cta__visual" data-calculator-visual>&nbsp;</div>
@@ -64,7 +65,9 @@ layout: base
             {% if tasting.data.landingpage_text %}
                 {{ tasting.data.landingpage_text | markdown | safe}}
             {% endif %}
-            <a href="{{ tasting.url }}">Read more</a>
+            <a href="{{ tasting.url }}">
+                {{ translate('readMore') }}
+            </a>
         </div>
     </section>
     {% endif %}
@@ -79,7 +82,9 @@ layout: base
             {% if about.data.landingpage_text %}
                 {{ about.data.landingpage_text | markdown | safe}}
             {% endif %}
-            <a href="{{ about.url }}">Read more</a>
+            <a href="{{ about.url }}">
+                {{ translate('readMore') }}
+            </a>
         </div>
     </section>
     {% endif %}

@@ -19,7 +19,7 @@
 
     setTimeout(() => {
       tick();
-    }, 600 + Math.round(Math.random() * 1400));
+    }, 1000 + Math.round(Math.random() * 1400));
   }
 
   tick();

@@ -2,10 +2,12 @@
 layout: base
 ---
 <article class="container">
-    <section class="flipflop flipflop--reverse section">
+    <section class="flipflop {% if image %}flipflop--reverse{% else %}flipflop--full{% endif %} section">
+        {% if image %}
         <div class="flipflop__image">
             {% co2image image %}
         </div>
+        {% endif %}
 
         <div class="flipflop__content">
             <h1 class="heading heading--large">{{ title | formatCo2 | safe }}</h1>

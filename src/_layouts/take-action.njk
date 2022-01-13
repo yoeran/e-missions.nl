@@ -1,11 +1,15 @@
 ---
 layout: page
 ---
+{% set translate = lang | translateFn %}
+
 {% capture "after_intro" %}
     <section class="section" data-takeaction data-ta-list></section>
 {% endcapture %}
 
 {% capture "after_main" %}
-    <h3 class="heading heading--normal">Looking for more ways to lower your digital CO2 emissions?</h3>
+    <h3 class="heading heading--normal">
+        {{ translate('takeActionUpsell') }}
+    </h3>
     {% include "topic-index.njk" %}
 {% endcapture %}

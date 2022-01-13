@@ -9,6 +9,10 @@ layout: page
 
 {% capture "after_intro" %}
 {% if key %}
+    <h3 class="heading">CO<sub>2</sub> Impact Calculator</h3>
+    <div class="simple-page">
+        {{ calculator_text | markdown | safe }}
+    </div>
     <div class="calculator" data-calculator="{{ key }}"></div>
 {% endif %}
 {% endcapture %}
@@ -29,7 +33,9 @@ layout: page
                 {{ item.explanation | markdown | safe }}
             </div>
 
-            <p class="tip__label">Add to your battleplan:</p>
+            <p class="tip__label">
+                {{ translate('addToTakeAction')}}
+            </p>
             <label class="tip__todo">
                 {{ item.todo }}
                 <input type="checkbox" data-ta-todo="{{ key }}::{{ item.todo }}" />
@@ -55,62 +61,3 @@ layout: page
     </div>
 </div>
 {% endcapture %}
-
-{# <article class="container" data-takeaction>
-    <h1 class="heading heading--large">{{ title | formatCo2 | safe }}</h1>
-
-    {% if body_intro_text %}
-    <section class="section simple-page">
-        {{ body_intro_text | markdown | safe }}
-    </section>
-    {% endif %}
-
-    {% if key %}
-    <div class="calculator" data-calculator="{{ key }}"></div>
-    {% endif %}
-
-    <section class="section">
-        <h3 class="heading">Tips</h3>
-        <div class="simple-page">
-            {{ general.data.tips_text | markdown | safe }}
-        </div>
-
-        <ul class="tips-list">
-            {%- for item in tips -%}
-            <li class="tip">
-                <h4 class="tip__title">{{ item.tip | formatCo2 | safe }}</h4>
-
-                <div class="tip__content">
-                    {{ item.explanation | markdown | safe }}
-                </div>
-
-                <p class="tip__label">Add to your battleplan:</p>
-                <label class="tip__todo">
-                    {{ item.todo }}
-                    <input type="checkbox" data-ta-todo="{{ key }}::{{ item.todo }}" />
-                    <div class="tip__indicator"></div>
-                </label>
-            </li>
-            {%- endfor -%}
-        </ul>
-    </section>
-
-    {% if body_addendum_text %}
-    <section class="section simple-page">
-        {{ body_addendum_text | markdown | safe }}
-    </section>
-    {% endif %}
-
-    <div class="banner" style="background-image: url('{{ tasting.data.image | url }}');" data-click-href="{{ tasting.url }}">
-        <div class="banner__content">
-            <h3 class="heading">{{ tasting.data.title }}</h3>
-            {% if tasting.data.landingpage_text %}
-                {{ tasting.data.landingpage_text | markdown | safe}}
-            {% endif %}
-
-            <a class="button button--small" href="{{ tasting.url | url }}">
-                {{ translate('book_tasting') }}
-            </a>
-        </div>
-    </div>
-</article> #}

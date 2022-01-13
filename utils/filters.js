@@ -1,8 +1,9 @@
 const { DateTime } = require("luxon");
-const yaml = require("js-yaml");
 const fs = require("fs");
 const path = require("path");
 const markdownIt = require("markdown-it");
+
+const i18n = require("../src/_data/i18n");
 
 const md = markdownIt({
   html: true,
@@ -10,10 +11,6 @@ const md = markdownIt({
   linkify: true,
   typographer: true,
 });
-
-const translations = yaml.load(
-  fs.readFileSync(path.resolve(path.join(__dirname, "../src/translations.yml")))
-);
 
 const formatCo2 = (str) => str.replace(/co2/gi, "CO<sub>2</sub>");
 
@@ -39,7 +36,7 @@ module.exports = {
 
   translateFn: function (lang) {
     try {
-      return (key) => translations[key][lang];
+      return (key) => i18n.translations[key][lang];
     } catch (error) {
       return (key) => `[[${lang}_${key}]]`;
     }
@@ -60,6 +57,10 @@ module.exports = {
     }
 
     return formatCo2(md.render(mdText));
+  },
+
+  dump: function (obj) {
+    return JSON.stringify(obj, null, 4);
   },
 
   spannify: function (text) {
@@ -102,5 +103,22 @@ module.exports = {
   onlyPastItems: function (collection) {
     const now = Date.now();
     return collection.filter((item) => item.date.getTime() < now);
+  },
+
+  getPageInOtherLanguages: function (page, collections) {
+    const pages = [];
+
+    for (const item of collections) {
+      for (const lang of i18n.languages) {
+        if (item.filePathStem.includes(`${lang.code}/${page.fileSlug}`)) {
+          pages.push({
+            hreflang: lang.code,
+            href: item.url,
+          });
+        }
+      }
+    }
+
+    return pages;
   },
 };

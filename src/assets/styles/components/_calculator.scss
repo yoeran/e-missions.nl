@@ -1,4 +1,6 @@
 .calculator {
+  margin-top: 2rem;
+
   &__wrap {
     background: #111;
     border-radius: 5px;
@@ -8,7 +10,7 @@
     grid-template-columns: 1fr;
 
     @include mq(lg) {
-      grid-template-columns: auto 1fr;
+      grid-template-columns: 30rem 1fr;
     }
   }
 
@@ -44,6 +46,13 @@
   &:hover {
     opacity: 1;
   }
+}
+
+.calculator-avg-text {
+  margin: 1rem 0;
+  display: inline-block;
+  font-size: 1rem;
+  opacity: 0.62;
 }
 
 .stats-list {
@@ -122,8 +131,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30rem;
+  min-height: 30rem;
   overflow: hidden;
+  flex: 1;
 
   &--autoheight {
     height: auto;
@@ -189,6 +199,7 @@
   font-size: 1.25rem;
   line-height: 1.4;
   padding: 2rem 4rem;
+  position: relative;
 
   &__stats {
     display: flex;
@@ -199,4 +210,94 @@
 
 .radio-label {
   display: block;
+}
+
+.email-legend {
+  font-size: 0.8rem;
+  position: absolute;
+  right: 1rem;
+  margin-bottom: 1rem;
+  bottom: 100%;
+
+  &__dot {
+    border-radius: 1px;
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #fff;
+    margin-right: 0.25rem;
+
+    &--spam {
+      background: #b5f9b4;
+    }
+    &--thankYou {
+      background: #f2fbc9;
+    }
+    &--confirmation {
+      background: #f00;
+      animation: attention both infinite alternate-reverse 1s;
+    }
+    &--newsletter {
+      background: #e88f78;
+    }
+    &--updates {
+      background: #f00;
+      animation: attention both infinite alternate-reverse 1s;
+    }
+    &--cc {
+      background: #f7fac9;
+    }
+    &--attachments {
+      background: #a5496d;
+    }
+  }
+}
+
+@keyframes attention {
+  from {
+    background: #f00;
+  }
+  to {
+    background: #000;
+  }
+}
+
+.email-bar {
+  background: #333;
+  display: flex;
+  white-space: nowrap;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+
+  &__part {
+    position: relative;
+    height: 2rem;
+
+    &:first-of-type {
+      border-radius: 2px 0 0 2px;
+    }
+
+    &:last-of-type {
+      border-radius: 0 2px 2px 0;
+    }
+
+    &:hover {
+      span {
+        opacity: 1;
+        transform: translate(-50%, -100%);
+      }
+    }
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    top: -0.5rem;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, 0);
+    will-change: opacity transform;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
+  }
 }

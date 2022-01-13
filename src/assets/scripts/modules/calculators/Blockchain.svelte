@@ -2,6 +2,7 @@
   import RangeInput from "../components/RangeInput.svelte";
   import StatBlock from "../components/StatBlock.svelte";
   import TreeStat from "../components/TreeStat.svelte";
+  import { translate } from "../components/utils";
   import Wrap from "../components/Wrap.svelte";
   import { kwhToInfo } from "./index";
 
@@ -13,7 +14,7 @@
   <div slot="input">
     <RangeInput
       name="transactions"
-      question="How many Bitcoin transactions have you made?"
+      question={translate("blockchainTransactions")}
       unit={["transaction", "transactions"]}
       min={1}
       max={100}
@@ -22,17 +23,16 @@
   </div>
 
   <div slot="stats">
-    <StatBlock label="Your results" kwh={data.kwh} co2kg={data.co2kg} />
+    <StatBlock
+      label={translate("yourResults")}
+      kwh={data.kwh}
+      co2kg={data.co2kg}
+    />
   </div>
 
   <div class="result-text" slot="visual-text">
     <div class="result-text__stats">
-      <TreeStat label="You" trees={data.trees} />
+      <TreeStat label={translate("you")} trees={data.trees} />
     </div>
-
-    <p class="todo">
-      Het aantal bomen laat zien, we hebben dit zo en zo berekend. Wist je
-      dat...
-    </p>
   </div>
 </Wrap>
