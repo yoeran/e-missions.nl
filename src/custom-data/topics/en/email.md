@@ -49,7 +49,8 @@ tips:
     todo: Avoid sending versions of collaborative documents back and forth. Work in
       shared documents instead.
   - tip: Reduce Attachment Size
-    explanation: You can  reduce, convert and down­sample the size of your
+    explanation: The two main contributors to a large PDF file are redundant texts
+      and large images. You can reduce, convert and down­sample the size of your
       attachement in the saving settings.  For most cases, it still fits the
       purpose of reading, collaborating or improving. Only if you want to have a
       file (large-scale) printed, you should take into account the required
