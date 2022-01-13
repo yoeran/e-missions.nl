@@ -8,6 +8,10 @@ body_intro_text: Netflix, Disney+, Videoland, Prime Video, Tencent, YouTube.
   one streaming subscription. Every minute, worldwide, we watch over 750.000
   hours of Netflix. What effects does the enormous scale and speed of our move
   from cable television and DVDs to video streaming have on the environment?
+calculator_text: |-
+  Every hour streamed uses on average 2.3 kWh of energy. With this basis, and information on the emissions per kWh, we calculate the CO2 impact of every hour watched in the Netherlands but also across Europe and Worldwide. The impact calculator does not show the CO2 impact of your individual behavior, since we are talking about a massive trend here. Instead, you see what the overall impact is should every subscriber of Netflix video streaming adopt the same behavior as you do.
+
+  The calculator shows how many cities of Amsterdam we need to plant with trees each year to compensate for our streaming behavior.
 tips:
   - tip: Lower video streaming quality
     explanation: Streaming on medium quality cuts data use by 40% and you probably

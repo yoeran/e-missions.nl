@@ -9,6 +9,8 @@ body_intro_text: We play online games because it convenient, diverse,
   more and more games online. In fact, in the age group 12-25 years, almost all
   youngsters play online, on average 11 hours per week in the Netherlands. What
   does online gaming mean for the environment?
+calculator_text: |-
+  Online gaming is seen as a form of sports. Electronic sports, or eSports. Professional eSport teams are popping up around the globe, implementing a top sport mentality to maximize the performers of gamers. eSporters train their game(s) 8 hours per day, each day of the year. Their impact can be offset by planting 34 new trees each year. How does your habit compare to an eSports gamer?
 tips:
   - tip: Lower screen resolution & brightness
     explanation: Gaming on medium quality cuts data use by 40% and you probably
