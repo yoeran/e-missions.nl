@@ -25,6 +25,11 @@ document.querySelectorAll("[data-calculator]").forEach((el) => {
   }
 });
 
+document.querySelectorAll("[data-calculator-visual]").forEach((el) => {
+  const Visual = require("./modules/Visual.svelte").default;
+  new Visual({ target: el });
+});
+
 if (document.querySelector("[data-filter]")) {
   new FilterView();
 }

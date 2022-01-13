@@ -18,7 +18,8 @@ layout: base
     </section>
 
     {% if email %}
-    <div class="landing-calculator-cta section">
+    <div class="landing-calculator-cta">
+        <div class="landing-calculator-cta__visual" data-calculator-visual>&nbsp;</div>
         <div class="landing-calculator-cta__content">
             <h3 class="heading">{{ general.data.homepage_calculator_title }}</h3>
 
@@ -28,6 +29,7 @@ layout: base
                 Calculate your impact
             </a>
         </div>
+        <div class="landing-calculator-cta__visual" data-calculator-visual>&nbsp;</div>
     </div>
     {% endif %}
 
