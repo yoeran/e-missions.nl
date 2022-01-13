@@ -1,8 +1,9 @@
 <script>
+  import NumberInput from "../components/NumberInput.svelte";
   import RangeInput from "../components/RangeInput.svelte";
   import StatBlock from "../components/StatBlock.svelte";
   import TreeStat from "../components/TreeStat.svelte";
-  import { format } from "../components/utils";
+  import { format, translate } from "../components/utils";
   import Wrap from "../components/Wrap.svelte";
   import ParkView from "../views/ParkView.svelte";
   import { kwhToInfo } from "./index";
@@ -35,7 +36,7 @@
   <div slot="input">
     <RangeInput
       name="tposts"
-      question="How many text-only posts do you post per day?"
+      question={translate("socialmediaPosts")}
       unit={["post", "posts"]}
       min={0}
       max={100}
@@ -43,7 +44,7 @@
     />
     <RangeInput
       name="iposts"
-      question="How many image posts do you post per day?"
+      question={translate("socialmediaImages")}
       unit={["image", "images"]}
       min={0}
       max={100}
@@ -51,28 +52,34 @@
     />
     <RangeInput
       name="vposts"
-      question="How many minutes of video do you post per day?"
+      question={translate("socialmediaVideo")}
       unit={["minute", "minutes"]}
       min={0}
       max={100}
       bind:value={videoMinutes}
     />
 
-    <RangeInput
+    <NumberInput
       name="followers"
-      question="How many followers do you have?"
-      unit={["follower", "followers"]}
+      question={translate("socialmediaFollowers")}
       min={1}
       max={10000}
-      step={100}
       bind:value={followers}
     />
+
+    <small class="calculator-avg-text">
+      {translate("socialmediaAverage")}
+    </small>
   </div>
 
   <div slot="stats">
-    <StatBlock label="Your results" kwh={data.kwh} co2kg={data.co2kg} />
     <StatBlock
-      label="With your amount of followers"
+      label={translate("yourResults")}
+      kwh={data.kwh}
+      co2kg={data.co2kg}
+    />
+    <StatBlock
+      label={translate("withFollowers")}
       kwh={data.kwh * followers}
       co2kg={data.co2kg * followers}
       icon="multiplier"
@@ -84,19 +91,14 @@
   <div class="result-text" slot="visual-text">
     <div class="result-text__stats">
       <TreeStat
-        label="To {format(followers)} followers"
+        label={translate("toFollowers", { followers: format(followers) })}
         trees={data.trees * followers}
       />
     </div>
 
-    <p class="todo">
-      Het aantal bomen laat zien, we hebben dit zo en zo berekend. Wist je
-      dat...
-    </p>
-
-    <button class="button button--small" on:click={toggleModal}
-      >Share this visual on Facebook</button
-    >
+    <button class="button button--small" on:click={toggleModal}>
+      {translate("shareOnFacebook")}
+    </button>
   </div>
 </Wrap>
 
@@ -105,19 +107,16 @@
     <div class="modal__content">
       <button class="modal__close" on:click={toggleModal}>&times;</button>
       <p>
-        Well.... did you know that sharing only this image to your <strong
-          >{format(followers)} followers</strong
-        >
-        would cost approximately
-        <strong>{format(oneImage.co2kg * followers)} kg CO<sub>2</sub></strong>?
-        Maybe reconsider?
+        {@html translate("socialmediaShareText", {
+          followers: format(followers),
+          trees: format(oneImage.trees * followers, 0),
+        })}
       </p>
+      <br />
 
-      <div class="todo">Revise text</div>
-
-      <button class="button button--small" on:click={toggleModal}
-        >Yes, maybe not</button
-      >
+      <button class="button button--small" on:click={toggleModal}>
+        {translate("reconsiderSharing")}
+      </button>
     </div>
   </div>
 {/if}

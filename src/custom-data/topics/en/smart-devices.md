@@ -9,6 +9,8 @@ body_intro_text: Smart – phones, cars, thermostats, doorbells, locks, fridges,
   it will make our lives more comfortable, safe and enjoyable. While that might
   be true, the other side of the coin is the impact this tsunami of smart
   devices is having on our planet.
+calculator_text: |-
+  In the smart devices category, the most impactful is the fast rate of growth in the amount of smart devices we bring into our homes and offices. The calculator shows how many trees you need to plant each year to offset your current smart device collection. It also projects the amount of trees you will need annually 3 years from now based on your rate of growth.
 tips:
   - tip: Prioritize smart devices that reduce energy consumption
     explanation: Some devices have a net positive effect because they save more
@@ -35,7 +37,7 @@ body_addendum_text: >-
   of all smart devices in the world?**
 
 
-  To offset the 50 billion smart devices we will be using globally by 2030 we need to plant an additional 25 Amazon rainforests to offset their annual electricity usage alone. Because that is, off course, impossible, we need to become smarter in how we make, use, and dispose of our smart devices. For if we don’t, our super smart homes, offices and cities will turn out to be not so smart at all when it comes to fighting climate change. 
+  To offset the 50 billion smart devices we will be using globally by 2030 we need to plant an additional 25 Amazon rainforests to offset their annual electricity usage alone. Because that is, off course, impossible, we need to become smarter in how we make, use, and dispose of our smart devices. For if we don’t, our super smart homes, offices and cities will turn out to be not so smart at all when it comes to fighting climate change.
 
 
   In the production chain, factors like who makes it, where is it made, and is it designed for recycling have to become basic questions before we buy a new smart device. In using the devices, minimizing the standby losses and prioritizing ecologically smart devices make a lot of sense. When disposing, producers who offer circular recycling are the best options.

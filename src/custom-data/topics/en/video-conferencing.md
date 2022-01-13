@@ -10,6 +10,8 @@ body_intro_text: "In what seems to be a distant past, video conferencing was
   friends living abroad and during lockdowns. This has a lot of benefits: less
   travelling, less organizing, less time needed to meet. But a flipside of the
   coin is the environmental impact of this transition."
+calculator_text: |-
+  Video conferencing consumes around 2.3 kWh per hour, varying upon the computer you use and a little on the platform you choose. This means you can video conference your heart out and still have a limited impact on the environment. However, video conferencing never comes alone, and when we take into account the amount of people around you conferencing with the same frequency, the numbers start to add up.
 tips:
   - tip: Turn of your camera when someone is presenting
     explanation: Video accounts for 80% of the total data traffic when video

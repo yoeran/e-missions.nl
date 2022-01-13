@@ -3,6 +3,7 @@ layout: page
 ---
 {% capture "after_main" %}
 
+{% set translate = lang | translateFn %}
 {% set recipes = collections['recipes_' + lang] %}
 
 <section class="section">
@@ -18,9 +19,9 @@ layout: page
             <h3 class="heading heading--normal">{{ item.data.title }}</h3>
 
             <dl class="recipe__meta">
-                <dt>Ingredients</dt>
+                <dt>{{ translate('ingredients') }}</dt>
                 <dd>{{ item.data.ingredients }}</dd>
-                <dt>Emissions</dt>
+                <dt>{{ translate('emissions') }}</dt>
                 <dd>{{ item.data.emissions }}</dd>
             </dl>
 
@@ -35,7 +36,9 @@ layout: page
 
 <section class="section tasting-index">
     <div class="tasting-box">
-        <h3 class="heading heading--normal">Upcoming tastings</h3>
+        <h3 class="heading heading--normal">
+            {{ translate('upcomingTastings') }}
+        </h3>
         <ul class="tastings" data-tasting="future">
         {%- for item in collections.events | onlyFutureItems | sortBy('date') -%}
             {% include "tasting-item.njk" %}
@@ -44,7 +47,9 @@ layout: page
     </div>
 
     <div class="tasting-box">
-        <h3 class="heading heading--normal">Past tastings</h3>
+        <h3 class="heading heading--normal">
+            {{ translate('pastTastings') }}
+        </h3>
         <ul class="tastings" data-tasting="past">
         {%- for item in collections.events | onlyPastItems | sortBy('date') | reverse -%}
             {% include "tasting-item.njk" %}

@@ -1,12 +1,12 @@
 <script>
-  import { format } from "./utils";
+  import { format, translate } from "./utils";
 
   export let label;
   export let trees;
 </script>
 
 <div class="tree-stat">
-  <svg role="img" aria-hidden="true">
+  <svg role="img" aria-hidden="true" aria-label={translate("amountOfTrees")}>
     <use xlink:href="#svg-tree" />
   </svg>
 

@@ -3,18 +3,18 @@
   import RangeInput from "../components/RangeInput.svelte";
   import StatBlock from "../components/StatBlock.svelte";
   import TreeStat from "../components/TreeStat.svelte";
-  import { format } from "../components/utils";
+  import { translate } from "../components/utils";
   import Wrap from "../components/Wrap.svelte";
   import MapView from "../views/MapView.svelte";
   import { kwhToInfo } from "./index";
 
   const REGIONS = {
-    Netherlands: 2760000,
-    Europe: 68700000,
-    World: 209180000,
+    netherlands: 2760000,
+    europe: 68700000,
+    world: 209180000,
   };
 
-  let region = "World";
+  let region = "world";
 
   let serviceUsed = 5;
 
@@ -33,19 +33,23 @@
       bind:value={serviceUsed}
     />
 
-    <p class="todo">This calculator needs a multiplier: Use Netflix users?</p>
+    <p class="todo">This calculator needs a correct multiplier</p>
 
     <RadioGroupInput
       name="region"
-      question="Select a region"
-      options={["Netherlands", "Europe", "World"]}
+      question={translate("selectARegion")}
+      options={["netherlands", "europe", "world"]}
       bind:value={region}
     />
+
+    <small class="calculator-avg-text"
+      >{translate("videostreamingAverage")}</small
+    >
   </div>
 
   <div slot="stats">
     <StatBlock
-      label="Netflix {region}"
+      label="Netflix {translate(region)}"
       kwh={data.kwh * multiplier}
       co2kg={data.co2kg * multiplier}
       icon="multiplier"
@@ -56,12 +60,10 @@
 
   <div class="result-text" slot="visual-text">
     <div class="result-text__stats">
-      <TreeStat label="Netflix {region}" trees={data.trees * multiplier} />
+      <TreeStat
+        label="Netflix {translate(region)}"
+        trees={data.trees * multiplier}
+      />
     </div>
-
-    <p class="todo">
-      Het aantal bomen laat zien, we hebben dit zo en zo berekend. Wist je
-      dat... {region} heeft {format(multiplier, 0)} gebruikers
-    </p>
   </div>
 </Wrap>

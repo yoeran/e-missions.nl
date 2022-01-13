@@ -11,6 +11,14 @@
     &--reverse {
       grid-template-columns: 2fr 3fr;
     }
+
+    &--full {
+      grid-template-columns: 1fr;
+
+      p {
+        max-width: 62%;
+      }
+    }
   }
 
   &__image {
@@ -29,7 +37,6 @@
   &__content {
     p {
       margin: 1rem 0;
-      max-width: 35rem;
     }
   }
 }

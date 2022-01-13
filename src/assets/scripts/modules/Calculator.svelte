@@ -27,5 +27,4 @@
   };
 </script>
 
-<h2 class="heading">CO<sub>2</sub> Impact Calculator</h2>
 <svelte:component this={COMPONENT_MAP[key]} />

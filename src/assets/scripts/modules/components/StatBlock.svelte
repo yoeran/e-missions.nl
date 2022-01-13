@@ -4,7 +4,7 @@
   export let label;
   export let icon = "individual";
 
-  import { format } from "./utils";
+  import { format, translate } from "./utils";
 </script>
 
 <div class="stat-block">
@@ -17,10 +17,10 @@
     {label}
   </h6>
   <dl class="stat-block__list">
-    <dt>Energy Usage p/y:</dt>
+    <dt>{translate("energyUsagePy")}</dt>
     <dd>{format(kwh)} <small>kWh</small></dd>
 
-    <dt>Emissions p/y:</dt>
+    <dt>{translate("emissionsPy")}</dt>
     <dd>{format(co2kg)} <small>kg CO<sub>2</sub></small></dd>
   </dl>
 </div>

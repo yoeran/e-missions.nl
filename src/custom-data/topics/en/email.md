@@ -9,6 +9,8 @@ body_intro_text: Sending and receiving email has become a core activity in our
   friends and acquaintances. Over 4 billion people around the world use email to
   send over 300 billion mails every day. How does your email behavior impact the
   planet? And what about the organization you work for?
+calculator_text: |-
+  Did you know that, on average, 47% of all emails we receive is spam? And that 24% contain attachments? Off course, this differs per person, just as the amount of emails you send and receive per day. To built this calculator we have used knowledge on types of emails, sizes of emails, reading times, device the mail is read on, amount of emails opened, amounts stored versus deleted. They all influence the electricity consumed with email behavior. But nothing matters as much as the amount of emails one sends on an average day and the % of those mails that contain attachments. And if you think your impact is acceptable, see what the organization you work in emits as a whole.
 tips:
   - tip: Unsubscribe from newsletters
     explanation: Only 2 out of 10 newsletters get opened and an average internet
@@ -65,10 +67,10 @@ body_addendum_text: >-
   *Did you know reading your email on your mobile is a lot greener than reading your email on a desktop?*
 
 
-  Just over half of all emails (54%) get read on a desktop, 46% get read on a mobile device. This can be a laptop, a tablet or a phone. In fact, using your phone to read email is, by far, the greenest way because it uses a lot less electricity to complete the task. 
+  Just over half of all emails (54%) get read on a desktop, 46% get read on a mobile device. This can be a laptop, a tablet or a phone. In fact, using your phone to read email is, by far, the greenest way because it uses a lot less electricity to complete the task.
 
 
-  How important emailing has become in our daily lives has been researched frequently. Those of us with an office job spend on average over 2.5 hours each day checking, reading, writing emails. Having a good strategy for emailing not only leads to less impact on the planet but also has many health benefits. 
+  How important emailing has become in our daily lives has been researched frequently. Those of us with an office job spend on average over 2.5 hours each day checking, reading, writing emails. Having a good strategy for emailing not only leads to less impact on the planet but also has many health benefits.
 
 
   For several years there has been one day in the year on which a lot of more emails were send than on any other day. We know this day as Black Friday.

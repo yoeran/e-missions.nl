@@ -1,6 +1,6 @@
 <script>
-  // TODO: Add translations
   import { onMount } from "svelte";
+  import { translate } from "./components/utils";
 
   let todos = [];
 
@@ -43,12 +43,11 @@
 <div class="wrap">
   {#if todos.length === 0}
     <p class="empty">
-      You have not saved any todos yet. Visit the topic pages to add some to
-      your battleplan!
+      {translate("noTodosYet")}
     </p>
   {:else}
     <button class="reset-button" type="button" on:click={() => clearAll()}>
-      Start over
+      {translate("startOver")}
     </button>
   {/if}
 
@@ -112,7 +111,6 @@
   }
   .ta-todo--checked .ta-todo__label {
     text-decoration: line-through;
-    /* text-decoration-color: #93dfec; */
   }
 
   .ta-todo__input {

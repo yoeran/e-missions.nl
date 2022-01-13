@@ -12,6 +12,8 @@ body_intro_text: Blockchains are a new phenomenon. What started with the
   blockchain. This could be a document, a picture, a token or something else.
   This is called the Proof of Work principle (PoW) and requires enormous amounts
   of electricity for each single transaction.
+calculator_text: |-
+  The calculation is based on data we know from the Bitcoin blockchain and it holds true for most of the Proof of Work principle based blockchains. However, exact numbers differ. We know that the Ethereum blockchain, which is the second largest in the world after bitcoin, consumes around half of the energy of the Bitcoin blockchain per transaction.
 tips:
   - tip: Do not use blockchain technology, yet
     explanation: For the moment there is no way you could use blockchain technology
@@ -26,7 +28,7 @@ body_addendum_text: >-
   result in a 2 degrees global warming?**
 
 
-  The numbers are really astounding and quite frightening as well. If blockchain remains based on the Proof-of-Work principle it could end up causing enough CO2 emissions to be solely responsible for rising temperatures. Already now, a single Non-Fungible Token (NFT) release consumes more electricity in 10 seconds than a house in a year. And the two biggest blockchains on the net, Bitcoin and Ethereum, together consume more energy per year than Spain or Mexico.  
+  The numbers are really astounding and quite frightening as well. If blockchain remains based on the Proof-of-Work principle it could end up causing enough CO2 emissions to be solely responsible for rising temperatures. Already now, a single Non-Fungible Token (NFT) release consumes more electricity in 10 seconds than a house in a year. And the two biggest blockchains on the net, Bitcoin and Ethereum, together consume more energy per year than Spain or Mexico.
 
 
   Blockchain is a promising technology with many possibilities for peer-to-peer direct transactions, but as long as we haven’t found ways to slash the electricity needs the best and only ecologically responsible strategy is to wait with getting on the block.

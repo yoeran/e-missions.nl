@@ -1,4 +1,5 @@
 <script>
+  import { translate } from "../components/utils";
   export let question;
   export let options;
   export let value;
@@ -9,6 +10,6 @@
 {#each options as opt}
   <label class="radio-label">
     <input {name} type="radio" value={opt} bind:group={value} />
-    &nbsp;{opt}
+    &nbsp;{translate(opt)}
   </label>
 {/each}

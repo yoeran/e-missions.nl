@@ -7,6 +7,8 @@ body_intro_text: The cloud has obesities. Approximately 90% of all the data we
   sensor data will never be read. Video’s, software, movies, photo’s, music,
   documents. We only use around 10% of everything we collect and store in the
   cloud. Privately, as well as professionally.
+calculator_text: |-
+  For every 100 GB of data stored on a cloud we emit close to 10kg of CO2 each year, for which we need 2 new trees planted to take this out of the atmosphere. Almost everybody uses some type of cloud storage, privately if you own a smartphone. But also work related. Over 90% of companies are on the cloud. That is why it is interesting to see the impact you have yourself but also the impact of your company on the planet through the simple act of storing data on a cloud based server.
 tips:
   - tip: Take long term storage data offline
     explanation: Most of the data stored online can be labeled as ‘don’t need it
@@ -38,10 +40,10 @@ body_addendum_text: >-
   last 10 years?**
 
 
-  In 2012 there were around 500.000 data centers around the world, today this amount is over 8 million, and many more are coming in the coming years. The already obese cloud is getting fatter and fatter. Energy needs double every 4 years, making cloud storage the fastest growing energy consuming sector there is. If we go on like this, by 2040, an estimated 14% of the world’s CO2 emissions will be caused by the electricity demand of data centers. 
+  In 2012 there were around 500.000 data centers around the world, today this amount is over 8 million, and many more are coming in the coming years. The already obese cloud is getting fatter and fatter. Energy needs double every 4 years, making cloud storage the fastest growing energy consuming sector there is. If we go on like this, by 2040, an estimated 14% of the world’s CO2 emissions will be caused by the electricity demand of data centers.
 
 
-  Fortunately there is a lot we can do about this. With 90% of all data never used, with much data stored for long term collection purposed, with many double entries and with suboptimized application configurations there are many areas in which we can become more efficient in using cloud storage spaces. 
+  Fortunately there is a lot we can do about this. With 90% of all data never used, with much data stored for long term collection purposed, with many double entries and with suboptimized application configurations there are many areas in which we can become more efficient in using cloud storage spaces.
 
 
   The size of the cloud might seem endless, but the effects on earth are very real. It is time to do some cleaning up on our private and corporate clouds.

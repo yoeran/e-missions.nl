@@ -9,6 +9,8 @@ body_intro_text: Making use of search engines has become the gateway to using
   servers to list the answer. Since almost all of us never search beyond the
   first page, and we do not open more than 8 hits before searching again, we can
   conclude that many queries are unnecessary.
+calculator_text: |-
+  Each search request consumes an estimated 3Wh electricity. This means that the CO2 impact of searching is strongly correlated to the amount of search requests we do. Globally we perform 115 search requests per person per day. Seems a lot more than you do? Not quite, since autocomplete triggers new requests with every character you type in the search bar.
 tips:
   - tip: Disable autocomplete
     explanation: The easiest and biggest impact you can make is by disabling the

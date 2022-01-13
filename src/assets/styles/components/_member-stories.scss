@@ -1,4 +1,7 @@
 .member-stories {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
   margin: 2rem 0;
 
   &__item {
@@ -13,9 +16,10 @@
     width: 8rem;
     height: 8rem;
     object-fit: cover;
-    background: #333;
 
-    filter: sepia() hue-rotate(150deg);
+    img {
+      filter: sepia() hue-rotate(150deg);
+    }
   }
 
   &__content {
@@ -27,11 +31,7 @@
   }
 
   &__link {
-    display: inline-block;
-    font-size: 0.9rem;
-
-    & + & {
-      margin-left: 0.5rem;
-    }
+    display: block;
+    font-weight: bold;
   }
 }
