@@ -1,5 +1,5 @@
 ---
-title: 01 / SPAM
+title: 01 / Spam
 image: /static/img/recipe_spam.png
 ingredients: Japanese Knotweed
 emissions: 0.3 g / unread e-mail

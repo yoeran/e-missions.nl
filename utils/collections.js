@@ -41,15 +41,15 @@ module.exports = {
       .filter((item) => item.inputPath?.includes("resources/en"));
   },
 
-  reecipes_nl: function (collection) {
+  recipes_nl: function (collection) {
     return collection
       .getAll()
-      .filter((item) => item.inputPath?.includes("reecipes/nl"));
+      .filter((item) => item.inputPath?.includes("recipes/nl"));
   },
 
-  reecipes_en: function (collection) {
+  recipes_en: function (collection) {
     return collection
       .getAll()
-      .filter((item) => item.inputPath?.includes("reecipes/en"));
+      .filter((item) => item.inputPath?.includes("recipes/en"));
   },
 };

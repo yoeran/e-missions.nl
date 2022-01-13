@@ -1,6 +1,6 @@
 {% set translate = lang | translateFn %}
 <div class="topic-index">
-    {%- for item in collections["topics_" + lang] | sortBy('fileSlug') -%}
+    {%- for item in collections["topics_" + lang] | sortBy('title') -%}
     <a
         class="topic-index__link"
         href="{{ item.url | url }}"

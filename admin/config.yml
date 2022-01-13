@@ -116,6 +116,7 @@ collections:
       - { label: "LinkedIn", name: "linkedin", widget: "string", required: false, hint: 'Always include the https://' }
       - { label: "Website", name: "website", widget: "string", required: false, hint: 'Always include the https://' }
       - { label: "Text about project", name: "content", required: false, widget: "markdown" }
+      - { label: "Order", name: "order", widget: "number" }
 
   - name: "recipes"
     label: "Recipes"

@@ -1,0 +1,32 @@
+.recipe {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 20rem 1fr;
+
+  margin-bottom: 6rem;
+
+  &__content {
+    > .heading {
+      text-transform: uppercase;
+    }
+  }
+
+  &__meta {
+    display: grid;
+    gap: 0 1rem;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 1rem;
+
+    dt {
+      opacity: 0.75;
+
+      &:after {
+        content: ":";
+      }
+    }
+
+    dd {
+      margin: 0;
+    }
+  }
+}

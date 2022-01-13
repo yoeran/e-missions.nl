@@ -56,7 +56,7 @@ module.exports = {
 
   markdown: function (mdText) {
     if (!mdText) {
-      return '';
+      return "";
     }
 
     return formatCo2(md.render(mdText));
@@ -71,10 +71,10 @@ module.exports = {
 
   sortBy: function (collection, prop) {
     return collection.sort(function (a, b) {
-      if (a[prop] > b[prop]) {
+      if (a.data[prop] > b.data[prop]) {
         return 1;
       }
-      if (a[prop] < b[prop]) {
+      if (a.data[prop] < b.data[prop]) {
         return -1;
       }
       return 0;

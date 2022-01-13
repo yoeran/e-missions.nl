@@ -77,6 +77,18 @@ body {
   line-height: 1.3;
 }
 
+.para-content {
+  p {
+    margin: 1rem 0;
+    max-width: 40rem;
+  }
+
+  ol {
+    list-style: decimal;
+    list-style-position: inside;
+  }
+}
+
 @keyframes blinken {
   0% {
     opacity: 1;

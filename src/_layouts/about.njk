@@ -7,7 +7,7 @@ layout: page
 <section class="section simple-page">
     <h3>Meet the team</h3>
     <ul class="member-stories">
-    {%- for item in collections.members | sortBy('fileSlug')  -%}
+    {%- for item in collections.members | sortBy('order')  -%}
         <li class="member-stories__item">
             {% if item.data.image %}
                 {% co2image item.data.image, "member-stories__img" %}
