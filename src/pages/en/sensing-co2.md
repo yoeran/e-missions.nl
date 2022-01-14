@@ -1,7 +1,7 @@
 ---
 landingpage_text: Ever wondered how your inbox would taste?  Sensing CO2
   connects abstract numbers with direct experience, scientific data with human
-  senses. Let your tastebuds experience the different options of digital,
+  senses. Let your taste buds experience the different options of digital,
   connected communication.
 layout: tasting.njk
 title: Sensing CO2
@@ -16,7 +16,7 @@ body_intro_text: >-
   increase can quickly change pleasure to discomfort. To become resilient, an
   understanding of the matter is crucial. Sensing CO2 aims to connect abstract
   numbers with direct experience, scientific data with human senses. Let your
-  tastebuds experience how our behaviour influences CO2 levels and taste
+  taste buds experience how our behaviour influences CO2 levels and taste
   possible futures.
 
 
