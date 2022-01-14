@@ -53,6 +53,7 @@ collections:
         widget: "select"
         multiple: true
         options:
+          - 'calculator'
           - 'best-practice'
           - 'scientific'
           - 'smart-devices'

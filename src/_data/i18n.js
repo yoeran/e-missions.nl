@@ -50,6 +50,10 @@ module.exports = {
 
     netherlands: { nl: "Nederland", en: "Netherlands" },
     europe: { nl: "Europa", en: "Europe" },
+    europeNetflix: {
+      nl: "Europa (VK, FR, DE, NL)",
+      en: "Europe (UK, FR, DE, NL)",
+    },
     world: { nl: "Wereldwijd", en: "World" },
     subscribers: { nl: "Abonnees", en: "Subscribers" },
 

@@ -9,9 +9,9 @@
   import { kwhToInfo } from "./index";
 
   const REGIONS = {
-    netherlands: 2760000,
-    europe: 68700000,
-    world: 209180000,
+    netherlands: 3600000,
+    europeNetflix: 35700000,
+    world: 213560000,
   };
 
   let region = "world";
@@ -38,7 +38,7 @@
     <RadioGroupInput
       name="region"
       question={translate("selectARegion")}
-      options={["netherlands", "europe", "world"]}
+      options={["netherlands", "europeNetflix", "world"]}
       bind:value={region}
     />
 
