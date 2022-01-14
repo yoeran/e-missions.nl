@@ -1,11 +1,14 @@
 ---
 title: 05 / Activity Updates
-ingredients: Strawberry, blueberry, raspberry
+ingredients: Lemon balm
 emissions: 5 g / e-mail
-description: Berries are fragile delicacies with an incredibly short shelf-life.
-  This makes them one of the most wasted fruits. Yet their packaging and
-  transport is a highly consuming affair. If e-mails were fruits, large
-  attachments would be berries. Sending high-resolution photos and extensive
-  .pdf files is the most consuming e-mail variant. Such files are better stored
-  on a (local) server with a shareable direct link.
+description: "This herb can rapidly sprout, yet be easily structured: Lemon balm
+  grows in clumps and spreads by seeds and vegetatively (a new seedling
+  germinates from a fragment of the parent plant). Once you start growing it,
+  there's almost always too much, just like those activity updates in your
+  inbox. Activity updates are e-mails sent by social platforms such as Facebook,
+  Slack or Teams. It is a practical feature to not miss important messages. But
+  does it also happen to you, that your entire inbox is overwhelmed with
+  updates? These e-mails of notifications of updates of activities are like the
+  overly energetic lemon balm, adjust to taste."
 ---
