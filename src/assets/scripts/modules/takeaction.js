@@ -6,6 +6,7 @@ export class TakeAction {
       const todo = el.getAttribute("data-ta-todo");
       if (localStorage.getItem(todo)) {
         el.setAttribute("checked", true);
+        el.parentElement.classList.add("ta-todo--added");
       }
     });
   }
@@ -14,8 +15,10 @@ export class TakeAction {
     const todo = el.getAttribute("data-ta-todo");
     if (localStorage.getItem(todo)) {
       localStorage.removeItem(todo);
+      el.parentElement.classList.remove("ta-todo--added");
     } else {
       localStorage.setItem(todo, 0);
+      el.parentElement.classList.add("ta-todo--added");
     }
   }
 }

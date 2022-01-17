@@ -33,8 +33,6 @@
       bind:value={serviceUsed}
     />
 
-    <p class="todo">This calculator needs a correct multiplier</p>
-
     <RadioGroupInput
       name="region"
       question={translate("selectARegion")}

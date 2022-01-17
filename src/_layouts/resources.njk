@@ -11,7 +11,7 @@ layout: base
     <h1 class="heading heading--large">{{ title }}</h1>
 
     <div class="resources">
-        <aside class="resources__filter">
+        <aside class="resources__desktop-filter">
             <button type="button" data-filter-active data-clear-filter>
                 {{ translate('showall') }}
                 <small>({{ items.length }})</small>
@@ -34,8 +34,30 @@ layout: base
             {% endfor %}
         </aside>
 
+        <div class="resources__mobile-filter">
+            <select data-filter-dropdown>
+                <option value="">
+                    {{ translate('showall') }}
+                    ({{ items.length }})
+                </option>
+
+                {% for item in filters %}
+                {% set count = items | getFilterCount(item) %}
+                <option
+                    value="{{ item }}"
+                    {% if count === 0 %}
+                    disabled
+                    {% endif %}
+                >
+                    {{ translate(item) }}
+                    ({{ count }})
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+
         <div>
-            <div class="resource" data-category="none">
+            <div class="resource resource--intro" data-category="none">
                 <h4 class="heading heading--small">
                     {{ general.data.resources_intro_title }}
                 </h4>

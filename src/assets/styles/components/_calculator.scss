@@ -1,6 +1,10 @@
 .calculator {
   margin-top: 2rem;
 
+  @include mq-down(md) {
+    margin: 2rem -2rem 0;
+  }
+
   &__wrap {
     background: #111;
     border-radius: 5px;
@@ -131,12 +135,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 30rem;
   overflow: hidden;
+  min-height: 10rem;
   flex: 1;
 
-  &--autoheight {
-    height: auto;
+  @include mq(md) {
     min-height: 30rem;
   }
 }
@@ -198,13 +201,22 @@
 .result-text {
   font-size: 1.25rem;
   line-height: 1.4;
-  padding: 2rem 4rem;
+  padding: 1rem;
   position: relative;
+
+  @include mq(md) {
+    padding: 2rem 4rem;
+  }
 
   &__stats {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
     margin-bottom: 1rem;
+
+    @include mq-down(md) {
+      flex-direction: column;
+    }
   }
 }
 

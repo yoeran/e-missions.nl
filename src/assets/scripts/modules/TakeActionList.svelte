@@ -52,7 +52,11 @@
   {/if}
 
   {#each todos as todo}
-    <label class={`ta-todo ${todo.checked && "ta-todo--checked"}`}>
+    <label
+      class={`ta-todo ta-todo--standalone ${
+        todo.checked && "ta-todo--completed"
+      }`}
+    >
       <svg class="icon-bg" role="img" aria-hidden="true" width="24" height="24">
         <use xlink:href={`#svg-${todo.key}`} />
       </svg>
@@ -67,7 +71,7 @@
 
       <span class="ta-todo__label">{todo.label}</span>
 
-      <a href={`/en/topic/${todo.key}`}>
+      <a href={`${translate("topicsPath")}${todo.key}`}>
         <svg class="icon" role="img" aria-hidden="true" width="24" height="24">
           <use xlink:href={`#svg-${todo.key}`} />
         </svg>
@@ -87,57 +91,6 @@
     border-radius: 5px;
     text-align: center;
     font-size: 1.25rem;
-  }
-
-  .ta-todo {
-    position: relative;
-    display: flex;
-    align-items: center;
-    border: 1px solid #333;
-    border-radius: 5px;
-    padding: 2rem;
-    margin-bottom: 1rem;
-    line-height: 1;
-    cursor: pointer;
-    overflow: hidden;
-  }
-
-  .ta-todo:hover {
-    background: #222;
-  }
-
-  .ta-todo--checked {
-    opacity: 0.62;
-  }
-  .ta-todo--checked .ta-todo__label {
-    text-decoration: line-through;
-  }
-
-  .ta-todo__input {
-    visibility: hidden;
-  }
-
-  .ta-todo__indicator {
-    display: inline-block;
-    border: 2px solid #fff;
-    width: 1.5rem;
-    height: 1.5rem;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 1rem;
-    font-weight: bold;
-    color: transparent;
-  }
-
-  .ta-todo--checked .ta-todo__indicator {
-    color: #fff;
-  }
-
-  .ta-todo__label {
-    display: inline-block;
-    flex: 1;
-    margin-left: 1rem;
-    font-size: 1.5rem;
   }
 
   .icon-bg {

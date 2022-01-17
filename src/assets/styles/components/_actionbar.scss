@@ -1,5 +1,5 @@
 .actionbar {
-  padding: 1.5rem 3rem;
+  padding: 1.5rem;
   border: 1px solid #333;
   background: #000;
   display: grid;
@@ -9,6 +9,7 @@
   border-radius: 2px;
 
   @include mq(md) {
+    padding: 1.5rem 3rem;
     grid-template-columns: 1fr 4fr auto;
   }
 

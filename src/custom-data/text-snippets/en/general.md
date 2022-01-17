@@ -56,8 +56,15 @@ disclaimer: >-
   This platform is not, nor does it claim to be, complete in any kind of way.
 
 
-  Our calculators are based on verifiable sources of knowledge but are not complete nor are they exact representations of reality. All data found on this platform is subject to estimations and/or averages and does not represent individual cases or situations. 
+  Our calculators are based on verifiable sources of knowledge but are not complete nor are they exact representations of reality. All data found on this platform is subject to estimations and/or averages and does not represent individual cases or situations.
 
 
   The sources of the data and information used for the separate topic section, can be found in the resource section.  We do not store your calculator results, but you can always return to the take action page to see your battleplan, as long as you use the same device.
+
+
+  This website does not store any cookies. Items you have added to your battleplan on the take action page are stored in "Local Storage" which is a private data store inside your browser and is not available to any servers nor any third parties.
+
+
+  The CO2 transfer cost indication you see on various images on this website are calculated by multiplying the size of the image-file (in kilobytes) with 0.000000936 (grams per kilobyte). The estimation only accounts for the transfer of the image from the server to your browser, and does not account the storage or energy usage of the image.
+
 ---

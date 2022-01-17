@@ -1,0 +1,70 @@
+.ta-todo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  cursor: pointer;
+  overflow: hidden;
+
+  &--standalone {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 2rem 0.5rem;
+    line-height: 1;
+
+    &:hover {
+      background: #222;
+    }
+
+    @include mq(md) {
+      padding: 2rem;
+    }
+  }
+
+  &__input {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  &__label {
+    display: inline-block;
+    flex: 1;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+
+    @include mq(md) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__indicator {
+    display: inline-block;
+    border: 2px solid #fff;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1rem;
+    font-weight: bold;
+    color: transparent;
+  }
+
+  &--added {
+    .ta-todo__indicator {
+      color: $brand-color-primary;
+    }
+  }
+
+  &--completed {
+    opacity: 0.62;
+
+    .ta-todo__label {
+      text-decoration: line-through;
+    }
+
+    .ta-todo__indicator {
+      color: #fff;
+    }
+  }
+}

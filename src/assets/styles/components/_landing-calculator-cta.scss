@@ -1,10 +1,19 @@
 .landing-calculator-cta {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
   align-items: center;
+
+  @include mq(md) {
+    grid-template-columns: 1fr auto 1fr;
+  }
 
   &__visual {
     background: #111;
+
+    @include mq-down(md) {
+      &:last-of-type {
+        display: none;
+      }
+    }
   }
 
   &__content {

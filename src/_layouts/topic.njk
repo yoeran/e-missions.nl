@@ -36,10 +36,20 @@ layout: page
             <p class="tip__label">
                 {{ translate('addToTakeAction')}}
             </p>
-            <label class="tip__todo">
+            {# <label class="tip__todo">
                 {{ item.todo }}
                 <input type="checkbox" data-ta-todo="{{ key }}::{{ item.todo }}" />
                 <div class="tip__indicator"></div>
+            </label> #}
+
+            <label class="ta-todo">
+                <input
+                    class="ta-todo__input"
+                    type="checkbox"
+                    data-ta-todo="{{ key }}::{{ item.todo }}"
+                />
+                <span class="ta-todo__indicator">&times;</span>
+                <span class="ta-todo__label">{{item.todo}}</span>
             </label>
         </li>
         {%- endfor -%}

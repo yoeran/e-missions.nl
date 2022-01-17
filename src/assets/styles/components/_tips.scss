@@ -21,7 +21,10 @@
 
     p {
       margin: 1rem 0;
-      max-width: 62%;
+
+      @include mq(md) {
+        max-width: 62%;
+      }
     }
   }
 
@@ -29,37 +32,6 @@
     text-transform: uppercase;
     opacity: 0.75;
     font-size: 0.75rem;
-  }
-
-  &__todo {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    font-weight: bold;
-    cursor: pointer;
-
-    &:hover {
-      color: $brand-color-primary;
-    }
-
-    input {
-      margin-right: 1rem;
-
-      &:checked + .tip__indicator {
-        border-color: $brand-color-primary;
-      }
-    }
-  }
-
-  &__indicator {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    transform: border-color 0.4s ease-in-out;
+    margin-bottom: 0.5rem;
   }
 }

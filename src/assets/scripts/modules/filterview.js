@@ -2,24 +2,36 @@ export class FilterView {
   resetButton;
   filterButtons;
   links;
+  dropdown;
 
   constructor() {
     this.resetButton = document.querySelector("[data-clear-filter]");
+    this.dropdown = document.querySelector("[data-filter-dropdown]");
 
     this.filterButtons = document.querySelectorAll("[data-filter]");
     this.links = document.querySelectorAll("[data-category]");
 
+    // Events
     this.resetButton.addEventListener("click", this.resetFilter.bind(this));
 
     this.filterButtons.forEach((el) => {
       el.addEventListener("click", () => {
-        this.filterLinks(el);
+        this.filterLinks(el.getAttribute("data-filter"));
+        el.setAttribute("data-filter-active", "");
       });
+    });
+
+    this.dropdown.addEventListener("change", (ev) => {
+      const value = ev.target.value;
+      if (value) {
+        this.filterLinks(ev.target.value);
+      } else {
+        this.resetFilter();
+      }
     });
   }
 
-  filterLinks(el) {
-    const category = el.getAttribute("data-filter");
+  filterLinks(category) {
     this.removeActiveState();
 
     this.links.forEach((link) => {
@@ -27,8 +39,6 @@ export class FilterView {
       const show = !cat.includes(category);
       link.classList.toggle("resource--hidden", show);
     });
-
-    el.setAttribute("data-filter-active", "");
   }
 
   resetFilter() {
