@@ -17,6 +17,13 @@ calculator_text: De berekening is gebaseerd op gegevens die we kennen van de
   Ethereum-blockchain, die na bitcoin de op één na grootste ter wereld is, per
   transactie ongeveer de helft van de energie van de Bitcoin-blockchain
   verbruikt.
+tips:
+  - tip: Gebruik geen blockchain technologie, nog niet in ieder geval
+    explanation: Op dit moment is er geen manier om blockchain-technologie op een
+      milieuvriendelijke manier te gebruiken. Er wordt echter vooruitgang
+      geboekt bij de introductie van een nieuwe verificatiemethode op basis van
+      willekeurige selectie, genaamd Proof-of-Stake. Dit zou de milieu-impact
+      van de blockchain enorm verminderen.
 body_addendum_text: >-
   **Wist u dat alleen de blockchain-industrie verantwoordelijk kan zijn voor
   voldoende CO2 om te resulteren in een opwarming van de aarde met 2 graden?**
