@@ -27,8 +27,11 @@ tips:
       tot 20% van de gebruikte energie besparen en het vermindert de belasting
       van de ogen.
     todo: Zet de standaard helderheid van al mijn schermen op 70%
-  - {}
-  - {}
+  - tip: Sluit af en dood de vampier energie
+    explanation: Apparaten die via een kabel of stekker direct op het net zijn
+      aangesloten, blijven energie verbruiken terwijl ze niet nodig zijn.
+    todo: Schakel apparaten uit als u langer dan 2 uur weg bent (behalve voor
+      beveiligingsapparatuur)
 body_addendum_text: >-
   **Weet je hoeveel Amazones we moeten planten om het elektriciteitsverbruik van
   alle slimme apparaten in de wereld te compenseren?**
