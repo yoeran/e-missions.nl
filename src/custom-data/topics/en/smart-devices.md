@@ -9,8 +9,11 @@ body_intro_text: Smart – phones, cars, thermostats, doorbells, locks, fridges,
   it will make our lives more comfortable, safe and enjoyable. While that might
   be true, the other side of the coin is the impact this tsunami of smart
   devices is having on our planet.
-calculator_text: |-
-  In the smart devices category, the most impactful is the fast rate of growth in the amount of smart devices we bring into our homes and offices. The calculator shows how many trees you need to plant each year to offset your current smart device collection. It also projects the amount of trees you will need annually 3 years from now based on your rate of growth.
+calculator_text: In the smart devices category, the most impactful is the fast
+  rate of growth in the amount of smart devices we bring into our homes and
+  offices. The calculator shows how many trees you need to plant each year to
+  offset your current smart device collection. It also projects the amount of
+  trees you will need annually 3 years from now based on your rate of growth.
 tips:
   - tip: Prioritize smart devices that reduce energy consumption
     explanation: Some devices have a net positive effect because they save more
@@ -27,7 +30,7 @@ tips:
       a plug keep drawing energy while they are not needed.
     todo: Shut down devices if you will be away for more than 2 hours (except for
       security devices)
-  - tip: Shut down and kill the vampire power
+  - tip: Shut down to kill the vampire power
     explanation: Devices which are directly connected to the grid through a cable or
       a plug keep drawing energy while they are not needed.
     todo: Shut down devices if you will be away for more than 2 hours (except for
