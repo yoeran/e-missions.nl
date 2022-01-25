@@ -30,11 +30,6 @@ tips:
       a plug keep drawing energy while they are not needed.
     todo: Shut down devices if you will be away for more than 2 hours (except for
       security devices)
-  - tip: Shut down to kill the vampire power
-    explanation: Devices which are directly connected to the grid through a cable or
-      a plug keep drawing energy while they are not needed.
-    todo: Shut down devices if you will be away for more than 2 hours (except for
-      security devices)
 body_addendum_text: >-
   **Do you know how many Amazons we need to plant to offset the electricity use
   of all smart devices in the world?**
