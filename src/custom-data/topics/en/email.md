@@ -9,8 +9,16 @@ body_intro_text: Sending and receiving email has become a core activity in our
   friends and acquaintances. Over 4 billion people around the world use email to
   send over 300 billion mails every day. How does your email behavior impact the
   planet? And what about the organization you work for?
-calculator_text: |-
-  Did you know that, on average, 47% of all emails we receive is spam? And that 24% contain attachments? Off course, this differs per person, just as the amount of emails you send and receive per day. To built this calculator we have used knowledge on types of emails, sizes of emails, reading times, device the mail is read on, amount of emails opened, amounts stored versus deleted. They all influence the electricity consumed with email behavior. But nothing matters as much as the amount of emails one sends on an average day and the % of those mails that contain attachments. And if you think your impact is acceptable, see what the organization you work in emits as a whole.
+calculator_text: Did you know that, on average, 47% of all emails we receive is
+  spam? And that 24% contain attachments? Off course, this differs per person,
+  just as the amount of emails you send and receive per day. To built this
+  calculator we have used knowledge on types of emails, sizes of emails, reading
+  times, device the mail is read on, amount of emails opened, amounts stored
+  versus deleted. They all influence the electricity consumed with email
+  behavior. But nothing matters as much as the amount of emails one sends on an
+  average day and the % of those mails that contain attachments. And if you
+  think your impact is acceptable, see what the organization you work in emits
+  as a whole.
 tips:
   - tip: Unsubscribe from newsletters
     explanation: Only 2 out of 10 newsletters get opened and an average internet
@@ -26,7 +34,7 @@ tips:
     explanation: How long does the information in a newsletter stays relevant? Most
       newsletters are stored unnecessarily. In the Netherlands alone, unopened,
       stored newsletters emit more than 1 million tons of CO2 per year. This is
-      equivalent to driving 1.3 million cars.
+      equivalent to driving approximately 3 million cars.
     todo: Delete the newsletters saved in your mailbox unnecessarily
   - tip: Only send emails to who needs to receive them
     explanation: Limiting ‘reply all’ and being strict on putting people in CC can
