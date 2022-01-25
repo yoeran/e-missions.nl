@@ -1,5 +1,6 @@
 ---
 title: Video Conferencing
+key: video-conferencing
 permalink: /nl/topic/video-conferencing/
 body_intro_text: "In wat een ver verleden lijkt te zijn, werden
   videoconferenties vooral ingezet om te voorkomen dat directeuren van grote

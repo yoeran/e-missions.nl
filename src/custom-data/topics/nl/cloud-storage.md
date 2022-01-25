@@ -1,5 +1,6 @@
 ---
 title: Cloud Storage
+key: cloud-storage
 permalink: /nl/topic/cloud-storage/
 body_intro_text: De cloud heeft obesitas. Ongeveer 90% van alle gegevens die we
   opslaan, zullen nooit worden gebruikt. Ongestructureerde datasets worden nooit

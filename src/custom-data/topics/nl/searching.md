@@ -1,5 +1,6 @@
 ---
 title: Searching
+key: searching
 permalink: /nl/topic/searching/
 body_intro_text: Het gebruik van zoekmachines is voor velen van ons de
   toegangspoort tot internet geworden. Elke seconde zoeken we samen alleen al

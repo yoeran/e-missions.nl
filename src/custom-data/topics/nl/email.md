@@ -1,5 +1,6 @@
 ---
 title: Email
+key: email
 permalink: /nl/topic/email/
 body_intro_text: Het verzenden en ontvangen van e-mail is een kernactiviteit
   geworden in ons dagelijks leven. Terwijl u deze zin aan het lezen was, werden

@@ -1,5 +1,6 @@
 ---
 title: Video Streaming
+key: video-streaming
 permalink: /nl/topic/video-streaming/
 body_intro_text: Netflix, Disney+, Videoland, Prime Video, Tencent, YouTube.
   Streaming series, films, videoclips, lessen, cursussen, kattenvideo's en meer.

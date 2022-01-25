@@ -1,5 +1,6 @@
 ---
 title: Smart Devices
+key: smart-devices
 permalink: /nl/topic/smart-devices/
 body_intro_text: Slimme telefoons, auto's, thermostaten, deurbellen, sloten,
   koelkasten, tablets, horloges, bands, assistenten, lichten, sleutelhangers,

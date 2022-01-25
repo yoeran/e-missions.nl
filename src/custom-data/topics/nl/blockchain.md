@@ -1,5 +1,6 @@
 ---
 title: Blockchain
+key: blockchain
 permalink: /nl/topic/blockchain/
 body_intro_text: Blockchains zijn een nieuw fenomeen. Wat begon met de
   introductie van de eerste cryptocurrency Bitcoin is al geëvolueerd naar een

@@ -1,5 +1,6 @@
 ---
 title: Social media
+key: social-media
 permalink: /nl/topic/social-media/
 body_intro_text: Bijna 4,5 miljard mensen op de planeet gebruiken dagelijks
   sociale media. Facebook, WhatsApp, LinkedIN, Instagram, SnapChat, Twitter en

@@ -1,5 +1,6 @@
 ---
 title: Online Gaming
+key: online-gaming
 permalink: /nl/topic/online-gaming/
 body_intro_text: We spelen online games omdat het handig, divers of interactief
   is en het de mogelijkheid geeft om tegen andere mensen te spelen.
