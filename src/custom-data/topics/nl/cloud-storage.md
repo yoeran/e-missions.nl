@@ -24,9 +24,25 @@ tips:
       behalen.
     todo: Identificeer datasets voor de lange termijn, haal ze uit de cloud en sla
       ze offline op
-  - {}
-  - {}
-  - {}
+  - tip: Bewaar uw gegevens bij een groene cloudprovider
+    explanation: "CO2 bewuste providers hebben duurzaamheid centraal in de manier
+      waarop ze hun datacenters plannen, bouwen, voeden, exploiteren en buiten
+      gebruik stellen. Enkele groene cloudproviders zijn: Evry, GreenQloud,
+      Google, Cloudsigma, Dediserve en WindCloud."
+    todo: Kies een groene en duurzame cloudprovider om je data op te slaan
+  - tip: Vermijd dubbele gegevens
+    explanation: Veel data over clouds wereldwijd wordt meerdere keren opgeslagen.
+      Dubbelen herkennen en uitschakelen kan al wonderen doen aan de hoeveelheid
+      cloudruimte die je gebruikt.
+    todo: Controleer mijn opgeslagen gegevens op dubbelingen en verwijder dubbel
+      opgeslagen gegevens
+  - tip: Toepassingen optimaliseren voor cloudopslag
+    explanation: "Bedrijven kunnen grote CO2-reducties realiseren op hun
+      cloudopslageffecten door applicaties, documenten, datasets en websites
+      voor de cloud te configureren. Het belangrijkste is: maak het slank door
+      middel van compressie, selectie van bestandstypes, website-ontwerp en
+      applicatie-ontwerp."
+    todo: Optimaliseer applicaties voor cloudopslag (voornamelijk voor bedrijven)
 body_addendum_text: >-
   **Wist u dat het aantal datacenters over de hele wereld in de afgelopen 10
   jaar is extreem hard is toegenomen?**
