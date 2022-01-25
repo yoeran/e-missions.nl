@@ -8,6 +8,17 @@ body_intro_text: "De milieukosten van muziek kunnen worden onderverdeeld in vier
   muziektijdperk waarin we ons nu in bevinden. Hoewel de hoeveelheid tijd per
   dag dat we naar audio luisteren niet echt is veranderd, is de impact op de
   planeet dat wel. Aanzienlijk."
+calculator_text: Elke 20 mensen die gemiddeld 4 uur per dag muziek streamen of
+  podcasts luisteren zouden een boom per jaar moeten planten om hun
+  streaminggedrag te compenseren. Dit klinkt misschien als weinig, maar als je
+  je voorstelt hoeveel miljoenen mensen elke dag muziek en podcasts streamen,
+  dan lopen de cijfers heel snel op. In Nederland hebben ruim 6 miljoen mensen
+  een abonnement op een audiostreaming dienst. In Europa zijn dit meer dan 70
+  miljoen mensen. Wereldwijd streamen bijna 500 miljoen mensen audio via hun
+  serviceabonnementen. Voor deze rekenmachine gebruiken we alleen informatie van
+  geabonneerde gebruikers van audiostreaming. Je kunt je voorstellen dat de
+  werkelijke totale impact nog groter is als ook de niet-geabonneerde gebruikers
+  worden meegerekend.
 tips:
   - tip: Ga offline
     explanation: Download je favoriete nummers / albums / podcasts naar je telefoon

@@ -2,9 +2,21 @@
 title: Audio streaming
 key: audio-streaming
 permalink: /en/topic/audio-streaming/
-body_intro_text: "The modern environmental cost of music can be divided into   four eras’: the Vinyl era in the seventies, the Cassette era in the eighties,  the CD era in the nineties, and the online music era in which we find ourselves today. Although the amount of time per day we listen to audio has not really changed, the impacts on the planet have. Massively."
-calculator_text: |-
-  Every 20 people streaming music or listening podcasts for on average 4 hours per day need to plant a tree per year to compensate for their streaming behavior. This might sound like little, but if you imagine how many millions of people stream music and podcasts every single day, the numbers add up very quickly. In the Netherlands, over 6 million people have an audio streaming subscription. In Europe, this is over 70 million people. Globally, nearly 500 million people stream audio through their service subscriptions. For this calculator, we only use information from subscribed users of audio streaming. You can imagine the actual total impact is even higher if also the non-subscribed users would be included.
+body_intro_text: "The modern environmental cost of music can be divided
+  into   four eras’: the Vinyl era in the seventies, the Cassette era in the
+  eighties,  the CD era in the nineties, and the online music era in which we
+  find ourselves today. Although the amount of time per day we listen to audio
+  has not really changed, the impacts on the planet have. Massively."
+calculator_text: Every 20 people streaming music or listening podcasts for on
+  average 4 hours per day need to plant a tree per year to compensate for their
+  streaming behavior. This might sound like little, but if you imagine how many
+  millions of people stream music and podcasts every single day, the numbers add
+  up very quickly. In the Netherlands, over 6 million people have an audio
+  streaming subscription. In Europe, this is over 70 million people. Globally,
+  nearly 500 million people stream audio through their service subscriptions.
+  For this calculator, we only use information from subscribed users of audio
+  streaming. You can imagine the actual total impact is even higher if also the
+  non-subscribed users would be included.
 tips:
   - tip: Go offline
     explanation: download your favorite songs / albums / podcasts onto your phone
