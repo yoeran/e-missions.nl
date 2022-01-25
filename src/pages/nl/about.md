@@ -1,5 +1,10 @@
 ---
-landingpage_text: ""
+landingpage_text: E-missions is een digitaal platform om inzicht te krijgen en
+  te handelen naar uw eigen ecologische digitale voetafdruk. Dit project geeft
+  een nieuw perspectief op de verborgen dimensies van digitaal gedrag. Het
+  speelt met bewustzijn en begrip van CO2 en hoe het onderdeel zou moeten zijn
+  van onze digitale geletterdheid. Laten we werken aan een milieuvriendelijke
+  digitale levensstijl, één voornemen tegelijk.
 layout: about.njk
 permalink: /nl/over-e-missions/
 body_intro: Nederlands intro voor de over project pagina.
