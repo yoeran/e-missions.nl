@@ -1,17 +1,15 @@
 ---
+landingpage_text: ""
 layout: about.njk
-title: Over het project
 permalink: /nl/over-e-missions/
-eleventyNavigation:
-  key: Over E-Missions
-  order: 5
 body_intro: Nederlands intro voor de over project pagina.
+body_addendum: Addendum
 body_main: |-
   ### Kop 3
 
   Primaire pagina content voor meer diepgaande uitleg.
-body_addendum: Addendum
-landingpage_text: >-
+title: Over het project
+body_intro_text: >-
   E-missions onderzoekt een onderwerp dat momenteel over het hoofd wordt gezien
   in onze toenemende internetgedreven samenleving: de ecologische voetafdruk van
   digitaal gedrag.
@@ -27,4 +25,7 @@ landingpage_text: >-
 
 
   Om uw digitale voetafdruk te ervaren, bezoekt of boekt u een Sensing CO2-proeverij. Ga naar de onderwerpen om actie te ondernemen op uw digitale voetafdruk of inspiratie op te doen om digitale innovaties te realiseren. Ga naar onze sectie bronnen voor meer inzichten.
+eleventyNavigation:
+  key: Over E-Missions
+  order: 5
 ---
