@@ -30,11 +30,46 @@ tips:
       beschikbaar, zoals Unroll.me, Cleanfox of Mailstorm.
     todo: Zoek de 8 van de 10 nieuwsbrieven die u ontvangt, maar niet leest en meld
       u af
-  - {}
-  - {}
-  - {}
-  - {}
-  - {}
+  - tip: Nieuwsbrieven verwijderen
+    explanation: Hoe lang blijft de informatie in een nieuwsbrief relevant? De
+      meeste nieuwsbrieven worden onnodig bewaard. Alleen al in Nederland stoten
+      ongeopende, opgeslagen nieuwsbrieven meer dan 1 miljoen ton CO2 per jaar
+      uit. Dit staat gelijk aan het besturen van ongeveer 3 miljoen auto's.
+    todo: Verwijder de nieuwsbrieven die in je mailbox onnodig staan opgeslagen
+  - tip: Stuur alleen e-mails naar wie ze moeten ontvangen
+    explanation: Het beperken van 'allen beantwoorden' en streng zijn in het
+      plaatsen van mensen in CC kan veel doen voor uw impact. Ongeveer 75% van
+      de e-mails die u in CC/reply all ontvangt, wordt door de ontvanger als
+      irrelevant en onnodig beschouwd.
+    todo: Definieer een strategie voor e-mailen en focus op het beperken van het
+      gebruik van reply all en CC.
+  - tip: Bijlagen in mailbox verwijderen
+    explanation: Gemiddeld bevat 24% van onze e-mails bijlagen. Zij zijn de echte
+      beïnvloeders van e-mailimpact. Natuurlijk is het verzenden van bijlagen
+      een efficiënte en gemakkelijke manier om documenten, afbeeldingen of
+      presentaties te delen. Maar er zijn een paar dingen die u misschien wilt
+      doen om een slimmere verzender en ontvanger van bijlagen te zijn.
+    todo: Download de bijlagen met of zonder de e-mail na ontvangst en verwijder de
+      e-mails met bijlage uit uw mailbox.
+  - tip: "Het delen van bijlagen verminderen: werk in gedeelde omgevingen"
+    explanation: Moet je veel documenten, afbeeldingen of presentaties delen omdat
+      je anderen nodig hebt om samen te werken? Een makkelijke manier is om werk
+      te delen op de digitale werkplek. Om de ander eraan te herinneren waar het
+      is opgeslagen, kunt u een hyperlink gebruiken die verwijst naar de
+      gedeelde map of naar een specifiek document, afbeelding of presentatie.
+    todo: Vermijd het heen en weer sturen van versies van samenwerkingsdocumenten.
+      Werk in plaats daarvan in gedeelde documenten.
+  - tip: Omvang van bijlagen verkleinen
+    explanation: De twee belangrijkste bijdragen aan een groot PDF-bestand zijn
+      overbodige teksten en grote afbeeldingen. U kunt de grootte van uw bijlage
+      verkleinen, converteren en downsamplen in de instellingen voor opslaan. In
+      de meeste gevallen past het nog steeds bij het doel van lezen, samenwerken
+      of verbeteren. Alleen als u een bestand (grootschalig) wilt laten
+      afdrukken, dient u rekening te houden met de vereiste resoluties.
+      Comprimeren zou het ook gemakkelijker maken om via e-mail te delen en is
+      niet te groot op de websites.
+    todo: Minimaliseer de grootte van uw bijlagen door met afbeeldingen
+      gecomprimeerde PDF's of ZIP-bestanden te verzenden
 body_addendum_text: >-
   ### Wist je dat
 
