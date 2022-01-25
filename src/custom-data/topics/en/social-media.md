@@ -10,8 +10,13 @@ body_intro_text: Almost 4.5 billion people on the planet use social media on a
   same post can have a very different impact depending on if you share it with
   100 followers or 10.000. Should the ecological impact of a post be a
   consideration to take into account before hitting the post button?
-calculator_text: |-
-  This calculator differentiates between posts that contain only text, images and minutes of video. This because the electricity consumed differs between the three categories. After clicking the ‘post’ button, your post gets published on the platform and reloaded each time a follower sees it. This makes the impact of a post to 500 followers instead of 50 followers - 10 times higher. With many accounts aiming for a high amount of followers, the impact becomes serious quite fast.
+calculator_text: This calculator differentiates between posts that contain only
+  text, images and minutes of video. This because the electricity consumed
+  differs between the three categories. After clicking the ‘post’ button, your
+  post gets published on the platform and reloaded each time a follower sees it.
+  This makes the impact of a post to 500 followers instead of 50 followers - 10
+  times higher. With many accounts aiming for a high amount of followers, the
+  impact becomes serious quite fast.
 tips:
   - tip: Disable automatic video play
     explanation: By default, all the video’s embedded in your social media feeds
