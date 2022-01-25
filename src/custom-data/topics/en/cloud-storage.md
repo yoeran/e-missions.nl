@@ -41,7 +41,7 @@ tips:
       compression, file type selection, website design and application design."
     todo: Optimize applications for cloud storage (for companies mainly)
 body_addendum_text: >-
-  **Did you know the amount of datacenters across the globe as explored in the
+  **Did you know the amount of datacenters across the globe has exploded in the
   last 10 years?**
 
 
