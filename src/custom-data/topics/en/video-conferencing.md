@@ -10,8 +10,15 @@ body_intro_text: "In what seems to be a distant past, video conferencing was
   friends living abroad and during lockdowns. This has a lot of benefits: less
   travelling, less organizing, less time needed to meet. But a flipside of the
   coin is the environmental impact of this transition."
-calculator_text: |-
-  Video conferencing consumes around 2.3 kWh per hour, varying upon the computer you use and a little on the platform you choose. This means you can video conference your heart out and still have a limited impact on the environment. However, video conferencing never comes alone, and when we take into account the amount of people around you conferencing with the same frequency, the numbers start to add up.
+calculator_text: Video conferences consume energy on the local computer, in the
+  transmission network and in the data centre. Anyone sitting in front of a
+  computer permanently connected to the internet consumes 6 Wh more energy per
+  hour during video conferences. If the video conference is transmitted via
+  mobile network, the additional consumption is 24 Wh per hour. This means you
+  can video conference your heart out and still have a limited impact on the
+  environment. However, video conferencing never comes alone, and when we take
+  into account the amount of people around you conferencing with the same
+  frequency, the numbers start to add up.
 tips:
   - tip: Turn of your camera when someone is presenting
     explanation: Video accounts for 80% of the total data traffic when video
@@ -30,10 +37,9 @@ tips:
       vectors: line based representation of an image)"
   - explanation: When video conferencing, using mobile internet bundles (4G/5G) is
       the worst option there is. Whatever carrier you use, making sure you are
-      connected to a WIFI or WLAN which uses a lot less energy.
-    tip: Always use a WLAN or WIFI and never mobile traffic
-    todo: Make sure you are connected to WLAN or WIFI when entering a video
-      conferencing call
+      connected to a fixed or WiFi connection which uses a lot less energy.
+    tip: Always use a fixed internet connection or WiFi and never mobile traffic
+    todo: Make sure you are connected to WiFi when entering a video conferencing call
 body_addendum_text: >-
   **How big should your organizations tree park be to keep pace of video
   conferencing?**
