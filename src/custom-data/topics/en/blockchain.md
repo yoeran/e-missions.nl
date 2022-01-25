@@ -9,11 +9,14 @@ body_intro_text: Blockchains are a new phenomenon. What started with the
   developed around the globe. Most blockchains run on a distributed
   authentication process which involves many computers who all need to run a
   compute intensive algorithm to verify and approve each new transaction on the
-  blockchain. This could be a document, a picture, a token or something else.
+  Blockchain. This could be a document, a picture, a token or something else.
   This is called the Proof of Work principle (PoW) and requires enormous amounts
   of electricity for each single transaction.
-calculator_text: |-
-  The calculation is based on data we know from the Bitcoin blockchain and it holds true for most of the Proof of Work principle based blockchains. However, exact numbers differ. We know that the Ethereum blockchain, which is the second largest in the world after bitcoin, consumes around half of the energy of the Bitcoin blockchain per transaction.
+calculator_text: The calculation is based on data we know from the Bitcoin
+  blockchain and it holds true for most of the Proof of Work principle based
+  blockchains. However, exact numbers differ. We know that the Ethereum
+  blockchain, which is the second largest in the world after bitcoin, consumes
+  around half of the energy of the Bitcoin blockchain per transaction.
 tips:
   - tip: Do not use blockchain technology, yet
     explanation: For the moment there is no way you could use blockchain technology
@@ -24,8 +27,8 @@ tips:
     todo: o	Wait for the introduction of the Proof-of-Stake verification method
       before developing blockchain based applications
 body_addendum_text: >-
-  **Did you know the blockchain industry alone could produce enough CO2 to
-  result in a 2 degrees global warming?**
+  **Did you know the blockchain industry alone could be responsible for enough
+  CO2 to result in a 2 degrees global warming?**
 
 
   The numbers are really astounding and quite frightening as well. If blockchain remains based on the Proof-of-Work principle it could end up causing enough CO2 emissions to be solely responsible for rising temperatures. Already now, a single Non-Fungible Token (NFT) release consumes more electricity in 10 seconds than a house in a year. And the two biggest blockchains on the net, Bitcoin and Ethereum, together consume more energy per year than Spain or Mexico.
