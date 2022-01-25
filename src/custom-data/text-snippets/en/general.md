@@ -66,5 +66,4 @@ disclaimer: >-
 
 
   The CO2 transfer cost indication you see on various images on this website are calculated by multiplying the size of the image-file (in kilobytes) with 0.000000936 (grams per kilobyte). The estimation only accounts for the transfer of the image from the server to your browser, and does not account the storage or energy usage of the image.
-
 ---

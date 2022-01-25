@@ -15,31 +15,32 @@ footer_about: >-
   [Stimuleringsfonds Creatieve Industrie](https://stimuleringsfonds.nl/)
 permalink: false
 title: General
-homepage_intro_title: How sustainable is your digital lifestyle?
+homepage_intro_title: Hoe duurzaam is jouw digitale levensstijl?
 homepage_intro_text: >
-  Gain insight by exploring our topics. Experience your CO2 impact through our
-  calculators and tasting and take action with your own list of eco-friendly
-  digital lifestyle measures.
+  Krijg inzicht door onze onderwerpen te verkennen. Ervaar uw CO2-impact via
+  onze calculators, proef uw eigen impact met onze proeverij en stel uw eigen
+  lijst van milieuvriendelijke digitale levensstijlmaatregelen samen.
 homepage_calculator_title: Impact calculators
-homepage_calculator_text: There is no doubt about it; how we use the internet
-  determines how sustainable the internet will be in the future. For 10 topics
-  related to digitalisation, we have gathered insights on how to reduce your
-  digital footprint. Each section has a small calculator and an overview of ways
-  you can hack towards an eco-friendly digital lifestyle.
-homepage_take_action_title: Take Action
-homepage_take_action_text: Each topic page has several actionable to-do’s you
-  could try out! Visit the [Take Action](/en/take-action) page to generate your
-  battleplan!
+homepage_calculator_text: Er is geen twijfel mogelijk; hoe we het internet
+  gebruiken bepaalt hoe duurzaam het internet in de toekomst zal zijn. Voor 10
+  onderwerpen met betrekking tot digitalisering hebben we inzichten verzameld
+  over hoe u uw digitale voetafdruk kunt verkleinen. Elke sectie heeft een
+  kleine calculator en een overzicht van manieren waarop u kunt bewegen naar een
+  milieuvriendelijke digitale levensstijl.
+homepage_take_action_title: Kom in Actie
+homepage_take_action_text: Elke onderwerp pagina heeft verschillende actiepunten
+  die u kunt uitproberen! Ga naar de pagina [Take Action](/en/take-action) om je
+  eigen strijdplan samen te stellen!
 homepage_take_action_button: Take Action
 homepage_topic_title: Topics
-homepage_topic_text: The eco-cost of internet activity can lead to a drastic
-  increase in CO2 emissions over the next 10 years. An increase, while we so
-  desperately need a decrease. Wondering what affects the CO2 of your internet
-  behaviour and what you can do about it? Read our topic pages, calculate your
-  Co2 output with our calculators and select your ‘resolutions’ to surf on the
-  green side.
-tips_text: Short explanation of this section, that your todolist is stored
+homepage_topic_text: De ecologische kosten van internetactiviteiten kunnen de
+  komende 10 jaar leiden tot een drastische toename van de CO2-uitstoot. Een
+  toename, terwijl we een afname zo hard nodig hebben. Benieuwd wat de CO2
+  uitstoot van uw internetgedrag beïnvloedt en wat u eraan kunt doen? Lees onze
+  themapagina's, bereken uw CO2 voetafdruk met onze calculatoren en selecteer uw
+  'resoluties' om aan de groene kant te surfen.
+tips_text: Short explanation of this section, that your to-do list is stored
   locally. Which is better for both co2 emissions as it is for your privacy. You
-  can add tips to your toto list and visit [Take Action](/en/take-action/) to
-  get a complete overview of your batteplan.
+  can add tips to your to-do list and visit [Take Action](/en/take-action/) to
+  get a complete overview of your battleplan.
 ---
