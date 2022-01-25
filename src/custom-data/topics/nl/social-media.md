@@ -17,6 +17,27 @@ calculator_text: Deze rekenmachine maakt onderscheid tussen berichten die alleen
   bericht op 500 volgers in plaats van 50 volgers - 10 keer hoger. Met veel
   accounts die streven naar een groot aantal volgers, wordt de impact vrij snel
   serieus.
+tips:
+  - tip: Automatisch afspelen van video uitschakelen
+    explanation: Standaard worden alle video's die zijn ingesloten in uw feeds voor
+      sociale media automatisch afgespeeld wanneer u erlangs scrolt. De extra
+      energie die wordt verbruikt in vergelijking met alleen het zien van de
+      afbeelding van de post kan tot 10x zoveel zijn.
+    todo: Ga naar het instellingengedeelte van uw sociale media-accounts en schakel
+      het automatisch afspelen van video's uit of schakel de
+      gegevensbesparingsmodus in.
+  - tip: Gebruik een tijdblokker
+    explanation: Sociale media kunnen verslavend zijn. Software, zoals een app of
+      browserextensie, kan u helpen de hoeveelheid tijd die u besteedt aan het
+      gebruik van sociale media te verminderen.
+    todo: Installeer een social media blocker
+  - tip: Vertraag de clips en afbeeldingen
+    explanation: Eén afbeelding met een bericht verbruikt dezelfde hoeveelheid
+      energie als duizend berichten met alleen tekst. Hoewel een afbeelding meer
+      zegt dan duizend woorden (in dit geval letterlijk), vraag je af wat de
+      toegevoegde waarde van elke afbeelding is.
+    todo: Focus op het gebruik van woorden om je boodschap te delen en gebruik
+      alleen afbeeldingen of clips als ze een echte toegevoegde waarde hebben.
 body_addendum_text: >-
   **Verzorg jij een social media tuin, park of bos?**
 
