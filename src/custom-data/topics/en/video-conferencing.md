@@ -45,5 +45,5 @@ body_addendum_text: >-
   conferencing?**
 
 
-  Most companies have a strategic plan to lower the environmental impact of their car park, but does your organization have a strategy to build a tree park as well? When you have adopted a ‘minimize video on’ conferencing etiquette, lowered the resolution and made sure everybody has access to good WIFI or WLAN when entering professional calls, the final step to become conference call neutral in terms of environmental impact could be to start building a tree park.
+  Most companies have a strategic plan to lower the environmental impact of their car park, but does your organization have a strategy to build a tree park as well? When you have adopted a ‘minimize video on’ conferencing etiquette, lowered the resolution and made sure everybody has access to a fixed internet connection or good WIFI when entering professional calls, the final step to become conference call neutral in terms of environmental impact could be to start building a tree park.
 ---
