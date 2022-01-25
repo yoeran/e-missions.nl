@@ -11,4 +11,10 @@ body_intro_text: Blockchains zijn een nieuw fenomeen. Wat begon met de
   document, een foto, een token of iets anders zijn. Dit wordt het Proof of
   Work-principe (PoW) genoemd en vereist enorme hoeveelheden elektriciteit voor
   elke afzonderlijke transactie.
+calculator_text: De berekening is gebaseerd op gegevens die we kennen van de
+  Bitcoin-blockchain en geldt voor de meeste op het Proof of Work-principe
+  gebaseerde blockchains. Exacte aantallen verschillen echter. We weten dat de
+  Ethereum-blockchain, die na bitcoin de op één na grootste ter wereld is, per
+  transactie ongeveer de helft van de energie van de Bitcoin-blockchain
+  verbruikt.
 ---
