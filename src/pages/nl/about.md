@@ -62,7 +62,7 @@ body_addendum_text: >-
 
   \
 
-  Heeft u interesse in een workshop Digitale Etiquette en wilt onderzoeken hoe uw organisatie haar digitale voetafdruk kan verbeteren, of om te berekenen welke 'Bomen Park' er nodig zou zijn voor uw E-missions, kunt u contact opnemen met: rodolfo \[@] in4art.eu
+  Heeft u interesse in een workshop Digitale Etiquette en wilt onderzoeken hoe uw organisatie haar digitale voetafdruk kan verbeteren, kunt u contact opnemen met: rodolfo \[@] in4art.eu
 eleventyNavigation:
   key: Over E-Missions
   order: 5
