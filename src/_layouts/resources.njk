@@ -2,7 +2,7 @@
 layout: base
 ---
 {% set translate = lang | translateFn %}
-{% set items = collections['resources_' + lang] %}
+{% set items = collections.resources %}
 {% set general = collections.all | getPage('general', lang) %}
 
 {% set filters = ['calculator', 'best-practice', 'scientific', 'smart-devices', 'audio-streaming', 'blockchain', 'cloud-storage', 'email', 'online-gaming', 'searching', 'social-media', 'video-conferencing', 'video-streaming'] %}

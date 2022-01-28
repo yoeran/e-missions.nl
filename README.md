@@ -36,5 +36,3 @@ Currently, critical CSS will only be inlined in the head of the homepage. This i
 
 - Used [Eleventastic](https://github.com/maxboeck/eleventastic) as the starterkit
 - Added NetlifyCMS according to [eleventy-netlify-boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate)
-
-<!-- 0.0002 Co2 gr per Kb -->

@@ -44,9 +44,31 @@ module.exports = {
 
   getPage: function (collection, slug, lang) {
     const pathFilter = lang ? `/${lang}/` : "/";
-    return collection.find(
-      (item) => item.fileSlug === slug && item.inputPath?.includes(pathFilter)
+
+    // Get page for each translation with same slug
+    const instances = collection.filter((item) => item.fileSlug === slug);
+
+    // Get current page for requested language
+    const pageForLanguage = instances.find((item) =>
+      item.inputPath?.includes(pathFilter)
     );
+
+    // Merge page.data of each page to one object
+    const allDataFromInstances = instances.reduce((all, item) => {
+      return {
+        ...all,
+        ...item.data,
+      };
+    }, {});
+
+    // Return current page and merge all data from other instances with current page, defining current page as last to override translations.
+    return {
+      ...pageForLanguage,
+      data: {
+        ...allDataFromInstances,
+        ...pageForLanguage.data,
+      },
+    };
   },
 
   formatCo2,

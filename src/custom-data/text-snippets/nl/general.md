@@ -5,9 +5,6 @@ footer_about: >-
   digital lifestyle.
 
 
-  Copyright &copy; 2022
-
-
   Project supported by:
 
   [SIDNfonds](https://www.sidn.nl/)
@@ -29,7 +26,7 @@ homepage_calculator_text: Er is geen twijfel mogelijk; hoe we het internet
   milieuvriendelijke digitale levensstijl.
 homepage_take_action_title: Kom in Actie
 homepage_take_action_text: Elke *topic* pagina heeft verschillende actiepunten
-  die u kunt uitproberen! Ga naar de pagina [Take Action](/en/take-action) om je
+  die u kunt uitproberen! Ga naar de pagina [Take Action](/nl/take-action) om je
   eigen strijdplan samen te stellen!
 homepage_take_action_button: Take Action
 homepage_topic_title: Topics
@@ -48,7 +45,7 @@ resources_intro_text: In dit gedeelte vindt u de bronnen die we hebben gebruikt
   het Engels doorzoekbaar.
 tips_text: Short explanation of this section, that your to-do list is stored
   locally. Which is better for both co2 emissions as it is for your privacy. You
-  can add tips to your to-do list and visit [Take Action](/en/take-action/) to
+  can add tips to your to-do list and visit [Take Action](/nl/take-action/) to
   get a complete overview of your battleplan.
 disclaimer: >-
   Dit platform is gecreëerd als een ruimte waar individuen en organisaties

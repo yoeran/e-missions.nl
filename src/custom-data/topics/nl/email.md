@@ -1,7 +1,7 @@
 ---
-title: Email
+title: E-mail
 key: email
-permalink: /nl/topic/email/
+permalink: /nl/topic/e-mail/
 body_intro_text: Het verzenden en ontvangen van e-mail is een kernactiviteit
   geworden in ons dagelijks leven. Terwijl u deze zin aan het lezen was, werden
   er zelfs meer dan 10 miljoen e-mails verzonden. Het is een van de

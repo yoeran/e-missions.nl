@@ -3,7 +3,7 @@
 <footer class="footer" role="contentinfo">
     <div class="footer__inner container">
 
-        <div class="footer__column">
+        <div>
             <h4 class="heading heading--small">{{ translate('topics') }}</h4>
             <ul>
             {%- for item in collections["topics_" + lang] -%}
@@ -23,7 +23,7 @@
             </ul>
         </div>
 
-        <div class="footer__column">
+        <div>
             <h4 class="heading heading--small">{{ translate('pages') }}</h4>
 
             <ul>
@@ -44,9 +44,16 @@
             </ul>
         </div>
 
-        <div class="footer__column">
+        <div>
             <h4 class="heading heading--small">{{ translate('about_emissions') }}</h4>
             {{ general.data.footer_about | markdown | safe }}
+            <div class="footer__credit">
+                <p>Copyright &copy; {{ build.copyrightYear }}</p>
+                <p>
+                    Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="nofollow noreferer">Creative Commons Attribution 4.0 International license</a>.
+                    <a href="https://creativecommons.org/website-icons" target="_blank" rel="nofollow noreferer">Icons</a> by The Noun Project.
+                </p>
+            </div>
         </div>
     </div>
 </footer>

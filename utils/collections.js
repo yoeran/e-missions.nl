@@ -29,18 +29,6 @@ module.exports = {
       .filter((item) => item.inputPath?.includes("topics/en"));
   },
 
-  resources_nl: function (collection) {
-    return collection
-      .getAll()
-      .filter((item) => item.inputPath?.includes("resources/nl"));
-  },
-
-  resources_en: function (collection) {
-    return collection
-      .getAll()
-      .filter((item) => item.inputPath?.includes("resources/en"));
-  },
-
   recipes_nl: function (collection) {
     return collection
       .getAll()

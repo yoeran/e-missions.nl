@@ -5,9 +5,6 @@ footer_about: >-
   digital lifestyle.
 
 
-  Copyright &copy; 2022
-
-
   Project supported by:
 
   [SIDNfonds](https://www.sidn.nl/)
