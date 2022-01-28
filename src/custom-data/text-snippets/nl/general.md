@@ -44,7 +44,8 @@ resources_intro_text: In dit gedeelte vindt u de bronnen die we hebben gebruikt
   om gegevens en informatie te verstrekken in onze rekenmachines, tips en
   onderwerpen. Elke bron is gekoppeld aan (een) bepaald(e) onderwerp(en). We
   hebben gebruik gemaakt van een diverse set aan middelen, variërend van
-  wetenschappelijk onderzoek tot praktijkgericht onderzoek.
+  wetenschappelijk onderzoek tot praktijkgericht onderzoek. De bronnen zijn in
+  het Engels doorzoekbaar.
 tips_text: Short explanation of this section, that your to-do list is stored
   locally. Which is better for both co2 emissions as it is for your privacy. You
   can add tips to your to-do list and visit [Take Action](/en/take-action/) to
