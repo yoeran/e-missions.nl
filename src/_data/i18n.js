@@ -56,6 +56,8 @@ module.exports = {
     },
     world: { nl: "Wereldwijd", en: "World" },
     subscribers: { nl: "Abonnees", en: "Subscribers" },
+    lan: { nl: "Vaste internetverbinding / Wifi", en: "Fixed line / Wifi" },
+    cellular: { nl: "Mobiele verbinding (4G/5G)", en: "Cellular connection" },
 
     // UNITS
     hour: { nl: "uur", en: "hour" },
@@ -264,6 +266,11 @@ module.exports = {
     videoconferencingAverage: {
       nl: "Gemiddeld zit men 4 uur per dag in video conferenties.",
       en: "On average, people are in video conferences for 4 hours per day.",
+    },
+
+    typeOfConnection: {
+      nl: "Via welk type verbinding doe je mee?",
+      en: "Which type of connection do you use?",
     },
 
     videostreamingHours: {

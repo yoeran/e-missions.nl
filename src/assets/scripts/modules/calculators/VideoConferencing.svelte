@@ -1,5 +1,6 @@
 <script>
   import NumberInput from "../components/NumberInput.svelte";
+  import RadioGroupInput from "../components/RadioGroupInput.svelte";
   import RangeInput from "../components/RangeInput.svelte";
   import StatBlock from "../components/StatBlock.svelte";
   import TreeStat from "../components/TreeStat.svelte";
@@ -8,10 +9,16 @@
   import ParkView from "../views/ParkView.svelte";
   import { kwhToInfo } from "./index";
 
+  const CONNECTION_TYPE = {
+    lan: 6.2,
+    cellular: 24.2,
+  };
+
   let serviceUsed = 4;
   let employees = 1;
+  let connectionType = "lan";
 
-  $: data = kwhToInfo(serviceUsed * 6.2 * 0.365);
+  $: data = kwhToInfo(serviceUsed * CONNECTION_TYPE[connectionType] * 0.365);
 </script>
 
 <Wrap>
@@ -32,6 +39,13 @@
       min={1}
       max={5000}
       bind:value={employees}
+    />
+
+    <RadioGroupInput
+      name="connectionType"
+      question={translate("typeOfConnection")}
+      options={["lan", "cellular"]}
+      bind:value={connectionType}
     />
 
     <small class="calculator-avg-text">
