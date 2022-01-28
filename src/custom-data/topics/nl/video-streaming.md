@@ -22,7 +22,7 @@ calculator_text: >-
 tips:
   - tip: Lagere kwaliteit voor videostreaming
     explanation: Streamen op gemiddelde kwaliteit vermindert het gegevensgebruik met
-      40% en u zult waarschijnlijk het verschil niet eens merken.
+      40% en je zal waarschijnlijk het verschil niet eens merken.
     todo: Lagere streamingkwaliteit in je streaminginstellingen
   - tip: Gebruik altijd een vaste internetverbinding of wifi en nooit mobiel verkeer
     explanation: Bij videostreaming is het gebruik van bundels voor mobiel internet
@@ -34,10 +34,10 @@ tips:
   - tip: Ga offline
     explanation: Download je afleveringen of films op je laptop of tablet en speel
       vanaf daar af als je op reis bent.
-    todo: Download de films en afleveringen die u wilt zien op uw laptop/tablet
-      voordat u op reis gaat
+    todo: Download de films en afleveringen die je wilt zien op jouw laptop/tablet
+      voordat je op reis gaat
 body_addendum_text: >-
-  **Wist je dat dvd's minder vervuilend zijn dan HD-streaming?**
+  ### Wist je dat dvd's minder vervuilend zijn dan HD-streaming?
 
 
   Het kijken naar een HD-stream van een film kan evenveel CO2 uitstoten als het maken, transporteren en afspelen van een dvd. Een dvd kan worden opgeslagen, opnieuw bekeken, uitgeleend, terwijl een film op een streamingdienst elke keer dat hij wordt bekeken dezelfde impact heeft. In plaats van 1 dvd kijken we meerdere uren per dag series. Wat kunnen we leren van het dvd-tijdperk bij het gebruik van videostreams? Natuurlijk, als we denken dat we een film, aflevering of documentaire opnieuw kunnen bekijken, kunnen we deze natuurlijk het beste downloaden en niet opnieuw streamen. En hoewel we een gedownloade film op Netflix niet kunnen uitlenen, kunnen we degenen die we willen uitnodigen om de film te zien, uitnodigen en samen de gedownloade versie bekijken. Het zou nog leuker zijn. Stream verantwoord, stream 1 keer.

@@ -30,7 +30,7 @@ tips:
       merken.
     todo: Afspelen op lagere audiostreamingkwaliteit instellen bij
       streaminginstellingen
-  - tip: Gebruik geen video terwijl u naar muziek luistert
+  - tip: Gebruik geen video terwijl je naar muziek luistert
     explanation: Of het nu een achtergrondclip is op Spotify of een YouTube-clip,
       als je geïnteresseerd bent in de muziek of het gesprek, streamen zonder
       video zal je uitstoot met 25% verminderen.

@@ -19,13 +19,13 @@ tips:
     explanation: De meeste gegevens die online zijn opgeslagen, kunnen worden
       bestempeld als 'nu niet nodig, misschien later nodig'. Door te
       heroverwegen wat we opslaan en archiveren in termen van behoeften op korte
-      en lange termijn, kunt u beginnen met het categoriseren van uw datasets in
+      en lange termijn, kan je beginnen met het categoriseren van je datasets in
       1) voor gebruik op korte termijn en 2) voor gebruik op lange termijn. Door
-      de langetermijn gegevens offline te halen, kunt u enorme besparingen
+      de langetermijn gegevens offline te halen, kan je enorme besparingen
       behalen.
     todo: Identificeer datasets voor de lange termijn, haal ze uit de cloud en sla
       ze offline op
-  - tip: Bewaar uw gegevens bij een groene cloudprovider
+  - tip: Bewaar jouw gegevens bij een groene cloudprovider
     explanation: "CO2 bewuste providers hebben duurzaamheid centraal in de manier
       waarop ze hun datacenters plannen, bouwen, voeden, exploiteren en buiten
       gebruik stellen. Enkele groene cloudproviders zijn: Evry, GreenQloud,
@@ -45,9 +45,8 @@ tips:
       applicatie-ontwerp."
     todo: Optimaliseer applicaties voor cloudopslag (voornamelijk voor bedrijven)
 body_addendum_text: >-
-  **Wist u dat het aantal datacenters over de hele wereld in de afgelopen 10
-  jaar is extreem hard is toegenomen?**
-
+  ### Wist je dat het aantal datacenters over de hele wereld in de afgelopen 10
+  jaar is extreem hard is toegenomen?
 
   In 2012 waren er zo'n 500.000 datacenters over de hele wereld, vandaag zijn dat er meer dan 8 miljoen en de komende jaren zullen dat er nog veel meer worden. De toch al zwaarlijvige cloud wordt dikker en dikker. De energiebehoefte verdubbelt elke 4 jaar, waardoor cloudopslag de snelst groeiende energieverbruikende sector ter wereld is. Als we zo doorgaan, zal in 2040 naar schatting 14% van de CO2-uitstoot in de wereld worden veroorzaakt door de elektriciteitsvraag van datacenters.
 

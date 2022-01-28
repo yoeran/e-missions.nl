@@ -27,8 +27,8 @@ tips:
       willekeurige selectie, genaamd Proof-of-Stake. Dit zou de milieu-impact
       van de blockchain enorm verminderen.
 body_addendum_text: >-
-  **Wist u dat alleen de blockchain-industrie verantwoordelijk kan zijn voor
-  voldoende CO2 om te resulteren in een opwarming van de aarde met 2 graden?**
+  ### Wist je dat alleen de blockchain-industrie verantwoordelijk kan zijn voor
+  voldoende CO2 om te resulteren in een opwarming van de aarde met 2 graden?
 
 
   De cijfers zijn echt verbazingwekkend en ook behoorlijk beangstigend. Als blockchain gebaseerd blijft op het Proof-of-Work-principe, kan dit leiden tot voldoende CO2-uitstoot om in z'n eentje verantwoordelijk te zijn voor stijgende temperaturen. Nu al verbruikt een enkele Non-Fungible Token (NFT) release meer elektriciteit in 10 seconden dan een huis in een jaar. En de twee grootste blockchains op het net, Bitcoin en Ethereum, verbruiken samen meer energie per jaar dan Spanje of Mexico.

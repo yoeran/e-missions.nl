@@ -16,7 +16,7 @@ calculator_text: Videoconferenties verbruiken energie op de lokale computer, in
   zit die permanent met internet is verbonden, verbruikt tijdens
   videoconferenties 6 Wh meer energie per uur. Als de videoconferentie via het
   mobiele netwerk wordt verzonden, is het meerverbruik 24 Wh per uur. Dit
-  betekent dat u naar hartenlust videoconferenties kunt houden en toch een
+  betekent dat je naar hartenlust videoconferenties kunt houden en toch een
   beperkte impact op het milieu heeft. Videoconferencing staat echter nooit
   alleen, en als we rekening houden met het aantal mensen om je heen dat met
   dezelfde frequentie vergadert, beginnen de cijfers op te lopen.
@@ -28,7 +28,7 @@ tips:
       ongeïnteresseerdheid. Afspraken maken over een nieuwe etiquette voor
       videoconferenties op basis van het inschakelen van video tijdens
       gesprekken, maar uitschakelen bij het luisteren naar een presentatie.
-    todo: Pas een nieuwe etiquette toe voor videoconferenties binnen uw
+    todo: Pas een nieuwe etiquette toe voor videoconferenties binnen jouw
       organisatie/groep
   - tip: Lagere kwaliteit voor videostreaming
     explanation: Streamen op gemiddelde kwaliteit vermindert het gegevensgebruik met
@@ -43,12 +43,12 @@ tips:
       (4G/5G) de slechtste optie die er is. Welke provider je ook gebruikt, zorg
       ervoor dat je verbonden bent met een vaste of wifi-verbinding die een stuk
       minder energie verbruikt.
-    todo: Zorg ervoor dat u verbonden bent met wifi wanneer u deelneemt aan een
+    todo: Zorg ervoor dat je verbonden bent met wifi wanneer je deelneemt aan een
       videoconferentiegesprek
 body_addendum_text: >-
-  **Hoe groot moet het boompark van uw organisatie zijn om gelijke tred te
-  houden met videoconferenties?**
+  ### Hoe groot moet het boompark van jouw organisatie zijn om gelijke tred te
+  houden met videoconferenties?
 
 
-  De meeste bedrijven hebben een strategisch plan om de milieu-impact van hun parkeerplaats te verminderen, maar heeft uw organisatie ook een strategie om een bomenparkeerplaats aan te leggen? Wanneer je een 'minimaliseer video op' vergaderetiquette hebt aangenomen, de resolutie hebt verlaagd en ervoor hebt gezorgd dat iedereen toegang heeft tot een vaste internetverbinding of goede wifi bij het aangaan van professionele gesprekken, kan de laatste stap om conference call-neutraal te worden in termen van milieu-impact zijn om een bomenpark te bouwen.
+  De meeste bedrijven hebben een strategisch plan om de milieu-impact van hun parkeerplaats te verminderen, maar heeft jouw organisatie ook een strategie om een bomenparkeerplaats aan te leggen? Wanneer je een 'minimaliseer video op' vergaderetiquette hebt aangenomen, de resolutie hebt verlaagd en ervoor hebt gezorgd dat iedereen toegang heeft tot een vaste internetverbinding of goede wifi bij het aangaan van professionele gesprekken, kan de laatste stap om conference call-neutraal te worden in termen van milieu-impact zijn om een bomenpark te bouwen.
 ---

@@ -1,6 +1,6 @@
 ---
 landingpage_text: E-missions is een digitaal platform om inzicht te krijgen en
-  te handelen naar uw eigen ecologische digitale voetafdruk. Dit project geeft
+  te handelen naar jouw eigen ecologische digitale voetafdruk. Dit project geeft
   een nieuw perspectief op de verborgen dimensies van digitaal gedrag. Het
   speelt met bewustzijn en begrip van CO2 en hoe het onderdeel zou moeten zijn
   van onze digitale geletterdheid. Laten we werken aan een milieuvriendelijke
@@ -24,7 +24,7 @@ body_intro_text: >-
   Een e-mail wordt pas tastbaar als je hem print en een gestreamde serie is minder tastbaar dan een dvd-box in de kast. Sterker nog, er ‘lijken’ helemaal geen grondstoffen te worden gebruikt. Helaas is deze gedachte onjuist, want de toename van de energievraag als gevolg van ons digitale gedrag is een van de snelst groeiende energieverbruikende sectoren ter wereld en zal de komende tijd alleen maar harder groeien.
 
 
-  Om uw digitale voetafdruk te ervaren, bezoekt of boekt u een Sensing CO2-proeverij. Ga naar de onderwerpen om actie te ondernemen op uw digitale voetafdruk of inspiratie op te doen om digitale innovaties te realiseren. Ga naar onze sectie bronnen voor meer inzichten.
+  Om jouw digitale voetafdruk te ervaren, bezoek of boek je een Sensing CO2-proeverij. Ga naar de onderwerpen om actie te ondernemen op jouw digitale voetafdruk of inspiratie op te doen om digitale innovaties te realiseren. Ga naar onze sectie bronnen voor meer inzichten.
 body_main_text: >-
   ## Achtergrond van het project
 
@@ -58,11 +58,11 @@ body_addendum_text: >-
 
   \
 
-  Indien u interesse heeft om de Sensing CO2 proeverij te ervaren of op uw evenement te hebben, kunt u contact opnemen met leanne \[@]yeast.computer\
+  Indien je interesse hebt om de Sensing CO2 proeverij te ervaren of op jouw evenement te hebben, kan je contact opnemen met leanne \[@]yeast.computer\
 
   \
 
-  Heeft u interesse in een workshop Digitale Etiquette en wilt onderzoeken hoe uw organisatie haar digitale voetafdruk kan verbeteren, kunt u contact opnemen met: rodolfo \[@] in4art.eu
+  Heb je interesse in een workshop Digitale Etiquette en wil onderzoeken hoe jouw organisatie haar digitale voetafdruk kan verbeteren, kan je contact opnemen met: rodolfo \[@] in4art.eu
 eleventyNavigation:
   key: Over E-Missions
   order: 5

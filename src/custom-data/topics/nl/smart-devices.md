@@ -14,7 +14,7 @@ calculator_text: In de categorie slimme apparaten is de grootste impact de
   snelle groei van het aantal slimme apparaten dat we in huis en op kantoor
   brengen. De calculator laat zien hoeveel bomen je elk jaar moet planten om je
   huidige verzameling slimme apparaten te compenseren. Het projecteert ook het
-  aantal bomen dat u jaarlijks over 3 jaar nodig zult hebben op basis van uw
+  aantal bomen dat je jaarlijks over 3 jaar nodig zult hebben op basis van jouw
   groeitempo.
 tips:
   - tip: Geef prioriteit aan slimme apparaten die het energieverbruik verminderen
@@ -24,14 +24,14 @@ tips:
     todo: Identificeer welke slimme apparaten energie besparen en welke niet in je
       huis/kantoor en kies voor de laatste categorie als je ze echt nodig hebt.
   - tip: Dim de helderheid van je schermen
-    explanation: Het dimmen van de helderheid van uw schermen van 100% naar 70% kan
+    explanation: Het dimmen van de helderheid van jouw schermen van 100% naar 70% kan
       tot 20% van de gebruikte energie besparen en het vermindert de belasting
       van de ogen.
     todo: Zet de standaard helderheid van al mijn schermen op 70%
   - tip: Sluit af en dood de vampier energie
     explanation: Apparaten die via een kabel of stekker direct op het net zijn
       aangesloten, blijven energie verbruiken terwijl ze niet nodig zijn.
-    todo: Schakel apparaten uit als u langer dan 2 uur weg bent (behalve voor
+    todo: Schakel apparaten uit als je langer dan 2 uur weg bent (behalve voor
       beveiligingsapparatuur)
 body_addendum_text: >-
   **Weet je hoeveel Amazones we moeten planten om het elektriciteitsverbruik van
