@@ -56,7 +56,7 @@ body_addendum_text: >-
 
   \
 
-  If you would like to have a Digital Etiquette workshop and explore how your organisation can improve its digital footprint, you can contact:  rodolfo \[@] in4art.eu
+  If you would like to have a Digital Etiquette workshop and explore how your organisation can improve its digital footprint and calculate the needed Tree Park to off set E-missions, you can contact:  rodolfo \[@] in4art.eu
 eleventyNavigation:
   key: About E-Missions
   order: 5
