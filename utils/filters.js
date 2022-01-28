@@ -126,21 +126,4 @@ module.exports = {
     const now = Date.now();
     return collection.filter((item) => item.date.getTime() < now);
   },
-
-  getPageInOtherLanguages: function (page, collections) {
-    const pages = [];
-
-    for (const item of collections) {
-      for (const lang of i18n.languages) {
-        if (item.filePathStem.includes(`${lang.code}/${page.fileSlug}`)) {
-          pages.push({
-            hreflang: lang.code,
-            href: item.url,
-          });
-        }
-      }
-    }
-
-    return pages;
-  },
 };
