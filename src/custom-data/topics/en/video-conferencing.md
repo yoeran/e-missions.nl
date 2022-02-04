@@ -2,11 +2,14 @@
 title: Video Conferencing
 key: video-conferencing
 permalink: /en/topic/video-conferencing/
-body_intro_text: >-
-  **Did you know?**
-
-
-  In what seems to be a distant past, video conferencing was something done by executives and directors to avoid continuous travelling across the globe. But since the Corona virus outbreak and subsequent global pandemic, video conferencing has become the standard for communicating between colleagues, teams and with clients, partners. Even with family members and friends living abroad and during lockdowns. This has a lot of benefits: less travelling, less organizing, less time needed to meet. But a flipside of the coin is the environmental impact of this transition.
+body_intro_text: "In what seems to be a distant past, video conferencing was
+  something done by executives and directors to avoid continuous travelling
+  across the globe. But since the Corona virus outbreak and subsequent global
+  pandemic, video conferencing has become the standard for communicating between
+  colleagues, teams and with clients, partners. Even with family members and
+  friends living abroad and during lockdowns. This has a lot of benefits: less
+  travelling, less organizing, less time needed to meet. But a flipside of the
+  coin is the environmental impact of this transition."
 calculator_text: Video conferences consume energy on the local computer, in the
   transmission network and in the data centre. Anyone sitting in front of a
   computer permanently connected to the internet consumes 6 Wh more energy per
@@ -42,5 +45,5 @@ body_addendum_text: >-
   conferencing?**
 
 
-  Most companies have a strategic plan to lower the environmental impact of their car park, but does your organization have a strategy to build a tree park as well? When you have adopted a ‘minimize video on’ conferencing etiquette, lowered the resolution and made sure everybody has access to a fixed internet connection or good WiFi when entering professional calls, the final step to become conference call neutral in terms of environmental impact could be to start building a tree park.
+  Most companies have a strategic plan to lower the environmental impact of their car park, but does your organization have a strategy to build a tree park as well? When you have adopted a ‘minimize video on’ conferencing protocol, lowered the resolution and made sure everybody has access to a fixed internet connection or good WiFi when entering professional calls, the final step to become conference call neutral in terms of environmental impact could be to start building a tree park. Do you want to further explore this option? Start creating a strategy to implement a new [digital etiquette](https://www.e-missions.nl/en/digital-etiquette/).
 ---
