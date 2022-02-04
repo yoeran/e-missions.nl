@@ -47,7 +47,7 @@ tips_text: Wil je een groenere digitale levensstijl omarmen? Hieronder staan wat
   tips. Als je er een of meerdere selecteert, wordt deze lokaal opgeslagen. Dit
   is beter voor zowel de CO2-uitstoot als voor jouw privacy. Door een tip te
   selecteren, wordt deze toegevoegd aan je eigen strijdplan, waar je altijd naar
-  kunt terugkeren in de sectie  [Take Action](/en/take-action/).
+  kunt terugkeren op de [Take Action](/en/take-action/) pagina.
 disclaimer: >-
   Dit platform is gecreëerd als een ruimte waar individuen en organisaties
   terecht kunnen om meer te weten te komen over het onderwerp 'milieu-impact van
