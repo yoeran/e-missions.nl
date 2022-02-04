@@ -2,13 +2,11 @@
 title: Online Gaming
 key: online-gaming
 permalink: /en/topic/online-gaming/
-body_intro_text: We play online games because it convenient, diverse,
-  interactive and it gives the possibility to play against other people. Game
-  developers like to create online games because it allows for continuous
-  in-game revenues through adds and in-game purchases. Because of this, we play
-  more and more games online. In fact, in the age group 12-25 years, almost all
-  youngsters play online, on average 11 hours per week in the Netherlands. What
-  does online gaming mean for the environment?
+body_intro_text: >-
+  **Did you know that online gaming is growing exponentially?**
+
+
+  We play online games because it convenient, diverse, interactive and it gives the possibility to play against other people. Game developers like to create online games because it allows for continuous in-game revenues through adds and in-game purchases. Because of this, we play more and more games online. In fact, in the age group 12-25 years, almost all youngsters play online, on average 11 hours per week in the Netherlands. What does online gaming mean for the environment? Calculate the impact.
 calculator_text: Online gaming is seen as a form of sports. Electronic sports,
   or eSports. Professional eSport teams are popping up around the globe,
   implementing a top sport mentality to maximize the performers of gamers.

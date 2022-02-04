@@ -2,13 +2,11 @@
 title: Online Gaming
 key: online-gaming
 permalink: /nl/topic/online-gaming/
-body_intro_text: We spelen online games omdat het handig, divers of interactief
-  is en het de mogelijkheid geeft om tegen andere mensen te spelen.
-  Game-ontwikkelaars maken graag online games omdat het zorgt voor continue
-  in-game inkomsten door toevoegingen en in-game aankopen. Hierdoor spelen we
-  steeds meer games online. Sterker nog, in de leeftijdsgroep 12-25 jaar spelen
-  bijna alle jongeren online, gemiddeld 11 uur per week in Nederland. Wat
-  betekent online gamen voor het milieu?
+body_intro_text: >-
+  **Wist je dat er meer en meer online games gespeeld worden?**
+
+
+  We spelen online games omdat het handig, divers of interactief is en het de mogelijkheid geeft om tegen andere mensen te spelen. Game-ontwikkelaars maken graag online games omdat het zorgt voor continue in-game inkomsten door toevoegingen en in-game aankopen. Hierdoor spelen we steeds meer games online. Sterker nog, in de leeftijdsgroep 12-25 jaar spelen bijna alle jongeren online, gemiddeld 11 uur per week in Nederland. Wat betekent online gamen voor het milieu? Bereken het hierboven.
 calculator_text: Online gamen wordt gezien als een vorm van sport. Elektronische
   sporten of eSports. Over de hele wereld duiken professionele eSport-teams op,
   die een topsportmentaliteit implementeren om de spelers van gamers te
