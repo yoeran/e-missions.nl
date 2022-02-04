@@ -2,13 +2,11 @@
 title: Searching
 key: searching
 permalink: /en/topic/searching/
-body_intro_text: Making use of search engines has become the gateway to using
-  the internet for many of us. Each second, we collectively search over 4
-  million times on Google alone. Each character we type in our search bar
-  triggers a new request with autocomplete enabled, and each search uses many
-  servers to list the answer. Since almost all of us never search beyond the
-  first page, and we do not open more than 8 hits before searching again, we can
-  conclude that many queries are unnecessary.
+body_intro_text: >-
+  **Did you know?**
+
+
+  Making use of search engines has become the gateway to using the internet for many of us. Each second, we collectively search over 4 million times on Google alone. Each character we type in our search bar triggers a new request with autocomplete enabled, and each search uses many servers to list the answer. Since almost all of us never search beyond the first page, and we do not open more than 8 hits before searching again, we can conclude that many queries are unnecessary.
 calculator_text: Each search request consumes an estimated 3Wh electricity. This
   means that the CO2 impact of searching is strongly correlated to the amount of
   search requests we do. Globally we perform 115 search requests per person per
