@@ -2,12 +2,11 @@
 title: Video Streaming
 key: video-streaming
 permalink: /en/topic/video-streaming/
-body_intro_text: Netflix, Disney+, Videoland, Prime Video, Tencent, YouTube.
-  Streaming series, movies, video clips, classes, courses, cat video’s and more.
-  In 2021, Netflix was the big winner at the Emmy awards. We all have at least
-  one streaming subscription. Every minute, worldwide, we watch over 750.000
-  hours of Netflix. What effects does the enormous scale and speed of our move
-  from cable television and DVDs to video streaming have on the environment?
+body_intro_text: >-
+  **Did you know that video streaming is growing steadily?**
+
+
+  Netflix, Disney+, Videoland, Prime Video, Tencent, YouTube. Streaming series, movies, video clips, classes, courses, cat video’s and more. In 2021, Netflix was the big winner at the Emmy awards. We all have at least one streaming subscription. Every minute, worldwide, we watch over 750.000 hours of Netflix. What effects does the enormous scale and speed of our move from cable television and DVDs to video streaming have on the environment?
 calculator_text: >-
   Every hour streamed uses on average 2.3 kWh of energy per year. With this
   basis, and information on the emissions per kWh, we calculate the CO2 impact

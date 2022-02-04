@@ -2,12 +2,11 @@
 title: Video Streaming
 key: video-streaming
 permalink: /nl/topic/video-streaming/
-body_intro_text: Netflix, Disney+, Videoland, Prime Video, Tencent, YouTube.
-  Streaming series, films, videoclips, lessen, cursussen, kattenvideo's en meer.
-  In 2021 was Netflix de grote winnaar bij de Emmy-awards. We hebben allemaal
-  minimaal één streamingabonnement. Elke minuut kijken we wereldwijd meer dan
-  750.000 uur Netflix. Welke effecten heeft de enorme schaal en snelheid van
-  onze overstap van kabeltelevisie en dvd's naar videostreaming op het milieu?
+body_intro_text: >-
+  **Wist je dat we steeds meer video streamen?**
+
+
+  Netflix, Disney+, Videoland, Prime Video, Tencent, Pathé thuis, YouTube. Streaming series, films, videoclips, lessen, cursussen, kattenvideo's en meer. In 2021 was Netflix de grote winnaar bij de Emmy-awards. We hebben allemaal minimaal één streamingabonnement. Elke minuut kijken we wereldwijd meer dan 750.000 uur Netflix. Welke effecten heeft de enorme schaal en snelheid van onze overstap van kabeltelevisie en dvd's naar videostreaming op het milieu?
 calculator_text: >-
   Elk gestreamd uur verbruikt gemiddeld 2,3 kWh energie per jaar. Met deze
   basis, en informatie over de uitstoot per kWh, berekenen we de CO2-impact van
