@@ -45,8 +45,9 @@ tips:
       applicatie-ontwerp."
     todo: Optimaliseer applicaties voor cloudopslag (voornamelijk voor bedrijven)
 body_addendum_text: >-
-  ### Wist je dat het aantal datacenters over de hele wereld in de afgelopen 10
-  jaar is extreem hard is toegenomen?
+  **Wist je dat het aantal datacenters over de hele wereld in de afgelopen 10
+  jaar is extreem hard is toegenomen?**
+
 
   In 2012 waren er zo'n 500.000 datacenters over de hele wereld, vandaag zijn dat er meer dan 8 miljoen en de komende jaren zullen dat er nog veel meer worden. De toch al zwaarlijvige cloud wordt dikker en dikker. De energiebehoefte verdubbelt elke 4 jaar, waardoor cloudopslag de snelst groeiende energieverbruikende sector ter wereld is. Als we zo doorgaan, zal in 2040 naar schatting 14% van de CO2-uitstoot in de wereld worden veroorzaakt door de elektriciteitsvraag van datacenters.
 
