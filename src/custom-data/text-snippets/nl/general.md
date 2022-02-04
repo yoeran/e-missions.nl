@@ -1,11 +1,11 @@
 ---
 footer_about: >-
-  Developed by [yeast.computer](https://yeast.computer/) and
-  [In4Art](https://www.in4art.eu/) to explore the invisible impacts of our
-  digital lifestyle.
+  Ontwikkeld door  [yeast.computer](https://yeast.computer/) en
+  [In4Art](https://www.in4art.eu/) om de onzichtbare effecten van onze digitale
+  levensstijl te onderzoeken.
 
 
-  Project supported by:
+  Mede mogelijk gemaakt door:
 
   [SIDNfonds](https://www.sidn.nl/)
 
@@ -33,9 +33,9 @@ homepage_topic_title: Topics
 homepage_topic_text: De ecologische kosten van internetactiviteiten kunnen de
   komende 10 jaar leiden tot een drastische toename van de CO2-uitstoot. Een
   toename, terwijl we een afname zo hard nodig hebben. Benieuwd wat de CO2
-  uitstoot van jouw internetgedrag beïnvloedt en wat je eraan kunt doen? Lees onze
-  themapagina's, bereken jouw CO2 voetafdruk met onze calculatoren en selecteer jouw
-  'resoluties' om aan de groene kant te surfen.
+  uitstoot van jouw internetgedrag beïnvloedt en wat je eraan kunt doen? Lees
+  onze themapagina's, bereken jouw CO2 voetafdruk met onze calculatoren en
+  selecteer jouw 'resoluties' om aan de groene kant te surfen.
 resources_intro_title: Bronnen
 resources_intro_text: In dit gedeelte vindt je de bronnen die we hebben gebruikt
   om gegevens en informatie te verstrekken in onze rekenmachines, tips en
@@ -43,10 +43,11 @@ resources_intro_text: In dit gedeelte vindt je de bronnen die we hebben gebruikt
   hebben gebruik gemaakt van een diverse set aan middelen, variërend van
   wetenschappelijk onderzoek tot praktijkgericht onderzoek. De bronnen zijn in
   het Engels doorzoekbaar.
-tips_text: Short explanation of this section, that your to-do list is stored
-  locally. Which is better for both co2 emissions as it is for your privacy. You
-  can add tips to your to-do list and visit [Take Action](/nl/take-action/) to
-  get a complete overview of your battleplan.
+tips_text: Wil je een groenere digitale levensstijl omarmen? Hieronder staan wat
+  tips. Als je er een of meerdere selecteert, wordt deze lokaal opgeslagen. Dit
+  is beter voor zowel de CO2-uitstoot als voor jouw privacy. Door een tip te
+  selecteren, wordt deze toegevoegd aan je eigen strijdplan, waar je altijd naar
+  kunt terugkeren in de sectie  [Take Action](/en/take-action/).
 disclaimer: >-
   Dit platform is gecreëerd als een ruimte waar individuen en organisaties
   terecht kunnen om meer te weten te komen over het onderwerp 'milieu-impact van
