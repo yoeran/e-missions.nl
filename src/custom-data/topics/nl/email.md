@@ -10,16 +10,17 @@ body_intro_text: Het verzenden en ontvangen van e-mail is een kernactiviteit
   Meer dan 4 miljard mensen over de hele wereld gebruiken e-mail om elke dag
   meer dan 300 miljard e-mails te verzenden. Hoe beïnvloedt jouw e-mailgedrag de
   planeet? En hoe zit het met de organisatie waarvoor je werkt?
-calculator_text: Wist je dat gemiddeld 47% van alle e-mails die we ontvangen spam
-  is? En dat 24% bijlagen bevat? Dit verschilt natuurlijk per persoon, net als
-  het aantal e-mails dat je per dag verstuurt en ontvangt. Om deze calculator te
-  bouwen, hebben we kennis gebruikt over soorten e-mails, groottes van e-mails,
-  leestijden, apparaten waarop de e-mail wordt gelezen, aantal geopende e-mails,
-  opgeslagen versus verwijderde hoeveelheden. Ze hebben allemaal invloed op het
-  elektriciteitsverbruik bij e-mailgedrag. Maar niets is zo belangrijk als het
-  aantal e-mails dat men op een gemiddelde dag verstuurt en het % van die
-  e-mails dat een bijlage bevat. En als je denkt dat je impact acceptabel is,
-  kijk dan wat de organisatie waarin je werkt als geheel uitstoot.
+calculator_text: Wist je dat gemiddeld 47% van alle e-mails die we ontvangen
+  spam is? En dat 24% bijlagen bevat? Dit verschilt natuurlijk per persoon, net
+  als het aantal e-mails dat je per dag verstuurt en ontvangt. Om deze
+  calculator te bouwen, hebben we kennis gebruikt over soorten e-mails, groottes
+  van e-mails, leestijden, apparaten waarop de e-mail wordt gelezen, aantal
+  geopende e-mails, opgeslagen versus verwijderde hoeveelheden. Ze hebben
+  allemaal invloed op het elektriciteitsverbruik bij e-mailgedrag. Maar niets is
+  zo belangrijk als het aantal e-mails dat men op een gemiddelde dag verstuurt
+  en het % van die e-mails dat een bijlage bevat. En als je denkt dat je impact
+  acceptabel is, kijk dan wat de organisatie waarin je werkt als geheel
+  uitstoot.
 tips:
   - tip: Afmelden voor nieuwsbrieven
     explanation: Slechts 2 op de 10 nieuwsbrieven worden geopend en een gemiddelde
@@ -62,20 +63,18 @@ tips:
       Werk in plaats daarvan in gedeelde documenten.
   - tip: Omvang van bijlagen verkleinen
     explanation: De twee belangrijkste bijdragen aan een groot PDF-bestand zijn
-      overbodige teksten en grote afbeeldingen. Je ka de grootte van jouw bijlage
-      verkleinen, converteren en downsamplen in de instellingen voor opslaan. In
-      de meeste gevallen past het nog steeds bij het doel van lezen, samenwerken
-      of verbeteren. Alleen als je een bestand (grootschalig) wilt laten
-      afdrukken, dien je rekening te houden met de vereiste resoluties.
+      overbodige teksten en grote afbeeldingen. Je ka de grootte van jouw
+      bijlage verkleinen, converteren en downsamplen in de instellingen voor
+      opslaan. In de meeste gevallen past het nog steeds bij het doel van lezen,
+      samenwerken of verbeteren. Alleen als je een bestand (grootschalig) wilt
+      laten afdrukken, dien je rekening te houden met de vereiste resoluties.
       Comprimeren zou het ook gemakkelijker maken om via e-mail te delen en is
       niet te groot op de websites.
     todo: Minimaliseer de grootte van jouw bijlagen door met afbeeldingen
       gecomprimeerde PDF's of ZIP-bestanden te verzenden
 body_addendum_text: >-
-  ### Wist je dat
-
-
-  *Wist je dat het lezen van je e-mail op je mobiel een stuk groener is dan het lezen van je e-mail op een desktop?**
+  **Wist je dat het lezen van je e-mail op je mobiel een stuk groener is dan het
+  lezen van je e-mail op een desktop?**
 
 
   Iets meer dan de helft van alle e-mails (54%) wordt gelezen op een desktop, 46% wordt gelezen op een mobiel apparaat. Dit kan een laptop, een tablet of een telefoon zijn. In feite is het gebruik van jouw telefoon om e-mail te lezen verreweg de groenste manier omdat het veel minder elektriciteit verbruikt om de taak te voltooien.

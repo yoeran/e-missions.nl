@@ -69,10 +69,8 @@ tips:
     todo: Minimize the size of your attachments by sending image compressed PDFs or
       ZIP files
 body_addendum_text: >-
-  ### Did you know?
-
-
-  *Did you know reading your email on your mobile is a lot greener than reading your email on a desktop?*
+  **Did you know reading your email on your mobile is a lot greener than reading
+  your email on a desktop?**
 
 
   Just over half of all emails (54%) get read on a desktop, 46% get read on a mobile device. This can be a laptop, a tablet or a phone. In fact, using your phone to read email is, by far, the greenest way because it uses a lot less electricity to complete the task.
