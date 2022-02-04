@@ -2,14 +2,12 @@
 title: E-mail
 key: email
 permalink: /nl/topic/e-mail/
-body_intro_text: Het verzenden en ontvangen van e-mail is een kernactiviteit
-  geworden in ons dagelijks leven. Terwijl je deze zin aan het lezen was, werden
-  er zelfs meer dan 10 miljoen e-mails verzonden. Het is een van de
-  belangrijkste technologieën geworden die we gebruiken om te communiceren. Met
-  collega's, klanten of partners. Maar ook met familie, vrienden en kennissen.
-  Meer dan 4 miljard mensen over de hele wereld gebruiken e-mail om elke dag
-  meer dan 300 miljard e-mails te verzenden. Hoe beïnvloedt jouw e-mailgedrag de
-  planeet? En hoe zit het met de organisatie waarvoor je werkt?
+body_intro_text: >-
+  **Wist je dat het verzenden en ontvangen van e-mail is een kernactiviteit
+  geworden in ons dagelijks leven?**
+
+
+  Terwijl je deze zin aan het lezen was, werden er zelfs meer dan 10 miljoen e-mails verzonden. Het is een van de belangrijkste technologieën geworden die we gebruiken om te communiceren. Met collega's, klanten of partners. Maar ook met familie, vrienden en kennissen. Meer dan 4 miljard mensen over de hele wereld gebruiken e-mail om elke dag meer dan 300 miljard e-mails te verzenden. Hoe beïnvloedt jouw e-mailgedrag de planeet? En hoe zit het met de organisatie waarvoor je werkt?
 calculator_text: Wist je dat gemiddeld 47% van alle e-mails die we ontvangen
   spam is? En dat 24% bijlagen bevat? Dit verschilt natuurlijk per persoon, net
   als het aantal e-mails dat je per dag verstuurt en ontvangt. Om deze

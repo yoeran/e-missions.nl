@@ -2,13 +2,12 @@
 title: Email
 key: email
 permalink: /en/topic/email/
-body_intro_text: Sending and receiving email has become a core activity in our
-  daily life. In fact, while you were reading this sentence, over 10 million
-  emails were send. It has become one of the most important technologies we use
-  to communicate. With colleagues, clients or partners. But also with family,
-  friends and acquaintances. Over 4 billion people around the world use email to
-  send over 300 billion mails every day. How does your email behavior impact the
-  planet? And what about the organization you work for?
+body_intro_text: >-
+  **Did you know that sending and receiving email has become a core activity in
+  our daily life?**
+
+
+  In fact, while you were reading this sentence, over 10 million emails were send. It has become one of the most important technologies we use to communicate. With colleagues, clients or partners. But also with family, friends and acquaintances. Over 4 billion people around the world use email to send over 300 billion mails every day. How does your email behavior impact the planet? And what about the organization you work for?
 calculator_text: Did you know that, on average, 47% of all emails we receive is
   spam? And that 24% contain attachments? Off course, this differs per person,
   just as the amount of emails you send and receive per day. To built this
