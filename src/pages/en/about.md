@@ -28,7 +28,7 @@ body_main_text: >-
   ## Background of the project
 
 
-  On this web platform, we highlight a small portion of a bigger ecosystem of impacts on the digital footprint. Once calculating, you should track the whole energy chain, and also factors as the age, use and manufacturing of your devices are of importance. This area is work in progress and new data and insights are gained on a continuous basis. This platform gives you the status of 2022.
+  On this web platform, we highlight a small portion of a bigger ecosystem of impacts on the digital footprint. Once calculating, you should track the whole energy chain, and also factors as the age, use and manufacturing of your devices are of importance. This area is work in progress and new data and insights are gained on a continuous basis. This platform gives you the status of 2021.
 
 
   E-missions is a digital platform to get insights and take action on your own ecological digital footprint. The goal here is to empower as many people as possible to adopt a sustainable internet mindset and empower them in their own internet use. What if a 'carbon tax' would be introduced for households- how will that influence the users digital behaviour? What if the eco-costs of digitisation will be taken into account for corporate carbon calculators? This project works on a method to taste and see the CO2 emissions as a result of digital behaviour. It plays with awareness and understanding of CO2 and how it should be part of our digital literacy. Let’s work together towards an eco-friendly digital lifestyle.

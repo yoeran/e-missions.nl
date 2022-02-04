@@ -29,7 +29,7 @@ body_main_text: >-
   ## Achtergrond van het project
 
 
-  Op dit webplatform belichten we een klein deel van een groter ecosysteem van effecten op de digitale voetafdruk. Om een totaal beeld te krijgen, moet de hele energieketen gevolgd worden, en ook factoren als de leeftijd, het gebruik en de fabricage van apparaten zijn daarbij van belang. Dit gebied is in ontwikkeling en er worden continu nieuwe data en inzichten opgedaan. Dit platform geeft de status van 2022.
+  Op dit webplatform belichten we een klein deel van een groter ecosysteem van effecten op de digitale voetafdruk. Om een totaal beeld te krijgen, moet de hele energieketen gevolgd worden, en ook factoren als de leeftijd, het gebruik en de fabricage van apparaten zijn daarbij van belang. Dit gebied is in ontwikkeling en er worden continu nieuwe data en inzichten opgedaan. Dit platform geeft de status van 2021.
 
 
   E-missions is een digitaal platform om inzicht te krijgen en actie te ondernemen op je eigen ecologische digitale voetafdruk. Het doel hier is om zoveel mogelijk mensen in staat te stellen een duurzame internetmindset aan te nemen en hen te empoweren in hun eigen internetgebruik. Wat als er een 'koolstofbelasting' zou worden ingevoerd voor huishoudens, hoe zal dat het digitale gedrag van gebruikers beïnvloeden? Wat als er rekening wordt gehouden met de ecokosten van digitalisering voor CO2-calculators voor bedrijven? Dit project werkt aan een methode om de CO2-uitstoot als gevolg van digitaal gedrag te proeven en te zien. Het speelt met bewustzijn en begrip van CO2 en hoe het onderdeel zou moeten zijn van onze digitale geletterdheid. Laten we samen werken aan een milieuvriendelijke digitale levensstijl.
