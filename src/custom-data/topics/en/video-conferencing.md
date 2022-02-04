@@ -2,14 +2,11 @@
 title: Video Conferencing
 key: video-conferencing
 permalink: /en/topic/video-conferencing/
-body_intro_text: "In what seems to be a distant past, video conferencing was
-  something done by executives and directors to avoid continuous travelling
-  across the globe. But since the Corona virus outbreak and subsequent global
-  pandemic, video conferencing has become the standard for communicating between
-  colleagues, teams and with clients, partners. Even with family members and
-  friends living abroad and during lockdowns. This has a lot of benefits: less
-  travelling, less organizing, less time needed to meet. But a flipside of the
-  coin is the environmental impact of this transition."
+body_intro_text: >-
+  **Did you know?**
+
+
+  In what seems to be a distant past, video conferencing was something done by executives and directors to avoid continuous travelling across the globe. But since the Corona virus outbreak and subsequent global pandemic, video conferencing has become the standard for communicating between colleagues, teams and with clients, partners. Even with family members and friends living abroad and during lockdowns. This has a lot of benefits: less travelling, less organizing, less time needed to meet. But a flipside of the coin is the environmental impact of this transition.
 calculator_text: Video conferences consume energy on the local computer, in the
   transmission network and in the data centre. Anyone sitting in front of a
   computer permanently connected to the internet consumes 6 Wh more energy per

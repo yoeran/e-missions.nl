@@ -2,15 +2,11 @@
 title: Video Conferencing
 key: video-conferencing
 permalink: /nl/topic/video-conferencing/
-body_intro_text: "In wat een ver verleden lijkt te zijn, werden
-  videoconferenties vooral ingezet om te voorkomen dat directeuren van grote
-  ondernemingen continu over de hele wereld moesten reizen. Maar sinds de
-  uitbraak van het Corona-virus en de daaropvolgende wereldwijde pandemie, is
-  videoconferentie de standaard geworden voor communicatie tussen collega's,
-  teams en met klanten, partners. Ook met familieleden en vrienden die in het
-  buitenland wonen en tijdens lockdowns. Dit heeft veel voordelen: minder
-  reizen, minder organiseren, minder tijd nodig om te vergaderen. Maar een
-  keerzijde van de medaille is de milieu-impact van deze transitie."
+body_intro_text: >-
+  **Wist je dat?**
+
+
+  In wat een ver verleden lijkt te zijn, werden videoconferenties vooral ingezet om te voorkomen dat directeuren van grote ondernemingen continu over de hele wereld moesten reizen. Maar sinds de uitbraak van het Corona-virus en de daaropvolgende wereldwijde pandemie, is videoconferentie de standaard geworden voor communicatie tussen collega's, teams en met klanten, partners. Ook met familieleden en vrienden die in het buitenland wonen en tijdens lockdowns. Dit heeft veel voordelen: minder reizen, minder organiseren, minder tijd nodig om te vergaderen. Maar een keerzijde van de medaille is de milieu-impact van deze transitie.
 calculator_text: Videoconferenties verbruiken energie op de lokale computer, in
   het transmissienetwerk en in het datacenter. Iedereen die achter een computer
   zit die permanent met internet is verbonden, verbruikt tijdens
