@@ -32,8 +32,8 @@ module.exports = {
     toggle_menu: { nl: "menu openen sluiten", en: "toggle menu" },
 
     pages: { nl: "Paginas", en: "Pages" },
-    upcomingTastings: { nl: "Aankomende tastings", en: "Upcoming tastings" },
-    pastTastings: { nl: "Afgelopen tastings", en: "Past tastings" },
+    upcomingTastings: { nl: "Aankomende proeverijen", en: "Upcoming tastings" },
+    pastTastings: { nl: "Afgelopen proeverijen", en: "Past tastings" },
 
     ingredients: { nl: "Ingredienten", en: "Ingredients" },
     emissions: { nl: "Uitstoot", en: "Emissions" },

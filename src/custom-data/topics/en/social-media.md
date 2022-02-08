@@ -1,6 +1,6 @@
 ---
 title: Social media
-key: socialmedia
+key: social-media
 permalink: /en/topic/social-media/
 body_intro_text: Almost 4.5 billion people on the planet use social media on a
   daily basis. Facebook, WhatsApp, LinkedIN, Instagram, SnapChat, Twitter and

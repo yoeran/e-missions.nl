@@ -1,5 +1,6 @@
 ---
 title: 05 / Activity Updates
+image: /static/img/recipe_activity_update.png
 ingredients: Lemon balm
 emissions: 5 g / e-mail
 description: "This herb can rapidly sprout, yet be easily structured: Lemon balm

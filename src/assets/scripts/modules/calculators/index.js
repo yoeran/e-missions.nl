@@ -6,7 +6,7 @@ export const Type = {
   OnlineGaming: "online-gaming",
   Searching: "searching",
   SmartDevices: "smart-devices",
-  SocialMedia: "socialmedia",
+  SocialMedia: "social-media",
   VideoConferencing: "video-conferencing",
   VideoStreaming: "video-streaming",
 };

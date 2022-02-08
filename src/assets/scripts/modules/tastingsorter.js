@@ -15,12 +15,12 @@ export class TastingSorter {
     this.events.forEach((el) => {
       el.remove();
 
-      const dt = parseInt(el.getAttribute("[data-tastingtime]"), 10);
+      const dt = parseInt(el.getAttribute("data-tastingitem"), 10);
       if (dt > Date.now()) {
         this.futureList.append(el);
+      } else {
+        this.pastList.append(el);
       }
-
-      this.pastList.append(el);
     });
   }
 }
