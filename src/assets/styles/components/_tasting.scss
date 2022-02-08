@@ -29,7 +29,9 @@
     }
 
     address:after {
-      content: " | ";
+      content: "|";
+      display: inline-block;
+      margin: 0 0.5rem;
       opacity: 0.5;
     }
   }
