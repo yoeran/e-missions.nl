@@ -31,7 +31,7 @@ tips:
     todo: "Choose a green and sustainable cloud provider to store your data "
   - tip: Avoid the double data
     explanation: A lot of data on clouds worldwide is stored multiple times.
-      Identifying and taking out doubles can already to wonders to the amount of
+      Identifying and taking out doubles can already do wonders to the amount of
       cloud space you use.
     todo: Check my stored data on doubles and delete double saved data
   - tip: Optimize applications for cloud storage
