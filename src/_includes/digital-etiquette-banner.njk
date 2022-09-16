@@ -1,0 +1,16 @@
+
+{% capture "after_addendum" %}
+{% set translate = lang | translateFn %}
+
+<div class="banner" style="background-image: url('/static/img/sensing_co2_bubbles.jpg');" data-click-href="https://digitaletiquette.e-missions.nl/">
+    <div class="banner__content">
+        <h3 class="heading">{{ translate('dig_et_banner_title') }}</h3>
+        <p>{{ translate('dig_et_banner_body') }}</p>
+
+        <a class="button button--small" href="https://digitaletiquette.e-missions.nl/">
+            {{ translate('dig_et_banner_start') }}
+        </a>
+    </div>
+
+</div>
+{% endcapture %}

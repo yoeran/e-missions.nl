@@ -59,6 +59,22 @@ module.exports = {
     lan: { nl: "Vaste internetverbinding / Wifi", en: "Fixed line / Wifi" },
     cellular: { nl: "Mobiele verbinding (4G/5G)", en: "Cellular connection" },
 
+    // DIGITAL ETIQUETTE BANNER
+    dig_et_banner_title: {
+      nl: "Stel je eigen Digitale Etiquette op",
+      en: "Define your Digital Etiquette",
+    },
+
+    dig_et_banner_body: {
+      nl: "Gebruik onze tool voor een workshop in jouw organisatie. Maak eerst een overzicht van de digitale voetprint van jouw organisatie. Een mooie leidraad voor discussie, welke vervolgens leid tot het opzetten van richtlijnen, regels en ambities, gevat in jullie Digitale Etiquette.",
+      en: "Use our tool for a workshop in your organisation. First create an overview of your organisation's digital footprint. Making a report worth discussing. And then setup your own guidelines, rules and ambitions in your Digital Etiquette.",
+    },
+
+    dig_et_banner_start: {
+      nl: "Open de tool",
+      en: "Open the tool",
+    },
+
     // UNITS
     hour: { nl: "uur", en: "hour" },
     hours: { nl: "uur", en: "hours" },
