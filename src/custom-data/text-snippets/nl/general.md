@@ -1,4 +1,8 @@
 ---
+dig_et_banner_body: Krijg inzicht in de digitale levensstijl van uw organisatie
+  door gebruik te maken van de Digital Etiquette-tool. Krijg inzichten die de
+  moeite waard zijn om te bespreken en stel een actieplan op om de milieu-impact
+  van digitaal gedrag te verminderen.
 footer_about: >-
   Ontwikkeld door  [yeast.computer](https://yeast.computer/) en
   [In4Art](https://www.in4art.eu/) om de onzichtbare effecten van onze digitale
@@ -48,6 +52,8 @@ tips_text: Wil je een groenere digitale levensstijl omarmen? Hieronder staan wat
   is beter voor zowel de CO2-uitstoot als voor jouw privacy. Door een tip te
   selecteren, wordt deze toegevoegd aan je eigen strijdplan, waar je altijd naar
   kunt terugkeren op de [Take Action](/en/take-action/) pagina.
+dig_et_banner_title: Werk aan een Digitale Etiquette
+dig_et_banner_button: Open de tool
 disclaimer: >-
   Dit platform is gecreëerd als een ruimte waar individuen en organisaties
   terecht kunnen om meer te weten te komen over het onderwerp 'milieu-impact van

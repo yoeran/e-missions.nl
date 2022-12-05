@@ -1,4 +1,7 @@
 ---
+dig_et_banner_body: Get insight into your organisational digital lifestyle by
+  using the Digital Etiquette tool. Get insights worth discussing and act upon
+  lowering the environmental impact of digital behaviour.
 footer_about: >-
   Developed by [yeast.computer](https://yeast.computer/) and
   [In4Art](https://www.in4art.eu/) to explore the invisible impacts of our
@@ -46,6 +49,8 @@ tips_text: Do you want to embrace a greener digital lifestyle? Below we provide
   for both CO2 emissions as it is for your privacy. By selecting a tip, it is
   added to your own battleplan, where you can always return to in the [Take
   Action](/en/take-action/) section.
+dig_et_banner_title: Work towards a Digital Etiquette
+dig_et_banner_button: Open the tool
 disclaimer: >-
   This platform has been created as a space where individuals and organizations
   can go to learn about the topic 'environmental impacts of digital behaviour',
