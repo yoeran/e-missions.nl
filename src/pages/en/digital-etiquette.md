@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: etiquette.njk
 title: Digital Etiquette
 permalink: /en/digital-etiquette/
 landingpage_text: no
@@ -15,5 +15,3 @@ eleventyNavigation:
   key: Digital Etiquette
   order: 4
 ---
-
-{% include 'digital-etiquette-banner.njk' %}

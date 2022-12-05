@@ -6,7 +6,7 @@
     "defaults"
   ],
   "scripts": {
-    "start": "DEBUG=Eleventy* npm run dev",
+    "start": "npm run dev",
     "dev": "run-s clean eleventy:dev --print-label",
     "build": "run-s clean eleventy:prod --print-label",
     "eleventy:dev": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve",
@@ -34,7 +34,7 @@
     "luxon": "^1.28.0",
     "markdown-it": "^12.0.4",
     "memfs": "^3.2.0",
-    "node-sass": "^6.0.1",
+    "node-sass": "^8.0.0",
     "npm-run-all": "^4.1.5",
     "svelte": "^3.44.1",
     "svelte-loader": "^3.1.2",

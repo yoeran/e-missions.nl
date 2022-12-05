@@ -14,5 +14,3 @@ eleventyNavigation:
   key: Digitale Etiquette
   order: 4
 ---
-
-{% include 'digital-etiquette-banner.njk' %}

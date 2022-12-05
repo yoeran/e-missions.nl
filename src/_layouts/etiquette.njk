@@ -1,0 +1,9 @@
+---
+layout: page
+---
+{% set translate = lang | translateFn %}
+{% set general = collections.all | getPage('general', lang) %}
+
+{% capture "after_addendum" %}
+{% include 'digital-etiquette-banner.njk' %}
+{% endcapture %}
