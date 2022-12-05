@@ -21,19 +21,50 @@ collections:
     i18n: true
     fields:
       - { label: "Topic title", name: "title", widget: "string", i18n: true }
-      - { label: "Topic Key", name: "key", widget: "string", hint: 'This is used to find a relevant calculator' }
+      - {
+          label: "Topic Key",
+          name: "key",
+          widget: "string",
+          hint: "This is used to find a relevant calculator",
+        }
       - { label: "Permalink", name: "permalink", widget: "string", i18n: true }
-      - { label: "Intro text", name: "body_intro_text", widget: "markdown", i18n: true }
-      - { label: "Calculator text", name: "calculator_text", widget: "markdown", i18n: true }
+      - {
+          label: "Intro text",
+          name: "body_intro_text",
+          widget: "markdown",
+          i18n: true,
+        }
+      - {
+          label: "Calculator text",
+          name: "calculator_text",
+          widget: "markdown",
+          i18n: true,
+        }
       - label: "Tips"
         name: "tips"
         widget: "list"
         i18n: true
         fields:
           - { label: "Tip", name: "tip", widget: "string", i18n: true }
-          - { label: "Explanation", name: "explanation", widget: "markdown", i18n: true }
-          - { label: "Todo", name: "todo", widget: "string", required: false, i18n: true }
-      - { label: "Addendum text (wow-facts)", name: "body_addendum_text", widget: "markdown", i18n: true }
+          - {
+              label: "Explanation",
+              name: "explanation",
+              widget: "markdown",
+              i18n: true,
+            }
+          - {
+              label: "Todo",
+              name: "todo",
+              widget: "string",
+              required: false,
+              i18n: true,
+            }
+      - {
+          label: "Addendum text (wow-facts)",
+          name: "body_addendum_text",
+          widget: "markdown",
+          i18n: true,
+        }
 
   - name: "resources"
     label: "Resources"
@@ -43,7 +74,7 @@ collections:
     delete: true
     slug: "{{year}}_{{month}}_{{day}}_{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "URL", name: "url", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "text" }
@@ -52,19 +83,19 @@ collections:
         widget: "select"
         multiple: true
         options:
-          - 'calculator'
-          - 'best-practice'
-          - 'scientific'
-          - 'smart-devices'
-          - 'audio-streaming'
-          - 'blockchain'
-          - 'cloud-storage'
-          - 'email'
-          - 'online-gaming'
-          - 'searching'
-          - 'social-media'
-          - 'video-conferencing'
-          - 'video-streaming'
+          - "calculator"
+          - "best-practice"
+          - "scientific"
+          - "smart-devices"
+          - "audio-streaming"
+          - "blockchain"
+          - "cloud-storage"
+          - "email"
+          - "online-gaming"
+          - "searching"
+          - "social-media"
+          - "video-conferencing"
+          - "video-streaming"
 
   - name: "pages"
     label: "Pages"
@@ -75,20 +106,56 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Image", name: "image", widget: "image", allow_multiple: false, required: false }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          allow_multiple: false,
+          required: false,
+        }
       - { label: "Permalink", name: "permalink", widget: "string", i18n: true }
-      - { label: "Landingpage text", name: "landingpage_text", widget: "markdown", i18n: true }
-      - { label: "Intro text", name: "body_intro_text", widget: "markdown", i18n: true, required: false }
-      - { label: "Main content", name: "body_main_text", widget: "markdown", i18n: true, required: false }
-      - { label: "Addendum text", name: "body_addendum_text", widget: "markdown", i18n: true, required: false }
+      - {
+          label: "Landingpage text",
+          name: "landingpage_text",
+          widget: "markdown",
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Intro text",
+          name: "body_intro_text",
+          widget: "markdown",
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Main content",
+          name: "body_main_text",
+          widget: "markdown",
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Addendum text",
+          name: "body_addendum_text",
+          widget: "markdown",
+          i18n: true,
+          required: false,
+        }
       - label: "Navigation"
         name: "eleventyNavigation"
         widget: "object"
         i18n: true
-        default: { key: '', order: 0 }
+        default: { key: "", order: 0 }
         fields:
-          - { label: "Key", name: "key", widget: "string", i18n: true  }
-          - { label: "Order", name: "order", widget: "number", default: 0, i18n: true }
+          - { label: "Key", name: "key", widget: "string", i18n: true }
+          - {
+              label: "Order",
+              name: "order",
+              widget: "number",
+              default: 0,
+              i18n: true,
+            }
 
   - name: "events"
     label: "Events"
@@ -101,7 +168,13 @@ collections:
       - { label: "Organisation", name: "title", widget: "string" }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "URL", name: "url", widget: "string", required: false, hint: 'Always include the https://' }
+      - {
+          label: "URL",
+          name: "url",
+          widget: "string",
+          required: false,
+          hint: "Always include the https://",
+        }
 
   - name: "members"
     label: "Members"
@@ -113,10 +186,33 @@ collections:
     fields:
       - { label: "Name", name: "title", widget: "string" }
       - { label: "Project Role", name: "role", widget: "string" }
-      - { label: "Image", name: "image", widget: "image", allow_multiple: false, required: false }
-      - { label: "LinkedIn", name: "linkedin", widget: "string", required: false, hint: 'Always include the https://' }
-      - { label: "Website", name: "website", widget: "string", required: false, hint: 'Always include the https://' }
-      - { label: "Text about project", name: "content", required: false, widget: "markdown" }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          allow_multiple: false,
+          required: false,
+        }
+      - {
+          label: "LinkedIn",
+          name: "linkedin",
+          widget: "string",
+          required: false,
+          hint: "Always include the https://",
+        }
+      - {
+          label: "Website",
+          name: "website",
+          widget: "string",
+          required: false,
+          hint: "Always include the https://",
+        }
+      - {
+          label: "Text about project",
+          name: "content",
+          required: false,
+          widget: "markdown",
+        }
       - { label: "Order", name: "order", widget: "number" }
 
   - name: "recipes"
@@ -129,10 +225,26 @@ collections:
     i18n: true
     fields:
       - { label: "Title", name: "title", widget: "string", i18n: true }
-      - { label: "Image", name: "image", widget: "image", allow_multiple: false, required: false }
-      - { label: "Ingredients", name: "ingredients", widget: "string", i18n: true }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          allow_multiple: false,
+          required: false,
+        }
+      - {
+          label: "Ingredients",
+          name: "ingredients",
+          widget: "string",
+          i18n: true,
+        }
       - { label: "Emissions", name: "emissions", widget: "string", i18n: true }
-      - { label: "Description", name: "description", widget: "markdown", i18n: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "markdown",
+          i18n: true,
+        }
 
   - name: "snippets"
     label: "Text Snippets"
@@ -144,17 +256,105 @@ collections:
     i18n: true
     fields:
       - { label: "Title", name: "title", widget: "string", hidden: true }
-      - { label: "Homepage: Title", name: "homepage_intro_title", widget: "string", i18n: true }
-      - { label: "Homepage: Intro", name: "homepage_intro_text", widget: "text", i18n: true }
-      - { label: "Homepage: Calculator title", name: "homepage_calculator_title", widget: "string", i18n: true }
-      - { label: "Homepage: Calculator description", name: "homepage_calculator_text", widget: "markdown", i18n: true }
-      - { label: "Homepage: Take Action title", name: "homepage_take_action_title", widget: "string", i18n: true }
-      - { label: "Homepage: Take Action description", name: "homepage_take_action_text", widget: "markdown", i18n: true }
-      - { label: "Homepage: Take Action button", name: "homepage_take_action_button", widget: "string", i18n: true }
-      - { label: "Homepage: Topic title", name: "homepage_topic_title", widget: "string", i18n: true }
-      - { label: "Homepage: Topic text", name: "homepage_topic_text", widget: "markdown", i18n: true }
-      - { label: "Resources: Intro title", name: "resources_intro_title", widget: "string", i18n: true }
-      - { label: "Resources: Intro text", name: "resources_intro_text", widget: "markdown", i18n: true }
-      - { label: "Tips text", name: "tips_text", widget: "markdown", i18n: true }
-      - { label: "Footer: About text", name: "footer_about", widget: "markdown", i18n: true }
-      - { label: "Disclaimer", name: "disclaimer", widget: "markdown", i18n: true }
+      - {
+          label: "Homepage: Title",
+          name: "homepage_intro_title",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Homepage: Intro",
+          name: "homepage_intro_text",
+          widget: "text",
+          i18n: true,
+        }
+      - {
+          label: "Homepage: Calculator title",
+          name: "homepage_calculator_title",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Homepage: Calculator description",
+          name: "homepage_calculator_text",
+          widget: "markdown",
+          i18n: true,
+        }
+      - {
+          label: "Homepage: Take Action title",
+          name: "homepage_take_action_title",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Homepage: Take Action description",
+          name: "homepage_take_action_text",
+          widget: "markdown",
+          i18n: true,
+        }
+      - {
+          label: "Homepage: Take Action button",
+          name: "homepage_take_action_button",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Homepage: Topic title",
+          name: "homepage_topic_title",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Homepage: Topic text",
+          name: "homepage_topic_text",
+          widget: "markdown",
+          i18n: true,
+        }
+      - {
+          label: "Resources: Intro title",
+          name: "resources_intro_title",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Resources: Intro text",
+          name: "resources_intro_text",
+          widget: "markdown",
+          i18n: true,
+        }
+      - {
+          label: "Tips text",
+          name: "tips_text",
+          widget: "markdown",
+          i18n: true,
+        }
+      - {
+          label: "Digital Etiquette Banner: Title",
+          name: "dig_et_banner_title",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Digital Etiquette Banner: Body",
+          name: "dig_et_banner_body",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Digital Etiquette Banner: Button",
+          name: "dig_et_banner_button",
+          widget: "string",
+          i18n: true,
+        }
+      - {
+          label: "Footer: About text",
+          name: "footer_about",
+          widget: "markdown",
+          i18n: true,
+        }
+      - {
+          label: "Disclaimer",
+          name: "disclaimer",
+          widget: "markdown",
+          i18n: true,
+        }
