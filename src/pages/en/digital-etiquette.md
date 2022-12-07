@@ -1,6 +1,7 @@
 ---
 layout: etiquette.njk
 title: Digital Etiquette
+image: /static/img/digital-etiquette-dashboard.png
 permalink: /en/digital-etiquette/
 landingpage_text: \-
 body_intro_text: What is (almost) never on the sustainability bucket list of
