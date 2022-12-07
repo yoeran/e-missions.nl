@@ -2,12 +2,15 @@
 layout: page.njk
 title: Digitale Etiquette
 permalink: /nl/digitale-etiquette/
-body_intro_text: Wat (bijna) nooit op de bucketlist van duurzaamheidsmaatregelen
-  staat, is het verlagen van de milieu-impact van digitaal gedrag. Tot nu. Met
-  de door E-missions ontwikkelde Digital Etiquette-tool kan elke organisatie,
-  elk team of elke groep medewerkers een gedragscode bespreken, definiëren en
-  toepassen om de digitale werkstijl van de eigen organisatie groener te maken
-  en zo bij te dragen aan de duurzaamheidsstrategie.
+body_intro_text: >-
+  Wat (bijna) nooit op de bucketlist van duurzaamheidsmaatregelen staat, is het
+  verlagen van de milieu-impact van digitaal gedrag. Tot nu. Met de door
+  E-missions ontwikkelde Digital Etiquette-tool kan elke organisatie, elk team
+  of elke groep medewerkers een gedragscode bespreken, definiëren en toepassen
+  om de digitale werkstijl van de eigen organisatie groener te maken en zo bij
+  te dragen aan de duurzaamheidsstrategie.\
+
+  VStart hieronder jouw Digitale etiquette sessie.
 body_main_text: >-
   Digitale etiquette is de elektronische gedragscode. Het wordt ook vaak
   Netiquette genoemd en heeft meestal betrekking op een reeks online

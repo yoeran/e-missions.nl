@@ -4,12 +4,15 @@ title: Digital Etiquette
 image: /static/img/digital-etiquette-dashboard.png
 permalink: /en/digital-etiquette/
 landingpage_text: \-
-body_intro_text: What is (almost) never on the sustainability bucket list of
-  measures is lowering the environmental impact of digital behaviour. Until now.
-  With the Digital Etiquette tool developed by E-missions, any organisation,
-  team, or group of collaborators is able to discuss, define and deploy a code
-  of conduct to greenify the digital workstyle of your organisation,
-  contributing to the sustainability strategy by making it actionable.
+body_intro_text: >-
+  What is (almost) never on the sustainability bucket list of measures is
+  lowering the environmental impact of digital behaviour. Until now. With the
+  Digital Etiquette tool developed by E-missions, any organisation, team, or
+  group of collaborators is able to discuss, define and deploy a code of conduct
+  to greenify the digital workstyle of your organisation, contributing to the
+  sustainability strategy by making it actionable.\
+
+  S﻿croll down to start your Digital Etiquette session.
 body_main_text: >-
   Digital etiquette is the electronic standard of conduct. It is often also
   referred to at Netiquette and usually deals with a set of online behavioural
