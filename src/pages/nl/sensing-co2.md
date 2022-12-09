@@ -1,8 +1,8 @@
 ---
 landingpage_text: Heb je je ooit afgevraagd hoe je inbox zou smaken? Sensing CO2
   verbindt abstracte getallen met directe ervaring, wetenschappelijke data met
-  menselijke zintuigen. Laat jouw smaakpapillen de verschillende mogelijkheden van
-  digitale, verbonden communicatie ervaren.
+  menselijke zintuigen. Laat jouw smaakpapillen de verschillende mogelijkheden
+  van digitale, verbonden communicatie ervaren.
 layout: tasting.njk
 title: Sensing CO2
 image: /static/img/sensingco2-setup.jpg
@@ -22,7 +22,6 @@ body_intro_text: >-
 
 
   Op basis van je persoonlijke digitale gedrag laat de performatieve installatie je verschillende frisdranken ervaren en proef je de verschillende manieren van digitale, verbonden communicatie.
-
 body_addendum_text: >-
   Boek een proeverij:
 
