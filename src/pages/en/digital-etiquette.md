@@ -15,7 +15,7 @@ body_intro_text: >-
   S﻿croll down to start your Digital Etiquette session.
 body_main_text: >-
   Digital etiquette is the electronic standard of conduct. It is often also
-  referred to at Netiquette and usually deals with a set of online behavioural
+  referred to as Netiquette and usually deals with a set of online behavioural
   rules users of digital devices should adhere to, very much like social
   etiquettes in daily life. E-missions proposes an addition to the set of
   Digital Etiquette rules in the form of etiquettes from the perspective of
