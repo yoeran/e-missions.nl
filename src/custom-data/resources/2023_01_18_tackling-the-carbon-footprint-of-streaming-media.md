@@ -1,5 +1,5 @@
 ---
-title: TACKLING THE CARBON FOOTPRINT OF STREAMING MEDIA
+title: Tackling the Carbon Footprint of Streaming Media
 date: 2021-11-02T08:55:07.353Z
 url: https://www.sfu.ca/sca/projects---activities/streaming-carbon-footprint.html
 description: >-
