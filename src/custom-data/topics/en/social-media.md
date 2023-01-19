@@ -42,10 +42,10 @@ tips:
     explanation: Social media videos are often made in high resolution, resulting in
       large file sizes. However, they function perfectly well at a fraction of
       the size by reducing the resolution. You can realize energy savings just
-      by adjusting video quality settings towards decreasing resolution. This
-      counts both for uploading and streaming the social media video post. You
-      can exercise choice in your video streaming habits by turning to standard
-      or low resolution, instead of having high resolution by default.
+      by adjusting video quality settings in favour of decreasing resolution.
+      This counts both for uploading and streaming the social media video post.
+      You can exercise choice in your video streaming habits by turning to
+      standard or low resolution, instead of having high resolution by default.
 body_addendum_text: >-
   **Do you nurture a social media garden, park or forest?**
 
