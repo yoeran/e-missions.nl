@@ -20,12 +20,12 @@ calculator_text: Deze rekenmachine maakt onderscheid tussen berichten die alleen
   serieus.
 tips:
   - tip: Automatisch afspelen van video uitschakelen
-    explanation: Standaard worden alle video's die zijn ingesloten in jouw feeds voor
-      sociale media automatisch afgespeeld wanneer je erlangs scrolt. De extra
-      energie die wordt verbruikt in vergelijking met alleen het zien van de
-      afbeelding van de post kan tot 10x zoveel zijn.
-    todo: Ga naar het instellingengedeelte van jouw sociale media-accounts en schakel
-      het automatisch afspelen van video's uit of schakel de
+    explanation: Standaard worden alle video's die zijn ingesloten in jouw feeds
+      voor sociale media automatisch afgespeeld wanneer je erlangs scrolt. De
+      extra energie die wordt verbruikt in vergelijking met alleen het zien van
+      de afbeelding van de post kan tot 10x zoveel zijn.
+    todo: Ga naar het instellingengedeelte van jouw sociale media-accounts en
+      schakel het automatisch afspelen van video's uit of schakel de
       gegevensbesparingsmodus in.
   - tip: Gebruik een tijdblokker
     explanation: Sociale media kunnen verslavend zijn. Software, zoals een app of
@@ -39,6 +39,16 @@ tips:
       toegevoegde waarde van elke afbeelding is.
     todo: Focus op het gebruik van woorden om je boodschap te delen en gebruik
       alleen afbeeldingen of clips als ze een echte toegevoegde waarde hebben.
+  - explanation: Video's op sociale media worden vaak in hoge resolutie gemaakt, wat
+      resulteert in grote bestandsgroottes, terwijl ze ook prima functioneren op
+      een lage resolutie en hiermee een fractie van de grootte hebben. Verlaag
+      de resolutie om energie te besparen door de instellingen voor
+      videokwaliteit aan te passen. Dit geldt zowel voor het uploaden als het
+      streamen van de social media videopost. Je kunt video settings omzetten
+      naar standaard of lage resolutie, in plaats van te kiezen voor hoge
+      resolutie.
+    tip: Verklein de bestandsgrootte van de video
+    todo: " Wijzig de video-opname instellingen in standaard of lage resolutie"
 body_addendum_text: >-
   **Verzorg jij een social media tuin, park of bos?**
 
