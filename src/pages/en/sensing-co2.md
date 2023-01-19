@@ -5,7 +5,7 @@ landingpage_text: Ever wondered how your inbox would taste?  Sensing CO2
   connected communication.
 layout: tasting.njk
 title: Sensing CO2
-image: /static/img/sensing-co2-drinks.png
+image: https://www.youtube.com/watch?v=fmeY7_mx6Kg
 permalink: /en/sensing-co2/
 body_intro_text: >-
   With Sensing CO2, we convert CO2 emissions into a sensory taste experience.
