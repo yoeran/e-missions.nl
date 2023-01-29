@@ -3,15 +3,17 @@
 {% set translate = lang | translateFn %}
 {% set general = collections.all | getPage('general', lang) %}
 
-<div class="banner" style="background-image: url('/static/img/sensing_co2_bubbles.jpg');" data-click-href="https://digitaletiquette.e-missions.nl/">
-    <div class="banner__content">
+<div class="landing-calculator-cta">
+    <div class="landing-calculator-cta__visual" data-workshop-visual="before"></div>
+    <div class="landing-calculator-cta__content">
         <h3 class="heading">{{ general.data.dig_et_banner_title }}</h3>
-        <p>{{ general.data.dig_et_banner_body }}</p>
 
-        <a class="button button--small" href="https://digitaletiquette.e-missions.nl/">
+       <p>{{ general.data.dig_et_banner_body }}</p>
+
+        <a class="button" href="https://digitaletiquette.e-missions.nl/">
             {{ general.data.dig_et_banner_button }}
         </a>
     </div>
-
+    <div class="landing-calculator-cta__visual" data-workshop-visual="after"></div>
 </div>
 {% endcapture %}

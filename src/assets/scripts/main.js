@@ -29,6 +29,13 @@ document.querySelectorAll("[data-calculator-visual]").forEach((el) => {
   const Visual = require("./modules/Visual.svelte").default;
   new Visual({ target: el });
 });
+document.querySelectorAll("[data-workshop-visual]").forEach((el) => {
+  const Visual = require("./modules/WorkshopVisual.svelte").default;
+  new Visual({
+    target: el,
+    props: { type: el.getAttribute("data-workshop-visual") },
+  });
+});
 
 if (document.querySelector("[data-filter]")) {
   new FilterView();
