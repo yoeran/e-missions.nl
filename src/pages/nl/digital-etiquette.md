@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: etiquette.njk
 title: Digitale Etiquette
 permalink: /nl/digitale-etiquette/
 body_intro_text: >-
