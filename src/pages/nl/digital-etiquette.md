@@ -1,7 +1,9 @@
 ---
 layout: etiquette.njk
 title: Digitale Etiquette
+image: /static/img/digital-etiquette-dashboard.png
 permalink: /nl/digitale-etiquette/
+landingpage_text: \-
 body_intro_text: >-
   Wat (bijna) nooit op de bucketlist van duurzaamheidsmaatregelen staat, is het
   verlagen van de milieu-impact van digitaal gedrag. Tot nu. Met de door
