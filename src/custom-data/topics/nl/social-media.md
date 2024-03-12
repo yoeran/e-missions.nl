@@ -30,7 +30,8 @@ tips:
   - tip: Gebruik een tijdblokker
     explanation: Sociale media kunnen verslavend zijn. Software, zoals een app of
       browserextensie, kan je helpen de hoeveelheid tijd die je besteedt aan het
-      gebruik van sociale media te verminderen.
+      gebruik van sociale media te verminderen. Er zijn veel verschillende
+      opties, zoals bv Moment, AppBlock, OffScreen, etc.
     todo: Installeer een social media blocker
   - tip: Vertraag de clips en afbeeldingen
     explanation: Eén afbeelding met een bericht verbruikt dezelfde hoeveelheid
