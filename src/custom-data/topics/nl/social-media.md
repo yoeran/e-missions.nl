@@ -31,7 +31,7 @@ tips:
     explanation: Sociale media kunnen verslavend zijn. Software, zoals een app of
       browserextensie, kan je helpen de hoeveelheid tijd die je besteedt aan het
       gebruik van sociale media te verminderen. Er zijn veel verschillende
-      opties, zoals bv Moment, AppBlock, OffScreen, etc.
+      opties, zoals bv Moment, AppBlock, OffScreen, APP Detox, etc.
     todo: Installeer een social media blocker
   - tip: Vertraag de clips en afbeeldingen
     explanation: Eén afbeelding met een bericht verbruikt dezelfde hoeveelheid

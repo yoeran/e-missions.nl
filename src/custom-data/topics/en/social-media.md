@@ -28,7 +28,8 @@ tips:
   - tip: Use a time blocker
     explanation: Social media can be addictive. Software, like an app or browser
       extension, can help you reduce the amount of time you spend using social
-      media. Think of apps like Moment, AppBlock, OffScreen and many others.
+      media. Think of apps like Moment, AppBlock,  OffScreen, APP Detox and many
+      others.
     todo: Install a social media blocker
   - tip: Slow down on the clips and images
     explanation: One image containing post consumes the same amount of energy as a
